@@ -1,0 +1,45 @@
+/* Shared print styles for financial analyses rendered by md-to-pdf. */
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  color: #202b38;
+  font-family: "HarmonyOS Sans SC", "Noto Sans CJK SC", sans-serif;
+  font-size: 10pt;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+  margin: 0;
+}
+
+h1, h2, h3 { color: #163c56; line-height: 1.35; break-after: avoid; }
+h1 { font-size: 22pt; margin: 0 0 14pt; }
+h2 { font-size: 15pt; margin: 22pt 0 9pt; border-bottom: 1px solid #cdd9e2; padding-bottom: 5pt; }
+h3 { font-size: 11.5pt; margin: 15pt 0 7pt; }
+p, ul, ol { margin: 7pt 0; }
+li { margin: 3pt 0; }
+a { color: #15647c; text-decoration: none; }
+strong { color: #173c54; }
+blockquote { margin: 10pt 0; padding: 7pt 11pt; border-left: 3px solid #438293; background: #f0f5f7; }
+blockquote p { margin: 2pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 10pt 0; font-size: 8.3pt; line-height: 1.5; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th, td { border: 1px solid #d7dfe5; padding: 5pt 6pt; vertical-align: top; }
+th { background: #eaf1f5; color: #183c54; text-align: left; font-weight: 700; }
+tbody tr:nth-child(even) { background: #f7f9fa; }
+/* Keep the completed checklist readable as a separate final page. */
+h2:last-of-type { break-before: page; }
+table:last-of-type { table-layout: fixed; }
+table:last-of-type th:nth-child(1) { width: 24%; }
+table:last-of-type th:nth-child(2) { width: 12%; }
+table:last-of-type th:nth-child(3) { width: 15%; }
+table:last-of-type th:nth-child(4) { width: 49%; }
+table:last-of-type td:nth-child(2) { white-space: nowrap; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 0.9em; background: #f1f4f6; padding: 1pt 3pt; }
+pre { white-space: pre-wrap; background: #f1f4f6; padding: 8pt; }
+img { max-width: 100%; }
+hr { border: 0; border-top: 1px solid #d7dfe5; margin: 15pt 0; }
