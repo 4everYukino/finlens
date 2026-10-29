@@ -14,6 +14,12 @@
 
 这里，由 agent 产出的财报分析为 Markdown 格式，再经由 `md-to-pdf` 渲染为 PDF 格式，便于阅读。
 
-> 由根目录下的 `report.css` 来控制渲染格式。
+可在仓库根目录运行:
+
+```bash
+npx md-to-pdf --basedir . --stylesheet report.css "300308-中际旭创/analyses/26Q3.md"
+```
+
+格式控制由 `report.css` 完成。
 
 为避免体积浪费，PDF 格式的财报分析不上传到 git，仅做本地浏览使用。

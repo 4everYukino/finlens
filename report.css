@@ -1,45 +1,196 @@
-/* Shared print styles for financial analyses rendered by md-to-pdf. */
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("/fonts/source-serif-4/source-serif-4-latin-ext-opsz-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("/fonts/source-serif-4/source-serif-4-latin-opsz-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("/fonts/source-serif-4/source-serif-4-latin-ext-opsz-italic.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("/fonts/source-serif-4/source-serif-4-latin-opsz-italic.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans SC CJK";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local("HarmonyOS_Sans_SC"),
+    url("/fonts/harmonyos-sans-sc/HarmonyOS_Sans_SC_Regular.ttf") format("truetype");
+  unicode-range: U+2e80-2fdf,U+2ff0-2fff,U+3000-303f,U+3040-30ff,U+3100-312f,U+3190-31ff,U+3200-33ff,U+3400-4dbf,U+4e00-9fff,U+f900-faff,U+fe10-fe1f,U+fe30-fe4f,U+ff00-ffef,U+20000-3ffff;
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans SC CJK";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600 900;
+  src:
+    local("HarmonyOS_Sans_SC_Bold"),
+    url("/fonts/harmonyos-sans-sc/HarmonyOS_Sans_SC_Bold.ttf") format("truetype");
+  unicode-range: U+2e80-2fdf,U+2ff0-2fff,U+3000-303f,U+3040-30ff,U+3100-312f,U+3190-31ff,U+3200-33ff,U+3400-4dbf,U+4e00-9fff,U+f900-faff,U+fe10-fe1f,U+fe30-fe4f,U+ff00-ffef,U+20000-3ffff;
+}
+
 @page {
   size: A4;
   margin: 16mm 15mm 18mm;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   color: #202b38;
-  font-family: "HarmonyOS Sans SC", "Noto Sans CJK SC", sans-serif;
+  font-family: "Source Serif 4", "HarmonyOS Sans SC CJK", Georgia, "Noto Sans CJK SC", sans-serif;
   font-size: 10pt;
   line-height: 1.65;
   overflow-wrap: anywhere;
   margin: 0;
 }
 
-h1, h2, h3 { color: #163c56; line-height: 1.35; break-after: avoid; }
-h1 { font-size: 22pt; margin: 0 0 14pt; }
-h2 { font-size: 15pt; margin: 22pt 0 9pt; border-bottom: 1px solid #cdd9e2; padding-bottom: 5pt; }
-h3 { font-size: 11.5pt; margin: 15pt 0 7pt; }
-p, ul, ol { margin: 7pt 0; }
-li { margin: 3pt 0; }
-a { color: #15647c; text-decoration: none; }
-strong { color: #173c54; }
-blockquote { margin: 10pt 0; padding: 7pt 11pt; border-left: 3px solid #438293; background: #f0f5f7; }
-blockquote p { margin: 2pt 0; }
-table { border-collapse: collapse; width: 100%; margin: 10pt 0; font-size: 8.3pt; line-height: 1.5; }
-thead { display: table-header-group; }
-tr { break-inside: avoid; }
-th, td { border: 1px solid #d7dfe5; padding: 5pt 6pt; vertical-align: top; }
-th { background: #eaf1f5; color: #183c54; text-align: left; font-weight: 700; }
-tbody tr:nth-child(even) { background: #f7f9fa; }
-/* Keep the completed checklist readable as a separate final page. */
-h2:last-of-type { break-before: page; }
-table:last-of-type { table-layout: fixed; }
-table:last-of-type th:nth-child(1) { width: 24%; }
-table:last-of-type th:nth-child(2) { width: 12%; }
-table:last-of-type th:nth-child(3) { width: 15%; }
-table:last-of-type th:nth-child(4) { width: 49%; }
-table:last-of-type td:nth-child(2) { white-space: nowrap; }
-code { font-family: "DejaVu Sans Mono", monospace; font-size: 0.9em; background: #f1f4f6; padding: 1pt 3pt; }
-pre { white-space: pre-wrap; background: #f1f4f6; padding: 8pt; }
-img { max-width: 100%; }
-hr { border: 0; border-top: 1px solid #d7dfe5; margin: 15pt 0; }
+h1,
+h2,
+h3 {
+  color: #163c56;
+  line-height: 1.35;
+  break-after: avoid;
+}
+
+h1 {
+  font-size: 22pt;
+  margin: 0 0 14pt;
+}
+
+h2 {
+  font-size: 15pt;
+  margin: 22pt 0 9pt;
+  border-bottom: 1px solid #cdd9e2;
+  padding-bottom: 5pt;
+}
+
+/* md-to-pdf 按标题生成 id，附注统一从新的一页开始。 */
+h2[id^="附注"] {
+  break-before: page;
+}
+
+h3 {
+  font-size: 11.5pt;
+  margin: 15pt 0 7pt;
+}
+
+p,
+ul,
+ol {
+  margin: 7pt 0;
+}
+
+li {
+  margin: 3pt 0;
+}
+
+a {
+  color: #15647c;
+  text-decoration: none;
+}
+
+strong {
+  color: #173c54;
+}
+
+blockquote {
+  margin: 10pt 0;
+  padding: 7pt 11pt;
+  border-left: 3px solid #438293;
+  background: #f0f5f7;
+}
+
+blockquote p {
+  margin: 2pt 0;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  margin: 10pt 0;
+  font-size: 8.3pt;
+  line-height: 1.5;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  break-inside: avoid;
+}
+
+th,
+td {
+  border: 1px solid #d7dfe5;
+  padding: 5pt 6pt;
+  vertical-align: top;
+}
+
+th {
+  background: #eaf1f5;
+  color: #183c54;
+  text-align: left;
+  font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+  background: #f7f9fa;
+}
+
+code,
+pre {
+  font-family: inherit;
+  background: #f1f4f6;
+}
+
+code {
+  font-size: 0.9em;
+  padding: 1pt 3pt;
+}
+
+pre {
+  white-space: pre-wrap;
+  padding: 8pt;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #d7dfe5;
+  margin: 15pt 0;
+}
