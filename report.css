@@ -69,17 +69,19 @@ body {
   color: #202b38;
   font-family: "Source Serif 4", "HarmonyOS Sans SC CJK", Georgia, "Noto Sans CJK SC", sans-serif;
   font-size: 10pt;
-  line-height: 1.65;
+  line-height: 1.55;
   overflow-wrap: anywhere;
   margin: 0;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #163c56;
   line-height: 1.35;
   break-after: avoid;
+  padding: 0;
 }
 
 h1 {
@@ -94,14 +96,40 @@ h2 {
   padding-bottom: 5pt;
 }
 
-/* md-to-pdf 按标题生成 id，附注统一从新的一页开始。 */
+/* 导出时为标题生成 id，正文与附注从新页开始。 */
+h2[id="正文"],
 h2[id^="附注"] {
   break-before: page;
+  margin-top: 0;
+}
+
+h2[id^="结论页"] {
+  margin-top: 12pt;
+}
+
+h2[id^="结论页"] + p {
+  margin: 6pt 0 9pt;
 }
 
 h3 {
   font-size: 11.5pt;
-  margin: 15pt 0 7pt;
+  margin: 13pt 0 7pt;
+}
+
+h4 {
+  font-size: 10.5pt;
+  margin: 10pt 0 5pt;
+}
+
+/* 结论页保留纯 Markdown，用后续的「正文」标题限定紧凑排版范围。 */
+body > h3:has(~ h2[id="正文"]) {
+  font-size: 11pt;
+  margin: 10pt 0 5pt;
+}
+
+body > table:has(~ h2[id="正文"]) {
+  break-inside: avoid;
+  margin: 6pt 0;
 }
 
 p,
@@ -110,7 +138,24 @@ ol {
   margin: 7pt 0;
 }
 
+p {
+  orphans: 3;
+  widows: 3;
+}
+
+ul,
+ol {
+  margin-left: 0;
+  padding: 0 0 0 1.65em;
+}
+
 li {
+  margin: 3pt 0;
+}
+
+li > p,
+li > ul,
+li > ol {
   margin: 3pt 0;
 }
 
@@ -136,29 +181,46 @@ blockquote p {
 
 table {
   border-collapse: collapse;
+  display: table;
   table-layout: auto;
+  overflow: visible;
   width: 100%;
   margin: 10pt 0;
-  font-size: 8.3pt;
+  font-size: 8.5pt;
   line-height: 1.5;
+}
+
+/* 常见情景表保持整块，超过十行的长表仍可跨页。 */
+table:not(:has(tbody > tr:nth-child(11))) {
+  break-inside: avoid;
+}
+
+p:has(+ table) {
+  break-after: avoid;
+}
+
+h3[id="来源"] + ul {
+  break-inside: avoid;
 }
 
 thead {
   display: table-header-group;
+  break-after: avoid;
+  break-inside: avoid;
 }
 
 tr {
   break-inside: avoid;
 }
 
-th,
-td {
+table th,
+table td {
   border: 1px solid #d7dfe5;
   padding: 5pt 6pt;
   vertical-align: top;
 }
 
-th {
+table th {
   background: #eaf1f5;
   color: #183c54;
   text-align: left;
@@ -183,6 +245,27 @@ code {
 pre {
   white-space: pre-wrap;
   padding: 8pt;
+}
+
+/* 公式经 KaTeX 或 MathJax 渲染后，保持整块展示与正常数学字体间距。 */
+.katex-display,
+mjx-container[display="true"] {
+  margin: 10pt 0;
+  break-inside: avoid;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow-wrap: normal;
+}
+
+.katex-display > .katex {
+  white-space: nowrap;
+}
+
+@media print {
+  .katex-display,
+  mjx-container[display="true"] {
+    overflow: visible;
+  }
 }
 
 img {
