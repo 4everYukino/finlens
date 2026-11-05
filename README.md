@@ -1,25 +1,13 @@
-## 序
+# FinLens
 
-本仓库用于持续追踪财报，并通过 `Claude Code` 或者 `Codex` 来完成财报分析。
+跟踪国证成长 100 指数成分股，采用[统一方法论](FinAnalysis.md)。
 
-> 根目录下的 `FinAnalysis.md` 决定了财报分析的方法论。
+财报原文存放在标的的 `report/`。
 
-## 项目规范
+分析按 `analyses/26Q3/` 归档，包含 `report.md`、`input.json`、`fpeg.json`、`dcf.json` 和 `rdcf.json`。
 
-文件夹命名规范为 `$股票代码-$股票名`。
+每次分析完成后，使用 [md-to-pdf](https://github.com/simonhaenisch/md-to-pdf) 在对应季度目录原地导出 `report.pdf`，样式使用 `report.css`。
 
-在 `report` 内存放财报，按年份 + 报告期来命名。
+导出时显式指定 `--document-title`，采用「公司（代码）｜报告期分析」格式，例如 `松发股份（603268）｜2026 年三季报分析`。
 
-在 `analyses` 内存放财报分析，也是按年份 + 报告期来命名。
-
-这里，由 agent 产出的财报分析为 Markdown 格式，再经由 `md-to-pdf` 渲染为 PDF 格式，便于阅读。
-
-可在仓库根目录运行:
-
-```bash
-npx md-to-pdf --basedir . --stylesheet report.css "300308-中际旭创/analyses/26Q3.md"
-```
-
-格式控制由 `report.css` 完成。
-
-为避免体积浪费，PDF 格式的财报分析不上传到 git，仅做本地浏览使用。
+估值计算见 [scripts](scripts/README.md)。
