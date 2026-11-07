@@ -4,12 +4,12 @@
 
 ## 调用
 
-在季度目录运行：
+在季度目录（例如 `stocks/603268.SH/analyses/26Q3/`）运行：
 
 ```bash
-python3 -B ../../../scripts/fpeg.py input.json --output fpeg.json
-python3 -B ../../../scripts/dcf.py input.json --output dcf.json
-python3 -B ../../../scripts/rdcf.py input.json --output rdcf.json
+python3 -B ../../../../scripts/fpeg.py input.json --output fpeg.json
+python3 -B ../../../../scripts/dcf.py input.json --output dcf.json
+python3 -B ../../../../scripts/rdcf.py input.json --output rdcf.json
 ```
 
 输入错误时非零退出，不覆盖输出；成功或明确不适用时返回 `0`。输入、输出不能指向同一文件。
