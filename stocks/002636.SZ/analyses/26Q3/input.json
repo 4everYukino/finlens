@@ -1,0 +1,1273 @@
+{
+  "company": "金安国纪",
+  "ticker": "002636.SZ",
+  "analysis_period": "26Q3",
+  "tracking_type": "首次跟踪",
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "information_cutoff": "2026-11-11 17:00:00 Asia/Shanghai",
+  "valuation_date": "2026-11-11",
+  "balance_date": "2026-09-30",
+  "market_price": 68.97,
+  "market_snapshot": {
+    "provider": "腾讯行情",
+    "timestamp": "2026-11-11 16:14:45",
+    "type": "当日收盘行情回传",
+    "shares": 7.28,
+    "market_cap": 502.1016,
+    "source": "S14"
+  },
+  "index_membership": {
+    "index_code": "980080",
+    "sample_date": "2026-11-10",
+    "present": false,
+    "weight": null,
+    "weight_reason": "官方样本权重为--；指数外不适用。",
+    "exception_authorized": true,
+    "exception_basis": "用户明确要求金安国纪按指数外例外完成分析；不修改官方100只样本，不把未入指数视作否决。",
+    "source": "S15"
+  },
+  "financial_history": {
+    "24FY": {
+      "income_page": 58,
+      "cashflow_page": 60,
+      "balance_page": 53,
+      "revenue": 40.4838023836,
+      "cogs": 37.4774081446,
+      "surtax": 0.2314291063,
+      "selling": 0.9058852251,
+      "admin": 1.3700002818,
+      "rd": 1.6860393255000001,
+      "finance": -0.5153789026,
+      "interest_expense": 0.0190784166,
+      "interest_income": 0.5682696293,
+      "other_income": 0.32644982629999997,
+      "investment_income": 0.8216706597,
+      "fair_value": 0.065867053,
+      "credit_impairment": -0.1870767168,
+      "asset_impairment": -0.2444341218,
+      "disposal_gain": -0.0001652811,
+      "operating_profit": 0.1107306222,
+      "pretax_profit": 0.31058588530000003,
+      "income_tax": 0.010586103400000001,
+      "net_profit": 0.29999978190000004,
+      "parent_profit": 0.37058862020000005,
+      "minority_profit": -0.0705888383,
+      "cfo": -0.15930964960000002,
+      "cash_capex": 1.3016738076999999,
+      "cash_equivalents": 6.4034657498000005,
+      "balance": {
+        "cash": 6.6908445759,
+        "trading_assets": 2.4568725352,
+        "ar": 8.567109006699999,
+        "inventory": 3.6018231968000003,
+        "ar_financing": 8.1370233439,
+        "bills_receivable": 0.0668124895,
+        "prepaid": 0.0988881922,
+        "ap": 8.6141241521,
+        "bills_payable": 16.9503503354,
+        "contract_liab": 0.29655872640000003,
+        "short_debt": 0,
+        "current_debt": 0.011775109399999999,
+        "long_debt": 0,
+        "bonds": 0,
+        "leases": 0.0288825058,
+        "long_payables": 0,
+        "other_current_liab": 0.6105538063,
+        "equity": 34.969862731199996,
+        "parent_equity": 33.755910006,
+        "minority_equity": 1.2139527252,
+        "treasury": 0,
+        "long_investment": 0.5055389457,
+        "equity_investment": 0.00213702,
+        "other_financial": 0,
+        "other_current_assets": 0.2166623178,
+        "noncurrent_current": 2.7991726026,
+        "other_noncurrent_assets": 11.0050100935,
+        "investment_property": 0,
+        "ppe": 14.5788238954,
+        "cip": 0.37936583259999995,
+        "intangibles": 2.1880567258,
+        "rou_assets": 0.0441035375,
+        "dta": 0.2368492777,
+        "total_liab": 28.666584893499998,
+        "assets": 63.636447624700004,
+        "shares": 7.28
+      },
+      "core_ebit": -1.6184705382999973,
+      "gross_margin": 0.07426165681062347,
+      "core_ebit_margin": -0.03997822445046911,
+      "cash_conversion": -0.5310325513939982,
+      "cash_after_capex": -1.4609834572999998,
+      "recurring_parent_profit": -0.8236579729,
+      "reported_diluted_eps": 0.051
+    },
+    "25FY": {
+      "income_page": 56,
+      "cashflow_page": 58,
+      "balance_page": 51,
+      "revenue": 44.80236510140001,
+      "cogs": 38.4475212473,
+      "surtax": 0.2404981748,
+      "selling": 0.7646280314,
+      "admin": 1.305574751,
+      "rd": 1.8174998178,
+      "finance": -0.4775298135,
+      "interest_expense": 0.0096848462,
+      "interest_income": 0.5176645795,
+      "other_income": 0.41229563939999997,
+      "investment_income": -0.5709581399,
+      "fair_value": 0.2334099161,
+      "credit_impairment": -0.0990313106,
+      "asset_impairment": -0.2444880275,
+      "disposal_gain": -0.0005462551,
+      "operating_profit": 2.434854715,
+      "pretax_profit": 3.1481232458,
+      "income_tax": 0.0865214335,
+      "net_profit": 3.0616018123,
+      "parent_profit": 3.0074932658,
+      "minority_profit": 0.05410854650000001,
+      "cfo": -0.1591530696,
+      "cash_capex": 1.4511114969999999,
+      "cash_equivalents": 3.8569031181,
+      "balance": {
+        "cash": 4.7114948481,
+        "trading_assets": 2.349807777,
+        "ar": 10.2367102136,
+        "inventory": 3.6563310695999998,
+        "ar_financing": 10.8604765451,
+        "bills_receivable": 0.0729458093,
+        "prepaid": 0.0402407812,
+        "ap": 8.6669931323,
+        "bills_payable": 17.0411071476,
+        "contract_liab": 0.6969515975,
+        "short_debt": 0,
+        "current_debt": 0.031874493500000003,
+        "long_debt": 0,
+        "bonds": 0,
+        "leases": 0.009726583399999999,
+        "long_payables": 0,
+        "other_current_liab": 1.3530940265,
+        "equity": 36.4732935814,
+        "parent_equity": 36.1272413316,
+        "minority_equity": 0.3460522498,
+        "treasury": 0,
+        "long_investment": 0.5888895404,
+        "equity_investment": 0.0002,
+        "other_financial": 0,
+        "other_current_assets": 2.7354649973000003,
+        "noncurrent_current": 6.065009440599999,
+        "other_noncurrent_assets": 6.7603193284000005,
+        "investment_property": 0,
+        "ppe": 12.553896269700001,
+        "cip": 1.7145253952000001,
+        "intangibles": 1.9645327741999998,
+        "rou_assets": 0.045193078899999996,
+        "dta": 0.2346617182,
+        "total_liab": 29.6320998698,
+        "assets": 66.1053934512,
+        "shares": 7.28
+      },
+      "core_ebit": 1.8831237410000004,
+      "gross_margin": 0.14184170500189563,
+      "core_ebit_margin": 0.04203179311489419,
+      "cash_conversion": -0.05198359530641829,
+      "cash_after_capex": -1.6102645666,
+      "recurring_parent_profit": 2.6592975666,
+      "reported_diluted_eps": 0.413
+    },
+    "25Q3": {
+      "income_page": 8,
+      "cashflow_page": 9,
+      "balance_page": 5,
+      "revenue": 32.5131007945,
+      "cogs": 28.5772488225,
+      "surtax": 0.1770637377,
+      "selling": 0.5587901038,
+      "admin": 0.8791054767,
+      "rd": 1.3504131147,
+      "finance": -0.414186526,
+      "interest_expense": 0.007932145699999999,
+      "interest_income": 0.3989719728,
+      "other_income": 0.2526897997,
+      "investment_income": -0.5871766746,
+      "fair_value": 0.1364456375,
+      "credit_impairment": -0.0229785525,
+      "asset_impairment": -0.0198499538,
+      "disposal_gain": -0.0015023253,
+      "operating_profit": 1.1422939961,
+      "pretax_profit": 1.8544265309,
+      "income_tax": 0.0690922867,
+      "net_profit": 1.7853342442,
+      "parent_profit": 1.7293287797,
+      "minority_profit": 0.056005464500000005,
+      "cfo": -1.4758414832,
+      "cash_capex": 0.8282286620999999,
+      "cash_equivalents": 5.5309792391,
+      "balance": {
+        "cash": 6.3225341464,
+        "trading_assets": 2.2529631774000003,
+        "ar": 9.2200727394,
+        "inventory": 3.5053924838999997,
+        "ar_financing": 10.3054618173,
+        "bills_receivable": 0.0668124895,
+        "prepaid": 0.1691723302,
+        "ap": 7.9284577882,
+        "bills_payable": 16.9019919327,
+        "contract_liab": 0.40604289229999996,
+        "short_debt": 0,
+        "current_debt": 0.0101321961,
+        "long_debt": 0,
+        "bonds": 0,
+        "leases": 0.0288825058,
+        "long_payables": 0,
+        "other_current_liab": 0.7227992993000001,
+        "equity": 35.1807473412,
+        "parent_equity": 34.8359425919,
+        "minority_equity": 0.3448047493,
+        "treasury": 0,
+        "long_investment": 0.5947257103,
+        "equity_investment": 0.0002,
+        "other_financial": 0,
+        "other_current_assets": 0.2539351424,
+        "noncurrent_current": 6.724161847,
+        "other_noncurrent_assets": 6.0734213531,
+        "investment_property": 0,
+        "ppe": 12.8105269703,
+        "cip": 0.7112100759000001,
+        "intangibles": 1.9831904152000002,
+        "rou_assets": 0.0416738382,
+        "dta": 0.2180203484,
+        "total_liab": 27.7654896877,
+        "assets": 62.9462370289,
+        "shares": 7.28
+      },
+      "core_ebit": 0.9276510327999976,
+      "gross_margin": 0.12105434042962149,
+      "core_ebit_margin": 0.02853160757145998,
+      "cash_conversion": -0.8266471603256105,
+      "cash_after_capex": -2.3040701453,
+      "recurring_parent_profit": 1.5112301211,
+      "reported_diluted_eps": 0.238
+    },
+    "26Q1": {
+      "income_page": 6,
+      "cashflow_page": 8,
+      "balance_page": 4,
+      "revenue": 12.5977092928,
+      "cogs": 9.2669859832,
+      "surtax": 0.0653056606,
+      "selling": 0.18141720260000002,
+      "admin": 0.33765789350000003,
+      "rd": 0.5056396142,
+      "finance": -0.0243731402,
+      "interest_expense": 1.0359999999999999e-07,
+      "interest_income": 0.1141124307,
+      "other_income": 0.09964628130000001,
+      "investment_income": 0.0714735631,
+      "fair_value": -0.2197945032,
+      "credit_impairment": -0.0122428521,
+      "asset_impairment": 0,
+      "disposal_gain": -0.0037283218,
+      "operating_profit": 2.2004302462,
+      "pretax_profit": 2.2004836797,
+      "income_tax": 0.18466061120000002,
+      "net_profit": 2.0158230685,
+      "parent_profit": 2.0184030634,
+      "minority_profit": -0.0025799949,
+      "cfo": -0.0623431981,
+      "cash_capex": 0.816717538,
+      "cash_equivalents": 3.7817863566,
+      "balance": {
+        "cash": 4.1817863566,
+        "trading_assets": 1.8117357895,
+        "ar": 11.8664560073,
+        "inventory": 5.333891059,
+        "ar_financing": 12.6577151815,
+        "bills_receivable": 0.057125076100000005,
+        "prepaid": 0.1463709564,
+        "ap": 10.5263385132,
+        "bills_payable": 17.1943538393,
+        "contract_liab": 0.5285137661,
+        "short_debt": 0,
+        "current_debt": 0.0318881071,
+        "long_debt": 0,
+        "bonds": 0,
+        "leases": 0.009726583399999999,
+        "long_payables": 0,
+        "other_current_liab": 2.2338306043,
+        "equity": 38.474744074200004,
+        "parent_equity": 38.1399730851,
+        "minority_equity": 0.3347709891,
+        "treasury": 0,
+        "long_investment": 0.5922058268,
+        "equity_investment": 0.0002,
+        "other_financial": 0,
+        "other_current_assets": 3.4408634791000003,
+        "noncurrent_current": 5.3396629488,
+        "other_noncurrent_assets": 6.7506886256,
+        "investment_property": 0,
+        "ppe": 12.251793386500001,
+        "cip": 2.4285310137000002,
+        "intangibles": 2.0689611327,
+        "rou_assets": 0.0442854964,
+        "dta": 0.23728951480000002,
+        "total_liab": 32.240912309,
+        "assets": 70.7156563832,
+        "shares": 7.28
+      },
+      "core_ebit": 2.2284600866,
+      "gross_margin": 0.26439118669801476,
+      "core_ebit_margin": 0.1768940713589603,
+      "cash_conversion": -0.03092691966581689,
+      "cash_after_capex": -0.8790607361,
+      "recurring_parent_profit": 2.1514016467,
+      "reported_diluted_eps": 0.277
+    },
+    "26H1": {
+      "income_page": 35,
+      "cashflow_page": 38,
+      "balance_page": 31,
+      "revenue": 33.9850648453,
+      "cogs": 22.7233892989,
+      "surtax": 0.20151393329999998,
+      "selling": 0.4362758757,
+      "admin": 0.74558202,
+      "rd": 1.3029434867,
+      "finance": -0.048119084900000005,
+      "interest_expense": 0.0055289586,
+      "interest_income": 0.1977916787,
+      "other_income": 0.1448258501,
+      "investment_income": 0.0731082506,
+      "fair_value": -0.13674421539999998,
+      "credit_impairment": -0.057969785,
+      "asset_impairment": -0.0006190774,
+      "disposal_gain": -0.0040189318,
+      "operating_profit": 8.6420614066,
+      "pretax_profit": 8.63535926,
+      "income_tax": 0.9696933154,
+      "net_profit": 7.665665944600001,
+      "parent_profit": 7.6588698522000005,
+      "minority_profit": 0.0067960924,
+      "cfo": 3.5919950348,
+      "cash_capex": 1.5998250487999999,
+      "cash_equivalents": 6.9996444461000005,
+      "balance": {
+        "cash": 7.4599444461,
+        "trading_assets": 1.894755266,
+        "ar": 17.08432435,
+        "inventory": 5.781567751799999,
+        "ar_financing": 15.467494501400001,
+        "bills_receivable": 0.0792300949,
+        "prepaid": 0.1052301773,
+        "ap": 12.664012315199999,
+        "bills_payable": 19.295901724700002,
+        "contract_liab": 1.5264203359,
+        "short_debt": 0,
+        "current_debt": 0.0300639061,
+        "long_debt": 0,
+        "bonds": 0,
+        "leases": 0.009726583399999999,
+        "long_payables": 0,
+        "other_current_liab": 2.4939352479,
+        "equity": 43.1598343654,
+        "parent_equity": 42.8730947179,
+        "minority_equity": 0.2867396475,
+        "treasury": 0,
+        "long_investment": 0.5924506902000001,
+        "equity_investment": 0.0002,
+        "other_financial": 0,
+        "other_current_assets": 5.4552376013,
+        "noncurrent_current": 6.2905842049,
+        "other_noncurrent_assets": 2.5787939068,
+        "investment_property": 0,
+        "ppe": 11.9661957617,
+        "cip": 3.390062561,
+        "intangibles": 2.0580531680000003,
+        "rou_assets": 0.0433779138,
+        "dta": 0.2704063741,
+        "total_liab": 38.858610443,
+        "assets": 82.0184448084,
+        "shares": 7.28
+      },
+      "core_ebit": 8.516771368300004,
+      "gross_margin": 0.33137131259461017,
+      "core_ebit_margin": 0.2506033578887768,
+      "cash_conversion": 0.4685822550525234,
+      "cash_after_capex": 1.9921699860000002,
+      "recurring_parent_profit": 7.7041578246,
+      "reported_diluted_eps": 1.05
+    },
+    "26Q3": {
+      "income_page": 7,
+      "cashflow_page": 9,
+      "balance_page": 5,
+      "revenue": 65.433001425,
+      "cogs": 38.153475411799995,
+      "surtax": 0.4485339252,
+      "selling": 0.9233198793999999,
+      "admin": 1.3047383917,
+      "rd": 2.4294366666,
+      "finance": -0.09522277529999999,
+      "interest_expense": 3.5324299999999997e-05,
+      "interest_income": 0.27875187,
+      "other_income": 0.19596188920000002,
+      "investment_income": 0.0930553025,
+      "fair_value": -0.22523893670000003,
+      "credit_impairment": -0.1099675405,
+      "asset_impairment": 0.0003500874,
+      "disposal_gain": -0.0050861852,
+      "operating_profit": 22.217794542300002,
+      "pretax_profit": 22.210595685300003,
+      "income_tax": 2.9616489047,
+      "net_profit": 19.2489467806,
+      "parent_profit": 19.2417788651,
+      "minority_profit": 0.0071679155,
+      "cfo": 8.9924854711,
+      "cash_capex": 2.6036372899,
+      "cash_equivalents": 5.1163208434,
+      "balance": {
+        "cash": 5.3759208434,
+        "trading_assets": 1.8059232966999998,
+        "ar": 25.840080471100002,
+        "inventory": 6.3072912926999996,
+        "ar_financing": 21.495517432899998,
+        "bills_receivable": 0.1167731444,
+        "prepaid": 0.0982604282,
+        "ap": 15.034975203299998,
+        "bills_payable": 24.362400202199996,
+        "contract_liab": 1.0754941475,
+        "short_debt": 0.05,
+        "current_debt": 0.0300639061,
+        "long_debt": 0,
+        "bonds": 0,
+        "leases": 0.009726583399999999,
+        "long_payables": 0,
+        "other_current_liab": 2.5809284062,
+        "equity": 54.7616666908,
+        "parent_equity": 54.463463337200004,
+        "minority_equity": 0.2982033536,
+        "treasury": 0,
+        "long_investment": 0.5907145733,
+        "equity_investment": 0.0002,
+        "other_financial": 0,
+        "other_current_assets": 9.0937387138,
+        "noncurrent_current": 5.629864542999999,
+        "other_noncurrent_assets": 6.362384447799999,
+        "investment_property": 0,
+        "ppe": 11.854918792000001,
+        "cip": 4.3532828642000005,
+        "intangibles": 2.0912203782,
+        "rou_assets": 0.0424703313,
+        "dta": 0.28228268149999997,
+        "total_liab": 48.07165012390001,
+        "assets": 102.8333168147,
+        "shares": 7.28
+      },
+      "core_ebit": 22.063879697200008,
+      "gross_margin": 0.4169077593738091,
+      "core_ebit_margin": 0.33719803794251835,
+      "cash_conversion": 0.46716766239714747,
+      "cash_after_capex": 6.3888481812,
+      "recurring_parent_profit": 19.331561509,
+      "reported_diluted_eps": 2.643
+    },
+    "25Q4": {
+      "revenue": 12.289264306900009,
+      "cogs": 9.870272424800003,
+      "surtax": 0.06343443709999999,
+      "selling": 0.20583792759999997,
+      "admin": 0.4264692742999999,
+      "rd": 0.4670867030999999,
+      "finance": -0.06334328750000001,
+      "interest_expense": 0.0017527005000000009,
+      "interest_income": 0.11869260669999998,
+      "other_income": 0.15960583969999997,
+      "investment_income": 0.01621853470000001,
+      "fair_value": 0.09696427860000001,
+      "credit_impairment": -0.0760527581,
+      "asset_impairment": -0.2246380737,
+      "disposal_gain": 0.0009560702,
+      "operating_profit": 1.2925607189000001,
+      "pretax_profit": 1.2936967148999998,
+      "income_tax": 0.01742914679999999,
+      "net_profit": 1.2762675681000002,
+      "parent_profit": 1.2781644860999999,
+      "minority_profit": -0.0018969179999999974,
+      "core_ebit": 0.9554727082000027,
+      "cfo": 1.3166884135999999,
+      "cash_capex": 0.6228828349,
+      "recurring_parent_profit": 1.1480674454999997,
+      "derivation": "25FY减25Q3累计数；不直接差减EPS。",
+      "gross_margin": 0.19683781076641205,
+      "core_ebit_margin": 0.0777485685342073,
+      "cash_conversion": 1.0316711373933718,
+      "cash_after_capex": 0.6938055786999999
+    },
+    "26Q2": {
+      "revenue": 21.387355552500004,
+      "cogs": 13.4564033157,
+      "surtax": 0.13620827269999997,
+      "selling": 0.2548586731,
+      "admin": 0.40792412649999993,
+      "rd": 0.7973038725,
+      "finance": -0.023745944700000004,
+      "interest_expense": 0.005528855,
+      "interest_income": 0.083679248,
+      "other_income": 0.04517956879999997,
+      "investment_income": 0.0016346874999999955,
+      "fair_value": 0.08305028780000001,
+      "credit_impairment": -0.0457269329,
+      "asset_impairment": -0.0006190774,
+      "disposal_gain": -0.0002906100000000002,
+      "operating_profit": 6.4416311604,
+      "pretax_profit": 6.4348755803,
+      "income_tax": 0.7850327042,
+      "net_profit": 5.649842876100001,
+      "parent_profit": 5.6404667888,
+      "minority_profit": 0.0093760873,
+      "core_ebit": 6.288311281700004,
+      "cfo": 3.6543382329,
+      "cash_capex": 0.7831075107999999,
+      "recurring_parent_profit": 5.5527561779,
+      "derivation": "26H1减26Q1累计数；不直接差减EPS。",
+      "gross_margin": 0.37082435073993725,
+      "core_ebit_margin": 0.29402004685731015,
+      "cash_conversion": 0.6468035152550177,
+      "cash_after_capex": 2.8712307221
+    },
+    "26Q3_standalone": {
+      "revenue": 31.4479365797,
+      "cogs": 15.430086112899996,
+      "surtax": 0.24701999190000004,
+      "selling": 0.48704400369999995,
+      "admin": 0.5591563717,
+      "rd": 1.1264931799,
+      "finance": -0.04710369039999999,
+      "interest_expense": -0.0054936342999999995,
+      "interest_income": 0.08096019130000001,
+      "other_income": 0.05113603910000003,
+      "investment_income": 0.019947051900000012,
+      "fair_value": -0.08849472130000005,
+      "credit_impairment": -0.0519977555,
+      "asset_impairment": 0.0009691648000000001,
+      "disposal_gain": -0.0010672534,
+      "operating_profit": 13.575733135700002,
+      "pretax_profit": 13.575236425300004,
+      "income_tax": 1.9919555893,
+      "net_profit": 11.583280836,
+      "parent_profit": 11.582909012899998,
+      "minority_profit": 0.0003718230999999999,
+      "core_ebit": 13.547108328900004,
+      "cfo": 5.4004904363,
+      "cash_capex": 1.0038122411000001,
+      "recurring_parent_profit": 11.6274036844,
+      "derivation": "26Q3减26H1累计数；不直接差减EPS。",
+      "gross_margin": 0.5093450384639769,
+      "core_ebit_margin": 0.4307789254969694,
+      "cash_conversion": 0.4662315032124289,
+      "cash_after_capex": 4.3966781952
+    },
+    "TTM": {
+      "revenue": 77.72226573190002,
+      "cogs": 48.023747836599995,
+      "surtax": 0.5119683623,
+      "selling": 1.129157807,
+      "admin": 1.731207666,
+      "rd": 2.8965233696999997,
+      "finance": -0.15856606280000002,
+      "interest_expense": 0.0017880248000000012,
+      "interest_income": 0.3974444767,
+      "other_income": 0.35556772890000005,
+      "investment_income": 0.1092738372,
+      "fair_value": -0.12827465810000002,
+      "credit_impairment": -0.1860202986,
+      "asset_impairment": -0.22428798630000002,
+      "disposal_gain": -0.004130115,
+      "operating_profit": 23.5103552612,
+      "pretax_profit": 23.504292400200004,
+      "income_tax": 2.9790780515,
+      "net_profit": 20.5252143487,
+      "parent_profit": 20.5199433512,
+      "minority_profit": 0.005270997499999999,
+      "core_ebit": 23.01935240540001,
+      "cfo": 10.3091738847,
+      "cash_capex": 3.2265201247999995,
+      "recurring_parent_profit": 20.4796289545,
+      "derivation": "2025全年+2026前三季-2025前三季；金安2025剥离医疗/PCB业务影响严格同范围可比性。",
+      "gross_margin": 0.38211080976130996,
+      "core_ebit_margin": 0.29617448987918576,
+      "cash_conversion": 0.5022687563481133,
+      "cash_after_capex": 7.0826537599
+    }
+  },
+  "capital_return_check": {
+    "status": "财务资本保守代理，非精确经济ROIC",
+    "exact_economic_roic": null,
+    "prior_capital": 34.4115821033,
+    "current_capital": 56.3160647431,
+    "average_capital": 45.3638234232,
+    "ttm_nopat": 19.566449544590007,
+    "ttm_core_ebit": 23.01935240540001,
+    "tax_rate": 0.15,
+    "roic_proxy": 0.431322760474888,
+    "incremental_roic": null,
+    "method": "合并股东权益+融资负债（含未细分票据融资上限）-超过经营储备的现金，采用2025/9和2026/9两时点均值。保留存量定存、证券等非经营资产，倾向压低经营回报；未精细调整递延税、时间加权资本及工程款。不可用以认定新增项目具有同等回报。"
+  },
+  "business_evidence": {
+    "h1_ccl_and_prepreg_revenue": 32.8855474722,
+    "h1_ccl_and_prepreg_revenue_share": 0.9676,
+    "h1_ccl_gross_margin": 0.3182,
+    "h1_panels_sold_million": 30.743,
+    "h1_panels_sales_growth": 0.1077,
+    "h1_board_segment_revenue": 33.2660398442,
+    "h1_board_segment_revenue_growth": 0.6846,
+    "high_frequency_high_speed": "10/31官方公告仍为研发及客户送样，尚未形成收入；未与英伟达、华为有过接触及直接业务合作。不将一般CCL景气利润冒认为高频高速收入。",
+    "source": "S2 p9—12；S11调研p2—3；S13 p1"
+  },
+  "bridge": {
+    "cash_equivalents": 5.1163208434,
+    "operating_cash": 4,
+    "nonoperating_financial_assets": 18.846483306596,
+    "debt_components": {
+      "short_borrowings": 0.05,
+      "current_noncurrent_liabilities": 0.0300639061,
+      "leases": 0.009726583399999999,
+      "unconfirmed_bills_upper_bound": 2.5809284062
+    },
+    "other_claims": 0.2982033536,
+    "shares": 7.28
+  },
+  "bridge_adjustments": [
+    {
+      "amount": 3.315717391304347,
+      "reason": "基准Q4 FCFF加税后净利息收入0.085亿元，按42/92估计财报日至估值日净金融头寸变化。三情景共用基准滚动；非11月已披露余额。"
+    }
+  ],
+  "bridge_assumptions": {
+    "operating_cash_rationale": "4亿元约为前三季经营现金流出37.51亿元的一个月；可用现金5.1163亿元，保证金差额0.2596亿元不视闲置；定存另列，不能全部现金化即视为可分红。",
+    "financial_assets": [
+      {
+        "name": "交易性金融资产",
+        "book": 1.8059232966999998,
+        "factor": 1,
+        "source": "S1 p5"
+      },
+      {
+        "name": "一年内到期长期定存",
+        "book": 5.629864542999999,
+        "factor": 0.98,
+        "source": "S1 p5；分类按S2 p84定存沿用，98%留提前支取和分类误差。"
+      },
+      {
+        "name": "短期定存及利息代理",
+        "book": 8.9573706995,
+        "factor": 0.98,
+        "source": "S1 p3明确其他流动资产增加主因定存；减去S2 p84其他税费0.1364亿元暂估，9月末精确附注N/A。"
+      },
+      {
+        "name": "长期定存（暂沿用H1已披露余额）",
+        "book": 2.3187120547,
+        "factor": 0.98,
+        "source": "S2 p97；9月末其他非流动资产6.3624亿元未细分，不能全作金融资产；本项亦有迁移风险，另测归零及上限。"
+      },
+      {
+        "name": "长期股权投资",
+        "book": 0.5907145733,
+        "factor": 0.8,
+        "source": "S1 p5，非经营投资收益不进入FCFF"
+      },
+      {
+        "name": "其他权益工具投资",
+        "book": 0.0002,
+        "factor": 0.8,
+        "source": "S1 p5"
+      }
+    ],
+    "minority_method": "三季末少数权益0.2982亿元账面代理，TTM少数利润很小。",
+    "debt_note": "银行短借仅0.05亿元，无长期借款；租赁负债与到期租赁计债。其他流动负债2.5809亿元全部按未终止确认票据融资上限列债，H1其中2.3061亿元票据、0.1878亿元销项税；Q3细分N/A，另测保守分类清零影响。集团对子公司担保不再当重复债务。",
+    "placement": {
+      "status": "7/27获证监会同意注册、8/12公告；10/31仍在推进，截至11/11未核到发行到账",
+      "gross_max": 12.999078,
+      "share_limit": 2.184,
+      "project_total": 15.010578,
+      "rd_center": 0.556217,
+      "project_working_capital": 2.588822,
+      "project_capital_cost": 12.421756,
+      "full_gross_margin": 0.1209,
+      "project_irr_after_tax": 0.1233,
+      "payback": 8.04,
+      "project_npv_at_12_percent": 0.188354,
+      "construction_years": 2,
+      "capacity_million_square_meters": 40,
+      "source": "S7注册稿p4、6、92—96；S8注册批复",
+      "treatment": "主模型为发行前权益；经营路径已含项目投资及贡献。财务性投资扣减后实际募集上限12.999078亿元，不直接写13亿元精确值。融资敏感性同时加净现金和新股。铺底流动资金用ΔNWC承担，不计入现金CapEx重复。"
+    },
+    "glass_projects": {
+      "existing_capacity_july_million_meters": 160,
+      "self_supply_ratio_july_lower": 0.35,
+      "new_60m": "10/31公告已经满负荷生产",
+      "old_site_additional_40m": "计划2027/3投产",
+      "new_130m_budget": 5,
+      "new_130m_construction_months": 12,
+      "note": "玻纤布主要自用，通过供应保障及成本体现于CCL利润；不重复新增对外销售收入。6000万+4000万共1亿米，与11/10新批1.3亿米分开；都是玻纤布米，不能与CCL平方米或张相加。"
+    },
+    "zhuhai_intention": {
+      "budget": 20,
+      "panels_million": 20,
+      "prepreg_million_meters": 40,
+      "construction_years": 2,
+      "status": "仅签投资意向协议，具体项目方案及土地等尚待正式落实；不当作已承诺订单或既有产能。",
+      "treatment": "基准只预留分步追加扩容和付款，乐观才假设更充分落实；不能把20亿元全部视为9/30债务或当期应付款。"
+    },
+    "share_basis": "7.28亿股，自2015转增后未变；2026Q3 EPS与归母增速基本一致。拟定增2.184亿股仅为上限，不按已发行处理。",
+    "div": "2025年度已支付现金红利在9月末现金反映，H1不分红；财报日至11/11未核到新宣告分配或回购付现。"
+  },
+  "scenarios": {
+    "bear": {
+      "wacc": 0.1,
+      "terminal_growth": 0.025,
+      "terminal_margin": 0.14,
+      "terminal_tax_rate": 0.15,
+      "terminal_roic": 0.12,
+      "base_annual_revenue": 96.433001425,
+      "incremental_nwc_ratio": 0.35,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 31,
+        "ebit_margin": 0.32,
+        "tax_rate": 0.15,
+        "da": 0.33,
+        "capex": 1.4,
+        "delta_nwc": 2.0
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 105,
+          "ebit_margin": 0.24,
+          "tax_rate": 0.15,
+          "da": 1.7,
+          "capex": 9
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 110,
+          "ebit_margin": 0.2,
+          "tax_rate": 0.15,
+          "da": 2.2,
+          "capex": 9
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 115,
+          "ebit_margin": 0.18,
+          "tax_rate": 0.15,
+          "da": 2.7,
+          "capex": 8
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 120,
+          "ebit_margin": 0.16,
+          "tax_rate": 0.15,
+          "da": 3.1,
+          "capex": 7
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 125,
+          "ebit_margin": 0.15,
+          "tax_rate": 0.15,
+          "da": 3.4,
+          "capex": 6
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 130,
+          "ebit_margin": 0.14,
+          "tax_rate": 0.15,
+          "da": 3.7,
+          "capex": 5.5
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.1,
+      "terminal_growth": 0.025,
+      "terminal_margin": 0.2,
+      "terminal_tax_rate": 0.15,
+      "terminal_roic": 0.15,
+      "base_annual_revenue": 101.433001425,
+      "incremental_nwc_ratio": 0.35,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 36,
+        "ebit_margin": 0.38,
+        "tax_rate": 0.15,
+        "da": 0.35,
+        "capex": 1.8,
+        "delta_nwc": 3
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 130,
+          "ebit_margin": 0.34,
+          "tax_rate": 0.15,
+          "da": 2,
+          "capex": 12
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 155,
+          "ebit_margin": 0.3,
+          "tax_rate": 0.15,
+          "da": 2.8,
+          "capex": 14
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 175,
+          "ebit_margin": 0.27,
+          "tax_rate": 0.15,
+          "da": 3.7,
+          "capex": 14
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 190,
+          "ebit_margin": 0.24,
+          "tax_rate": 0.15,
+          "da": 4.5,
+          "capex": 12
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 200,
+          "ebit_margin": 0.22,
+          "tax_rate": 0.15,
+          "da": 5,
+          "capex": 10
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 207,
+          "ebit_margin": 0.2,
+          "tax_rate": 0.15,
+          "da": 5.3,
+          "capex": 9
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.1,
+      "terminal_growth": 0.025,
+      "terminal_margin": 0.28,
+      "terminal_tax_rate": 0.15,
+      "terminal_roic": 0.2,
+      "base_annual_revenue": 106.433001425,
+      "incremental_nwc_ratio": 0.35,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 41,
+        "ebit_margin": 0.42,
+        "tax_rate": 0.15,
+        "da": 0.38,
+        "capex": 2.3,
+        "delta_nwc": 4
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 145,
+          "ebit_margin": 0.38,
+          "tax_rate": 0.15,
+          "da": 2.3,
+          "capex": 17
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 190,
+          "ebit_margin": 0.37,
+          "tax_rate": 0.15,
+          "da": 3.5,
+          "capex": 23
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 235,
+          "ebit_margin": 0.35,
+          "tax_rate": 0.15,
+          "da": 5,
+          "capex": 25
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 275,
+          "ebit_margin": 0.32,
+          "tax_rate": 0.15,
+          "da": 6.5,
+          "capex": 25
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 310,
+          "ebit_margin": 0.3,
+          "tax_rate": 0.15,
+          "da": 8,
+          "capex": 22
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 335,
+          "ebit_margin": 0.28,
+          "tax_rate": 0.15,
+          "da": 9.5,
+          "capex": 19
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.09,
+      0.1,
+      0.11
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.8,
+      1,
+      1.2
+    ]
+  },
+  "fpeg": {
+    "base_year": 2026,
+    "end_year": 2029,
+    "base_eps": 4.251480613337911,
+    "end_eps": 5.5491071428571415
+  },
+  "fpeg_assumptions": {
+    "type": "自主预测，非券商一致预期",
+    "formed": "2026-11-11",
+    "coverage": "单一经营模型；与DCF共享预测，非独立验证。",
+    "shares": 7.28,
+    "base_parent_profit": 30.950778865099995,
+    "end_parent_profit": 40.397499999999994,
+    "base_q4_net_finance": -0.1,
+    "base_q4_minority": 0.004,
+    "end_net_finance": -0.3,
+    "end_minority": 0.02,
+    "method": "2026前三季归母+Q4核心EBIT，净利息收入0.10亿元、15%税率后减少数0.004亿元；2029核心EBIT47.25亿元加净利息收入0.30亿元、15%税率后减少数0.02亿元。不外推金融交易收益、医疗处置或业绩补偿。"
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "revenue_growth",
+    "stage": "growth",
+    "lower": -0.1,
+    "upper": 1,
+    "search_steps": 220,
+    "max_iterations": 120,
+    "price_tolerance": 0.0001,
+    "reinvestment": {
+      "capex": "revenue_ratio",
+      "da": "revenue_ratio"
+    },
+    "rationale": "仅反推2027—2029合并收入等比年增长率，2030—2032保留原相对增速；每年CapEx、DA按原收入比例重算，营运资金按收入增量35%；其余独立参数及估值日金融头寸保持。"
+  },
+  "model_assumptions": {
+    "core_ebit": "收入-营业成本-税金-销售管理研发+信用及资产减值；剔除全部其他收益、投资收益、公允价值、处置及财务费用。正常研发、激励和减值保留。",
+    "tax": "15%正常化经营税率，不外推低税负与递延税优惠；实际有效税率单独披露。",
+    "wacc": "10%为自主资本成本锚；3%无风险+6%股权风险溢价×1.2 beta约10.2%作为权益端参照，综合融资与行业风险。不是当日无风险利率或beta估计，展示9—11%敏感性。",
+    "stages": "2027—2029供需景气、新项目投产与新品验证，2030—2032利润率及增速正常化，2033起永续；远期数是条件假设，非锁定订单。",
+    "terminal": "基准华正成熟EBIT15%、ROIC12.5%；金安成熟EBIT20%、ROIC15%。金安保留规模及自供优势，但不永久外推Q3高价差。新项目IRR是约束参照，与单年ROIC不同。",
+    "nwc": "基准增量经营营运资金按收入增量35%；源于两家公司应收、票据和存货扩张。未终止确认票据负债按融资上限列债，不再在经营NWC抵减；工程款纳入现金CapEx不再重复扣。",
+    "capex": "现金付款口径，覆盖存量维护、既有工程结算及情景下后续扩产。项目总投资中的铺底流动资金由ΔNWC承担，非CapEx。收入扩张有新投入支持，乐观需要更多产能和认证，悲观保留已建工程付款但可缩减未承诺扩产。",
+    "bridge": "9/30至11/11已过42天、Q4总92天；未来尾段50/92。已过期间采用共同基准现金流滚动，已核验回购显式扣除；现金、存单和债务11/11实时余额N/A，另给金融头寸误差敏感性。",
+    "future_funding": "融资现金没有进入主桥接；各项经营投资及其贡献已进FCFF。融资敏感性同时计现金与新增股数，不把募资当收入或利润。",
+    "forecast": "所有未来收入、利润率、DA、CapEx和营运资金均自主预测；不将H1/H2/H3等内部分类等同M8/M9，也不将高频高速送样或CBF产线建成等同大规模订单。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "金安国纪26Q3财报",
+      "period": "26Q3",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225627667.PDF",
+      "local": "../../report/26Q3.pdf"
+    },
+    {
+      "id": "S2",
+      "title": "金安国纪26H1财报",
+      "period": "26H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225519694.PDF",
+      "local": "../../report/26H1.pdf"
+    },
+    {
+      "id": "S3",
+      "title": "金安国纪26Q1财报",
+      "period": "26Q1",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225229076.PDF",
+      "local": "../../report/26Q1.pdf"
+    },
+    {
+      "id": "S4",
+      "title": "金安国纪25FY财报",
+      "period": "25FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225229068.PDF",
+      "local": "../../report/25FY.pdf"
+    },
+    {
+      "id": "S5",
+      "title": "金安国纪25Q3财报",
+      "period": "25Q3",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224778232.PDF",
+      "local": "../../report/25Q3.pdf"
+    },
+    {
+      "id": "S6",
+      "title": "金安国纪24FY财报",
+      "period": "24FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223375784.PDF",
+      "local": "../../report/24FY.pdf"
+    },
+    {
+      "id": "S7",
+      "title": "2025年度定增募集说明书（注册稿）",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225467680.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    },
+    {
+      "id": "S8",
+      "title": "定增获证监会注册公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225467679.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    },
+    {
+      "id": "S9",
+      "title": "6000万米玻纤布项目建成及后续4000万米改造",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649854.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    },
+    {
+      "id": "S10",
+      "title": "新建1.3亿米玻纤布项目公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663114.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    },
+    {
+      "id": "S11",
+      "title": "7/15投资者关系活动记录",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225427135.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    },
+    {
+      "id": "S12",
+      "title": "珠海增资扩产意向协议公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-23/1225436944.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    },
+    {
+      "id": "S14",
+      "title": "腾讯行情2026-11-11收盘价及股本",
+      "url": "https://qt.gtimg.cn/q=sh603186,sz002636"
+    },
+    {
+      "id": "S15",
+      "title": "国证成长100官方样本，2026-11-10",
+      "url": "https://www.cnindex.com.cn/sample-detail/download?indexcode=980080"
+    },
+    {
+      "id": "S13",
+      "title": "2026-10-31股票交易异常波动公告（高频高速尚未收入）",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649855.PDF",
+      "storage": "仅临时查阅，辅助PDF未归档"
+    }
+  ],
+  "additional_sensitivity": {
+    "operating_cash": [
+      {
+        "value": 2,
+        "price": 47.99794265987145
+      },
+      {
+        "value": 4,
+        "price": 47.72321738514617
+      },
+      {
+        "value": 6,
+        "price": 47.4484921104209
+      }
+    ],
+    "terminal_roic": [
+      {
+        "value": 0.12,
+        "price": 46.19041524968163
+      },
+      {
+        "value": 0.15,
+        "price": 47.72321738514617
+      },
+      {
+        "value": 0.2,
+        "price": 49.256019520610714
+      }
+    ],
+    "incremental_nwc_ratio": [
+      {
+        "value": 0.25,
+        "price": 48.83562456318321
+      },
+      {
+        "value": 0.35,
+        "price": 47.72321738514617
+      },
+      {
+        "value": 0.45,
+        "price": 46.61081020710914
+      }
+    ],
+    "terminal_margin": [
+      {
+        "value": 0.12,
+        "price": 35.460800301429835
+      },
+      {
+        "value": 0.16,
+        "price": 41.592008843288006
+      },
+      {
+        "value": 0.2,
+        "price": 47.72321738514617
+      },
+      {
+        "value": 0.24,
+        "price": 53.85442592700434
+      },
+      {
+        "value": 0.28,
+        "price": 59.98563446886251
+      }
+    ],
+    "bridge_error": [
+      {
+        "value": -3,
+        "price": 47.311129473058266
+      },
+      {
+        "value": 0,
+        "price": 47.72321738514617
+      },
+      {
+        "value": 3,
+        "price": 48.13530529723408
+      }
+    ],
+    "unconfirmed_bills_classification": [
+      {
+        "value": 0,
+        "price": 48.07774051786595
+      },
+      {
+        "value": 2.5809284062,
+        "price": 47.72321738514617
+      }
+    ],
+    "placement_illustration": [
+      {
+        "issue_price": 40,
+        "gross": 12.999078,
+        "fee_ratio": 0.01,
+        "net_cash": 12.86908722,
+        "new_shares": 0.32497695000000004,
+        "post_shares": 7.60497695,
+        "post_price": 47.3760949116176,
+        "post_2029_eps": 5.3119819120556295
+      },
+      {
+        "issue_price": 55,
+        "gross": 12.999078,
+        "fee_ratio": 0.01,
+        "net_cash": 12.86908722,
+        "new_shares": 0.23634687272727276,
+        "post_shares": 7.516346872727273,
+        "post_price": 47.93473689874201,
+        "post_2029_eps": 5.3746189051732705
+      },
+      {
+        "issue_price": 70,
+        "gross": 12.999078,
+        "fee_ratio": 0.01,
+        "net_cash": 12.86908722,
+        "new_shares": 0.18570111428571429,
+        "post_shares": 7.465701114285714,
+        "post_price": 48.259916151001114,
+        "post_2029_eps": 5.411079198268313
+      }
+    ],
+    "placement_note": "假设估值日即按上限发行，费用为自主假设1%；同一经营价值下同时增加净现金与股数。没有额外项目利润重复加入；价格与费用均非已确定发行条件。",
+    "long_deposit_classification": [
+      {
+        "case": "H1长期定存不再独立存在，全部归零",
+        "price": 47.411083070090406
+      },
+      {
+        "case": "维持H1长期定存代理",
+        "price": 47.72321738514617
+      },
+      {
+        "case": "Q3其他非流动资产减0.26亿工程土地后全部视作定存上限",
+        "price": 48.23255789960194
+      }
+    ],
+    "all_deposit_proxies_zero": {
+      "removed_financial_assets": 16.567828351256,
+      "price": 45.44741678744617,
+      "scope": "分类重度压力；并非判断定存消失。"
+    }
+  },
+  "decision_metrics": {
+    "base_price": 47.72321738514617,
+    "premium_to_base": 0.4452085123134819,
+    "base_upside": -0.30805832412431244
+  },
+  "missing_information": [
+    "终端AI客户及各高速等级独立收入/在手订单、未来两年锁定合同金额N/A",
+    "精确经济ROIC及新增项目实际ROIC N/A；采用保守财务资本代理与可研IRR交叉判断",
+    "9/30至11/11完整现金债务及票据融资明细N/A；桥接采用公开事件加共同基准滚动，另测误差",
+    "发行价格、发行数量、到账日期N/A；主模型发行前，另测现金与摊薄同时发生"
+  ]
+}

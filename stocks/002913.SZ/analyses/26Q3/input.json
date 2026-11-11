@@ -1,0 +1,536 @@
+{
+  "company": "奥士康",
+  "ticker": "002913.SZ",
+  "analysis_period": "26Q3",
+  "tracking_type": "首次跟踪",
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "information_cutoff": "2026-11-20 Asia/Shanghai；行情冻结15:07:15",
+  "valuation_date": "2026-11-20",
+  "balance_date": "2026-09-30",
+  "market_price": 55.08,
+  "market_snapshot": {
+    "provider": "腾讯行情",
+    "timestamp": "2026-11-20 15:07:15",
+    "price": 55.08,
+    "shares": 3.10527104,
+    "total_shares": 3.17360504,
+    "treasury_shares": 0.068334,
+    "raw_quote": "v_sz002913=\"51~��ʿ��~002913~55.08~54.42~52.38~129843~63660~66182~55.08~44~0.00~0~0.00~0~0.00~0~0.00~0~55.08~0~0.00~0~0.00~0~0.00~0~0.00~0~~20261120150715~0.66~1.21~58.30~52.00~55.08/129843/718374201~129843~71837~4.25~36.43~~58.30~52.00~11.58~168.24~174.80~3.76~59.86~48.98~1.23~44~55.33~28.85~56.77~~~2.33~71837.4201~2.7540~5~   B~GP-A~29.77~-9.93~0.54~10.27~3.98~98.18~32.25~3.71~-24.12~-6.31~305438924~317360504~100.00~9.89~305438924~~~62.03~0.11~~CNY~0~~0.00~0~\";",
+    "shares_basic_ex_treasury": 3.10527104,
+    "shares_fully_diluted_tsm": 3.1571183893100945
+  },
+  "index_membership": {
+    "index_code": "980080",
+    "official_sample_date": "2026-11-11",
+    "present": true,
+    "source": "ConstituentStock.md"
+  },
+  "financial_history": {
+    "24FY": {
+      "revenue": 45.6593,
+      "parent_profit": 3.5328,
+      "recurring_parent_profit": 3.3955,
+      "core_ebit": 3.0286,
+      "cfo": 8.5011,
+      "cash_capex": 6.798,
+      "shares": 3.17360504
+    },
+    "25Q3": {
+      "revenue": 40.3169,
+      "parent_profit": 2.8245,
+      "net_profit": 2.7644,
+      "core_ebit": 2.7415,
+      "cfo": 1.8539,
+      "cash_capex": 3.0387,
+      "shares": 3.17360504
+    },
+    "25FY": {
+      "revenue": 55.296,
+      "parent_profit": 3.0791,
+      "recurring_parent_profit": 3.078,
+      "net_profit": 2.9736,
+      "core_ebit": 3.1288,
+      "cfo": 2.5832,
+      "cash_capex": 5.1264,
+      "da": 4.5599,
+      "shares": 3.17360504
+    },
+    "26Q1": {
+      "revenue": 13.1326,
+      "parent_profit": 0.1745,
+      "net_profit": 0.1049,
+      "core_ebit": 0.5584,
+      "cfo": 1.487,
+      "cash_capex": 2.5981213044
+    },
+    "26H1": {
+      "revenue": 29.8654,
+      "parent_profit": 0.8266,
+      "recurring_parent_profit": 0.7871,
+      "net_profit": 0.678,
+      "minority_profit": -0.1486,
+      "core_ebit": 1.5658,
+      "cfo": 1.844,
+      "cash_capex": 3.9269,
+      "da": 2.4697
+    },
+    "26Q3": {
+      "revenue": 51.1321,
+      "single_q3_revenue": 21.2667,
+      "parent_profit": 4.5439,
+      "recurring_parent_profit": 4.5282,
+      "net_profit": 4.3239,
+      "minority_profit": -0.22,
+      "core_ebit": 6.2494,
+      "cfo": 0.9514,
+      "cash_capex": 6.7128,
+      "cash_after_capex": -5.7614,
+      "sales_cash": 40.1921,
+      "shares": 3.17360504
+    }
+  },
+  "normalization": {
+    "core_ebit_definition": "报表营业利润+财务费用-其他收益-投资收益-公允价值变动收益-资产处置收益；将整项财务费用视为融资、汇兑及资金管理项目而予剔除；保留研发、信用及存货减值。",
+    "core_ebit_2026_9m": 6.2494,
+    "core_ebit_ttm": 6.636699999999999,
+    "core_ebit_ttm_margin": 0.10038692384951414,
+    "ttm_revenue": 66.1112,
+    "ttm_parent_profit": 4.798499999999999,
+    "ttm_group_profit": 4.533099999999999,
+    "ttm_cfo": 1.6807,
+    "ttm_capex": 8.8005,
+    "ttm_cfo_after_capex": -7.1198,
+    "shares_outstanding_ex_treasury": 3.10527104,
+    "nci_balance": 1.0011,
+    "notes": "2026Q3未披露单季利润表，Q3用累计减H1；财务费用包含显著汇兑变动，预测不外推9M26汇兑损失。"
+  },
+  "bridge": {
+    "cash_equivalents": 15.4452,
+    "operating_cash": 5.0,
+    "nonoperating_financial_assets": 0,
+    "debt_components": {
+      "short_term_borrowings": 10.5987,
+      "current_maturities": 0.8398,
+      "long_term_borrowings": 4.6715,
+      "convertible_bond_liability_component": 9.6771,
+      "lease_liabilities": 0.0774
+    },
+    "other_claims": 1.0011,
+    "shares": 3.1571183893100945,
+    "other_claims_basis": "2026-09-30少数股东权益账面值1.001亿元；TTM少数股东损益亏损，不使用收益倍数估算。可转债按负债成分计入债务，当前股价低于转股价故不作转股稀释。基本流通股扣除回购股份后，另按库存股法计入已授予、假设满足条件的价内股票期权稀释。"
+  },
+  "bridge_adjustments": [
+    {
+      "amount": -1.453,
+      "reason": "9/30至估值日的基准Q4 FCFF与税后利息按天数估算，并扣除11/3已披露股份回购支出约0.504亿元。"
+    }
+  ],
+  "assumptions": {
+    "forecast_tax_rate": 0.15,
+    "basis": "收入预测考虑AIPC、汽车电子、高层数高速PCB、全球三基地及南通项目分期；但AI服务器目前占比不足1%，未将行业主题当作已实现订单。",
+    "operating_cash_reserve": 5,
+    "nwc": "9M26应收与存货增幅显著、CFO下降；营运资金增量率为12%—20%。",
+    "capex": "9M26现金CapEx 6.71亿元；可转债净募资9.91亿元用于高端PCB项目。南通一期约25亿元需分期融资，基准预测对其给予分期投入及未充分获客风险折扣。",
+    "eps_forecast": "2027/2029归母EPS按基准收入和EBIT率，扣0.4—0.7亿元正常化年度净融资成本，采用15%税率、95%—100%归母比例及TSM股数估算。"
+  },
+  "scenarios": {
+    "bear": {
+      "wacc": 0.115,
+      "terminal_growth": 0.015,
+      "terminal_roic": 0.075,
+      "terminal_margin": 0.065,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 70,
+      "incremental_nwc_ratio": 0.2,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "after_tax_interest": 0.3,
+        "revenue": 18.9,
+        "ebit_margin": 0.075,
+        "tax_rate": 0.15,
+        "da": 1.5,
+        "capex": 3.2,
+        "delta_nwc": 1.2
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 72,
+          "ebit_margin": 0.08,
+          "tax_rate": 0.15,
+          "da": 5,
+          "capex": 11
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 75,
+          "ebit_margin": 0.075,
+          "tax_rate": 0.15,
+          "da": 5.2,
+          "capex": 10
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 78,
+          "ebit_margin": 0.07,
+          "tax_rate": 0.15,
+          "da": 5.4,
+          "capex": 9
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 81,
+          "ebit_margin": 0.07,
+          "tax_rate": 0.15,
+          "da": 5.6,
+          "capex": 8.5
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 84,
+          "ebit_margin": 0.065,
+          "tax_rate": 0.15,
+          "da": 5.8,
+          "capex": 8
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 87,
+          "ebit_margin": 0.065,
+          "tax_rate": 0.15,
+          "da": 6,
+          "capex": 8
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 90,
+          "ebit_margin": 0.065,
+          "tax_rate": 0.15,
+          "da": 6.2,
+          "capex": 8
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.1,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.1,
+      "terminal_margin": 0.075,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 70,
+      "incremental_nwc_ratio": 0.15,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "after_tax_interest": 0.3,
+        "revenue": 18.9,
+        "ebit_margin": 0.105,
+        "tax_rate": 0.15,
+        "da": 1.5,
+        "capex": 3.3,
+        "delta_nwc": 0.8
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 78,
+          "ebit_margin": 0.1,
+          "tax_rate": 0.15,
+          "da": 5.2,
+          "capex": 11.5
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 86,
+          "ebit_margin": 0.095,
+          "tax_rate": 0.15,
+          "da": 5.6,
+          "capex": 13
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 94,
+          "ebit_margin": 0.09,
+          "tax_rate": 0.15,
+          "da": 6.0,
+          "capex": 14
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 102,
+          "ebit_margin": 0.085,
+          "tax_rate": 0.15,
+          "da": 6.4,
+          "capex": 13
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 109,
+          "ebit_margin": 0.08,
+          "tax_rate": 0.15,
+          "da": 6.8,
+          "capex": 12
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 115,
+          "ebit_margin": 0.075,
+          "tax_rate": 0.15,
+          "da": 7.2,
+          "capex": 11.5
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 120,
+          "ebit_margin": 0.075,
+          "tax_rate": 0.15,
+          "da": 7.5,
+          "capex": 11
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.09,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.14,
+      "terminal_margin": 0.12,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 72,
+      "incremental_nwc_ratio": 0.12,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "after_tax_interest": 0.3,
+        "revenue": 20.9,
+        "ebit_margin": 0.14,
+        "tax_rate": 0.15,
+        "da": 1.5,
+        "capex": 3.5,
+        "delta_nwc": 0.8
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 88,
+          "ebit_margin": 0.14,
+          "tax_rate": 0.15,
+          "da": 5.8,
+          "capex": 14
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 105,
+          "ebit_margin": 0.14,
+          "tax_rate": 0.15,
+          "da": 6.5,
+          "capex": 17
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 125,
+          "ebit_margin": 0.135,
+          "tax_rate": 0.15,
+          "da": 7.5,
+          "capex": 18
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 145,
+          "ebit_margin": 0.13,
+          "tax_rate": 0.15,
+          "da": 8.5,
+          "capex": 18
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 165,
+          "ebit_margin": 0.13,
+          "tax_rate": 0.15,
+          "da": 9.5,
+          "capex": 18
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 185,
+          "ebit_margin": 0.125,
+          "tax_rate": 0.15,
+          "da": 10.5,
+          "capex": 17
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 205,
+          "ebit_margin": 0.12,
+          "tax_rate": 0.15,
+          "da": 11.5,
+          "capex": 17
+        }
+      ]
+    }
+  },
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2029,
+    "base_eps": 1.92,
+    "end_eps": 2.08
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "revenue_growth",
+    "stage": "growth",
+    "lower": -0.1,
+    "upper": 1.5,
+    "price_tolerance": 0.001,
+    "search_steps": 160,
+    "reinvestment": {
+      "capex": "revenue_ratio",
+      "da": "revenue_ratio"
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.09,
+      0.1,
+      0.11
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.03
+    ],
+    "capex_multipliers": [
+      0.8,
+      1,
+      1.2
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "24FY 财报原文",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223279323.PDF",
+      "notes": "主要指标p7；经营讨论p10—16；合并报表p70—79；现金流补充资料p168。",
+      "sha256": "ad4cc57ba0faff65be6b1a091b981178c994f6b343b54ec95218de51401e7509",
+      "bytes": 1312324
+    },
+    {
+      "id": "S2",
+      "title": "25Q3 财报原文",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-28/1224738848.PDF",
+      "notes": "主要指标p2—3；变动说明p3—4；合并报表p6—11。",
+      "sha256": "5fa90dcbc11f4d937876ed4af14f9bf91ec0a1e5c5f7e001bb933450bba16ab3",
+      "bytes": 206662
+    },
+    {
+      "id": "S3",
+      "title": "25FY 财报原文",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225229100.PDF",
+      "notes": "主要指标p7；经营讨论p10—14；产品/地区/客户p14—16；合并报表p66—75；现金流补充资料p157。",
+      "sha256": "435e46e2b540d19da6374fa0195bfaf118123ebbbe58cbaeb3885e4d50a1f86f",
+      "bytes": 1243713
+    },
+    {
+      "id": "S4",
+      "title": "26Q1 财报原文",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225229108.PDF",
+      "notes": "主要指标p2—3；合并报表p5—10。",
+      "sha256": "ba30043b6da0a949248ff31b5756e984136730459ab11add543cf1118e79f295",
+      "bytes": 192324
+    },
+    {
+      "id": "S5",
+      "title": "26H1 财报原文",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225521749.PDF",
+      "notes": "主要指标p6—7；AI服务器/三基地p9—11；业务结构p11—13；合并报表p34—44；现金流补充资料p121。",
+      "sha256": "01377a285d7d533b65899844f6f830b87e811acf3f1d6f03776556f4ebb8a2c4",
+      "bytes": 983945
+    },
+    {
+      "id": "S6",
+      "title": "26Q3 财报原文",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225617232.PDF",
+      "notes": "主要指标p2；变动说明p3—4；回购/股东信息p4—5；合并报表p5—11。",
+      "sha256": "744680cdb7da5455f98e671dbbc2f1ec3b27bdeff6fbc6e91297ac4624cef9c2",
+      "bytes": 199431
+    },
+    {
+      "id": "S7",
+      "title": "2026年11月交易异动公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-12/1225667619.PDF",
+      "notes": "AI服务器收入占比不足1%；H股、南通项目、回购及转债状态。"
+    },
+    {
+      "id": "S8",
+      "title": "南通基地投资协议公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225633781.PDF",
+      "notes": "总规划投资60亿元、一期约25亿元；审批、融资和投产不确定。"
+    },
+    {
+      "id": "S9",
+      "title": "可转债募集说明书",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-21/1225572948.PDF",
+      "notes": "发行10亿元，净额约9.908亿元用于高端PCB；初始转股价83.96元，期权激励情况。"
+    },
+    {
+      "id": "S10",
+      "title": "2025年股票期权预留授予登记公告（公告编号2026-083）",
+      "url": "https://www.cninfo.com.cn/new/disclosure/stock?orgId=9900033854&stockCode=002913",
+      "notes": "2026-11-18公司公告编号2026-083：预留授予212万份、行权价28.00元；首次授予852万份、行权价28.30元见S9。"
+    },
+    {
+      "id": "S11",
+      "title": "南通项目股东会决议（公告编号2026-081）",
+      "url": "https://www.cninfo.com.cn/new/disclosure/stock?orgId=9900033854&stockCode=002913",
+      "notes": "CNINFO官方公司公告列表；2026-11-14公告编号2026-081：南通项目股东会通过；2026-11-14公告编号2026-082：本次不下修转债且三个月内不提下修；2026-11-18公告编号2026-083：预留期权登记完成。"
+    },
+    {
+      "id": "S12",
+      "title": "国证成长100指数信息",
+      "url": "https://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=980080",
+      "notes": "仓库官方样本清单样本日2026-11-11列奥士康。"
+    },
+    {
+      "id": "S13",
+      "title": "腾讯行情快照",
+      "url": "https://qt.gtimg.cn/q=sz002913",
+      "notes": "2026-11-20 15:07:15，北京时间，盘中55.08元，总股本317,360,504股。"
+    },
+    {
+      "id": "S14",
+      "title": "2026年8月AI业务交易异动公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225465004.PDF",
+      "notes": "公司披露2025年AI服务器收入占比不足1%、AIPC约7%；AMD处于送样，未形成规模收入。"
+    }
+  ]
+}

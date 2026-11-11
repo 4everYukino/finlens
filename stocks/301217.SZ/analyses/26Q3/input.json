@@ -1,0 +1,709 @@
+{
+  "company": "铜冠铜箔",
+  "code": "301217.SZ",
+  "report": "2026Q3",
+  "tracking": "首次跟踪",
+  "information_cutoff": "2026-11-19 10:30 Asia/Shanghai",
+  "valuation_date": "2026-11-18",
+  "balance_date": "2026-09-30",
+  "market_price": 61.96,
+  "quote_time": "2026-11-19 10:25:27 新浪和 10:25:24 腾讯分别读取昨收，均为 2026-11-18 收盘价",
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "index_verification": {
+    "index_code": "980080",
+    "checked_on": "2026-11-19",
+    "actual_sample_date": "2026-11-18",
+    "weight_percent": null
+  },
+  "sources": {
+    "S1": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628605.PDF",
+    "S2": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225509625.PDF",
+    "S3": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225201428.PDF",
+    "S4": "https://static.cninfo.com.cn/finalpage/2025-10-27/1224731165.PDF",
+    "S5": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118023.PDF",
+    "S6": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223191708.PDF",
+    "S7": "https://static.cninfo.com.cn/finalpage/2025-08-16/1224498159.PDF",
+    "S8": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628609.PDF",
+    "S9": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610354.PDF",
+    "S10": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225509627.PDF",
+    "S11": "https://www.cnindex.com.cn/sample-detail/download?indexcode=980080&date=2026-11-19",
+    "S12": [
+      "https://hq.sinajs.cn/list=sz301217",
+      "https://qt.gtimg.cn/q=sz301217"
+    ],
+    "S13": "https://yield.chinabond.com.cn/cbweb-czb-web/czb/moreInfo?locale=cn_ZH&nameType=1"
+  },
+  "consolidated_financials_yuan": {
+    "24FY": {
+      "revenue": 4718910384.26,
+      "cost": 4745979374.74,
+      "turnover_taxes": 17514699.48,
+      "selling": 6954462.57,
+      "administrative": 28102286.56,
+      "rd": 67210813.47,
+      "finance_cost": 20660798.21,
+      "credit_gain_loss": -44165873.46,
+      "asset_gain_loss": -34401190.08,
+      "pretax_profit": -213733133.7,
+      "net_profit": -156344883.01,
+      "recurring_net_profit": -180792564.14,
+      "operating_cf": -464747527.87,
+      "cash_capex": 418387661.44,
+      "gross_profit": -27068990.48,
+      "core_ebit": -225418316.1,
+      "gross_margin": -0.005736279834914654,
+      "core_ebit_margin": -0.0477691453628546,
+      "operating_cf_less_cash_capex": -883135189.31
+    },
+    "25FY": {
+      "revenue": 6689205991.67,
+      "cost": 6451731301.85,
+      "turnover_taxes": 23342145.79,
+      "selling": 7299077.42,
+      "administrative": 34484133.35,
+      "rd": 93663566.58,
+      "finance_cost": 43759203.9,
+      "credit_gain_loss": -18105289.02,
+      "asset_gain_loss": -22582214.86,
+      "pretax_profit": 52923788.85,
+      "net_profit": 62649871.76,
+      "recurring_net_profit": 46658524.31,
+      "operating_cf": -171476027.04,
+      "cash_capex": 312859728.28,
+      "gross_profit": 237474689.82,
+      "core_ebit": 37998262.8,
+      "gross_margin": 0.035501177586058016,
+      "core_ebit_margin": 0.005680534109327601,
+      "operating_cf_less_cash_capex": -484335755.32
+    },
+    "25Q3": {
+      "revenue": 4734686665.66,
+      "cost": 4555469963.96,
+      "turnover_taxes": 17067539.9,
+      "selling": 5486483.15,
+      "administrative": 21890896.05,
+      "rd": 65317711.5,
+      "finance_cost": 32960932.77,
+      "credit_gain_loss": -6292352.1,
+      "asset_gain_loss": -15014446.91,
+      "pretax_profit": 59427527.22,
+      "net_profit": 62724347.48,
+      "recurring_net_profit": 48007311.48,
+      "operating_cf": -404405831.69,
+      "cash_capex": 253372957.67,
+      "gross_profit": 179216701.7,
+      "core_ebit": 48147272.09,
+      "gross_margin": 0.03785186103229025,
+      "core_ebit_margin": 0.010169051405070843,
+      "operating_cf_less_cash_capex": -657778789.36
+    },
+    "26Q1": {
+      "revenue": 1841754256.18,
+      "cost": 1679831439.36,
+      "turnover_taxes": 5962137.35,
+      "selling": 1756206.73,
+      "administrative": 7635885.07,
+      "rd": 26628433.19,
+      "finance_cost": 12608454.98,
+      "credit_gain_loss": 8797026.7,
+      "asset_gain_loss": 3195417.72,
+      "pretax_profit": 127541695.41,
+      "net_profit": 106347061.66,
+      "recurring_net_profit": 102051079.29,
+      "operating_cf": -319063339.21,
+      "cash_capex": 47681795.32,
+      "gross_profit": 161922816.82,
+      "core_ebit": 131932598.9,
+      "gross_margin": 0.08791771012699905,
+      "core_ebit_margin": 0.07163420334569644,
+      "operating_cf_less_cash_capex": -366745134.53
+    },
+    "26H1": {
+      "revenue": 4021121522.41,
+      "cost": 3682386603.23,
+      "turnover_taxes": 12539460.77,
+      "selling": 3532159.04,
+      "administrative": 18247908.69,
+      "rd": 55607875.14,
+      "finance_cost": 24129234.79,
+      "credit_gain_loss": 14316991.49,
+      "asset_gain_loss": 3885512.8,
+      "pretax_profit": 258121749.28,
+      "net_profit": 214879534.74,
+      "recurring_net_profit": 207322000.64,
+      "operating_cf": -285030070.75,
+      "cash_capex": 61064400.08,
+      "gross_profit": 338734919.18,
+      "core_ebit": 267010019.83,
+      "gross_margin": 0.08423891625562817,
+      "core_ebit_margin": 0.06640187777015291,
+      "operating_cf_less_cash_capex": -346094470.83
+    },
+    "26Q3": {
+      "revenue": 6533181466.16,
+      "cost": 5969313073.2,
+      "turnover_taxes": 19943807.99,
+      "selling": 5942005.61,
+      "administrative": 28439295.85,
+      "rd": 91337939.07,
+      "finance_cost": 33897512.09,
+      "credit_gain_loss": -4274998.13,
+      "asset_gain_loss": 4457267.58,
+      "pretax_profit": 405062677.5,
+      "net_profit": 338551786.11,
+      "recurring_net_profit": 327594337.69,
+      "operating_cf": -89165586.56,
+      "cash_capex": 89942229.62,
+      "gross_profit": 563868392.96,
+      "core_ebit": 418387613.89,
+      "gross_margin": 0.08630839291403064,
+      "core_ebit_margin": 0.0640404091111088,
+      "operating_cf_less_cash_capex": -179107816.18
+    },
+    "26Q2_single": {
+      "revenue": 2179367266.23,
+      "cost": 2002555163.87,
+      "turnover_taxes": 6577323.42,
+      "selling": 1775952.31,
+      "administrative": 10612023.62,
+      "rd": 28979441.95,
+      "finance_cost": 11520779.81,
+      "credit_gain_loss": 5519964.79,
+      "asset_gain_loss": 690095.08,
+      "pretax_profit": 130580053.87,
+      "net_profit": 108532473.08,
+      "recurring_net_profit": 105270921.35,
+      "operating_cf": 34033268.46,
+      "cash_capex": 13382604.76,
+      "gross_profit": 176812102.36,
+      "core_ebit": 135077420.93,
+      "gross_margin": 0.08113001654184711,
+      "core_ebit_margin": 0.061980109100043985,
+      "operating_cf_less_cash_capex": 20650663.7
+    },
+    "26Q3_single": {
+      "revenue": 2512059943.75,
+      "cost": 2286926469.97,
+      "turnover_taxes": 7404347.22,
+      "selling": 2409846.57,
+      "administrative": 10191387.16,
+      "rd": 35730063.93,
+      "finance_cost": 9768277.3,
+      "credit_gain_loss": -18591989.62,
+      "asset_gain_loss": 571754.78,
+      "pretax_profit": 146940928.22,
+      "net_profit": 123672251.37,
+      "recurring_net_profit": 120272337.05,
+      "operating_cf": 195864484.19,
+      "cash_capex": 28877829.54,
+      "gross_profit": 225133473.78,
+      "core_ebit": 151377594.06,
+      "gross_margin": 0.08962105953726607,
+      "core_ebit_margin": 0.060260343084816564,
+      "operating_cf_less_cash_capex": 166986654.65
+    },
+    "26Q3_TTM": {
+      "revenue": 8487700792.17,
+      "cost": 7865574411.09,
+      "turnover_taxes": 26218413.88,
+      "selling": 7754599.88,
+      "administrative": 41032533.15,
+      "rd": 119683794.15,
+      "finance_cost": 44695783.22,
+      "credit_gain_loss": -16087935.05,
+      "asset_gain_loss": -3110500.37,
+      "pretax_profit": 398558939.13,
+      "net_profit": 338477310.39,
+      "recurring_net_profit": 326245550.52,
+      "operating_cf": 143764218.09,
+      "cash_capex": 149429000.23,
+      "gross_profit": 622126381.08,
+      "core_ebit": 408238604.6,
+      "gross_margin": 0.07329739776570808,
+      "core_ebit_margin": 0.048097666800013116,
+      "operating_cf_less_cash_capex": -5664782.14
+    }
+  },
+  "balance_sheet_yuan": {
+    "25Q3": {
+      "equity": 5411467024.77,
+      "cash": 439720006.57,
+      "financial_assets": 402245787.67,
+      "short_debt": 584383687.45,
+      "debt_due_within_year": 216354067.22,
+      "long_debt": 412000000.0,
+      "derivatives": 527550.0,
+      "ar": 1432263343.52,
+      "notes": 477184934.23,
+      "ar_financing": 563874955.36,
+      "prepayment": 1139804.43,
+      "inventory": 853467690.72,
+      "ap": 545146407.15,
+      "notes_payable": 16000000,
+      "contract_liabilities": 4389833.37,
+      "operating_nwc": 2762394487.74,
+      "invested_capital": 59.32766535200001
+    },
+    "25FY": {
+      "ar": 1529215994.97,
+      "notes": 439746200.84,
+      "ar_financing": 480282156.59,
+      "prepayment": 343316.43,
+      "inventory": 693522531.86,
+      "ap": 483315651.59,
+      "notes_payable": 16000000,
+      "contract_liabilities": 2842505.48,
+      "operating_nwc": 2640952043.62
+    },
+    "26Q3": {
+      "equity": 5734793342.79,
+      "cash_total": 631865870.5,
+      "cash": 631825870.5,
+      "financial_assets": 241302986.32,
+      "short_debt": 907820465.06,
+      "debt_due_within_year": 76249000.56,
+      "long_debt": 336000000,
+      "derivatives": 2083950,
+      "ar": 1845225592.43,
+      "notes": 590766467.45,
+      "ar_financing": 567970346.86,
+      "prepayment": 1732851.81,
+      "inventory": 867697145.47,
+      "ap": 441053287.37,
+      "notes_payable": 0,
+      "contract_liabilities": 5371645.18,
+      "operating_nwc": 3426967471.47,
+      "invested_capital": 63.3381790159
+    }
+  },
+  "business_disclosure": {
+    "production_tonnes": {
+      "2025FY": 71462,
+      "2025H1": 35078,
+      "2026H1": 36228
+    },
+    "sales_tonnes_2025FY": 72070,
+    "annual_copper_foil_capacity_tonnes": 80000,
+    "pcb_h1_2025_revenue_yuan": 1703493910.5,
+    "pcb_h1_2025_cost_yuan": 1608731802.14,
+    "pcb_h1_2026_revenue_yuan": 2506790672.73,
+    "pcb_h1_2026_cost_yuan": 2216110476.52,
+    "li_battery_h1_2026_revenue_yuan": 1373865172.49,
+    "li_battery_h1_2026_cost_yuan": 1322131612.95,
+    "pcb_high_speed_production_share_threshold": {
+      "2025H1": 0.3,
+      "2026H1": 0.5
+    },
+    "retrofit_investment": 1.541607,
+    "retrofit_construction_months": 12
+  },
+  "capital_return": {
+    "ttm_nopat": 3.3883804181799997,
+    "average_invested_capital": 61.332922183950004,
+    "ttm_roic": 0.055245703245926425
+  },
+  "bridge": {
+    "cash_equivalents": 6.318258705,
+    "operating_cash": 1.5,
+    "nonoperating_financial_assets": 2.4130298632,
+    "debt_components": {
+      "short_debt": 9.0782046506,
+      "debt_due_within_year": 0.7624900056,
+      "long_debt": 3.36
+    },
+    "other_claims": 0.0208395,
+    "shares": 8.26015644
+  },
+  "bridge_adjustments": [
+    {
+      "amount": 0.9688863733839924,
+      "reason": "按基准 Q4 整段 FCFF 减整季税后利息 0.10 亿元，乘已经过的 49/92 天估算。三情景共享基准日前历史桥接。"
+    },
+    {
+      "amount": -0.4956093864,
+      "reason": "2026-10-26 除息，按公告派发的现金红利减少估值日权益。"
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "wacc": 0.1,
+      "terminal_growth": 0.015,
+      "terminal_roic": 0.075,
+      "terminal_margin": 0.037,
+      "terminal_tax_rate": 0.25,
+      "base_annual_revenue": 84.0,
+      "base_sales_tonnes_assumed": 73000.0,
+      "incremental_nwc_ratio": 0.37,
+      "stub": {
+        "ebit_margin": 0.045,
+        "da": 0.62,
+        "capex": 0.38,
+        "delta_nwc": 0.1,
+        "revenue": 18.6681853384,
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "tax_rate": 0.25
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 76.125,
+          "ebit_margin": 0.041,
+          "tax_rate": 0.25,
+          "da": 2.55,
+          "capex": 2.7,
+          "sales_tonnes_assumed": 72500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.5,
+          "delta_nwc": -0.8
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 77.5425,
+          "ebit_margin": 0.043,
+          "tax_rate": 0.25,
+          "da": 2.6,
+          "capex": 2.75,
+          "sales_tonnes_assumed": 73500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.55
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 79.875,
+          "ebit_margin": 0.045,
+          "tax_rate": 0.25,
+          "da": 2.65,
+          "capex": 2.7,
+          "sales_tonnes_assumed": 75000,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.65
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 81.855,
+          "ebit_margin": 0.046,
+          "tax_rate": 0.25,
+          "da": 2.7,
+          "capex": 2.75,
+          "sales_tonnes_assumed": 76500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.7
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 83.4976,
+          "ebit_margin": 0.044,
+          "tax_rate": 0.25,
+          "da": 2.73,
+          "capex": 2.79,
+          "sales_tonnes_assumed": 77600,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.76
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 85.0452,
+          "ebit_margin": 0.042,
+          "tax_rate": 0.25,
+          "da": 2.76,
+          "capex": 2.82,
+          "sales_tonnes_assumed": 78600,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.82
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 86.3078,
+          "ebit_margin": 0.039,
+          "tax_rate": 0.25,
+          "da": 2.8,
+          "capex": 2.9,
+          "sales_tonnes_assumed": 79400,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 10.87
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.1,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.12,
+      "terminal_margin": 0.075,
+      "terminal_tax_rate": 0.18,
+      "base_annual_revenue": 88.3,
+      "base_sales_tonnes_assumed": 75000.0,
+      "incremental_nwc_ratio": 0.31,
+      "stub": {
+        "ebit_margin": 0.065,
+        "da": 0.63,
+        "capex": 0.55,
+        "delta_nwc": -0.6,
+        "revenue": 22.9681853384,
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "tax_rate": 0.17
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 91.8,
+          "ebit_margin": 0.069,
+          "tax_rate": 0.17,
+          "da": 2.6,
+          "capex": 3.65,
+          "sales_tonnes_assumed": 76500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 12.0
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 97.34,
+          "ebit_margin": 0.077,
+          "tax_rate": 0.17,
+          "da": 2.78,
+          "capex": 3.35,
+          "sales_tonnes_assumed": 78500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 12.4
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 102.0,
+          "ebit_margin": 0.083,
+          "tax_rate": 0.17,
+          "da": 2.95,
+          "capex": 3.4,
+          "sales_tonnes_assumed": 80000,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 12.75
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 106.372,
+          "ebit_margin": 0.085,
+          "tax_rate": 0.17,
+          "da": 3.11,
+          "capex": 3.53,
+          "sales_tonnes_assumed": 81200,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 13.1
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 109.71,
+          "ebit_margin": 0.084,
+          "tax_rate": 0.17,
+          "da": 3.28,
+          "capex": 3.72,
+          "sales_tonnes_assumed": 82800,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 13.25
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 113.061,
+          "ebit_margin": 0.081,
+          "tax_rate": 0.17,
+          "da": 3.4,
+          "capex": 3.8,
+          "sales_tonnes_assumed": 84500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 13.38
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 116.1,
+          "ebit_margin": 0.078,
+          "tax_rate": 0.17,
+          "da": 3.52,
+          "capex": 3.91,
+          "sales_tonnes_assumed": 86000,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 13.5
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.1,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.16,
+      "terminal_margin": 0.11,
+      "terminal_tax_rate": 0.17,
+      "base_annual_revenue": 92.5,
+      "base_sales_tonnes_assumed": 77000.0,
+      "incremental_nwc_ratio": 0.27,
+      "stub": {
+        "ebit_margin": 0.078,
+        "da": 0.65,
+        "capex": 0.85,
+        "delta_nwc": -0.15,
+        "revenue": 27.1681853384,
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "tax_rate": 0.17
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 100.965,
+          "ebit_margin": 0.086,
+          "tax_rate": 0.17,
+          "da": 2.65,
+          "capex": 4.3,
+          "sales_tonnes_assumed": 79500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 12.7
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 116.28,
+          "ebit_margin": 0.103,
+          "tax_rate": 0.17,
+          "da": 3.1,
+          "capex": 5.65,
+          "sales_tonnes_assumed": 85500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 13.6
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 136.3,
+          "ebit_margin": 0.113,
+          "tax_rate": 0.17,
+          "da": 3.7,
+          "capex": 6.25,
+          "sales_tonnes_assumed": 94000,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 14.5
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 156.285,
+          "ebit_margin": 0.12,
+          "tax_rate": 0.17,
+          "da": 4.3,
+          "capex": 6.55,
+          "sales_tonnes_assumed": 103500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 15.1
+        },
+        {
+          "year": 2031,
+          "stage": "growth",
+          "revenue": 170.82,
+          "ebit_margin": 0.123,
+          "tax_rate": 0.17,
+          "da": 4.85,
+          "capex": 6.5,
+          "sales_tonnes_assumed": 109500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 15.6
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 180.465,
+          "ebit_margin": 0.12,
+          "tax_rate": 0.17,
+          "da": 5.25,
+          "capex": 6.3,
+          "sales_tonnes_assumed": 113500,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 15.9
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 188.37,
+          "ebit_margin": 0.117,
+          "tax_rate": 0.17,
+          "da": 5.62,
+          "capex": 6.45,
+          "sales_tonnes_assumed": 117000,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 16.1
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 195.6,
+          "ebit_margin": 0.115,
+          "tax_rate": 0.17,
+          "da": 5.94,
+          "capex": 6.52,
+          "sales_tonnes_assumed": 120000,
+          "consolidated_revenue_per_copper_foil_tonne_wanyuan": 16.3
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.08,
+      0.09,
+      0.1,
+      0.11,
+      0.12
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.9,
+      1,
+      1.1
+    ]
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "terminal_margin",
+    "lower": 0.02,
+    "upper": 1.0,
+    "search_steps": 80,
+    "price_tolerance": 0.001
+  },
+  "earnings_projection": [
+    {
+      "year": 2027,
+      "ebit": 6.3342,
+      "net_financial_expense": 0.46,
+      "parent_profit": 4.875586,
+      "shares": 8.26015644,
+      "eps": 0.590253469824114
+    },
+    {
+      "year": 2030,
+      "ebit": 9.04162,
+      "net_financial_expense": 0.46,
+      "parent_profit": 7.122744599999999,
+      "shares": 8.26015644,
+      "eps": 0.8623014166545252
+    }
+  ],
+  "fpeg": {
+    "base_year": 2027,
+    "base_eps": 0.590253469824114,
+    "end_year": 2030,
+    "end_eps": 0.8623014166545252
+  },
+  "assumptions_notes": [
+    "核心 EBIT 为收入减营业成本、税金及附加、销售、管理、研发费用，再加信用及资产减值损益，排除财务及非核心收益。历史合并净利等于归母利润。",
+    "经营营运资金为应收账款、两类票据资产、预付和存货减应付账款、应付票据与合同负债。含未拆分设备应付款等估算误差。贴现未终止确认的部分按报表短借入桥。",
+    "估值股数以 8.29015544 亿股扣回购专户 299.99 万股。运营现金为约一周前三季度经营付现。合并无少数股东权益，未平仓衍生负债账面扣除。",
+    "WACC 以 2026-11-18 财政部十年期国债曲线 1.59% 为参考，权益成本取 11%，税前债务成本 3.5%，目标债务权重 12%，加权约为 10%。",
+    "铜箔销量为自主预测。合并收入除铜箔销量是包含其他收入的综合口径，每吨收入受铜价、加工费及品类结构共同影响。公司未分别披露 HVLP 吨毛利、加工费和新增产能规模。",
+    "基准假设技改建设推进，8 万吨以后产量依赖另行投入的瓶颈改造。乐观情景需要额外扩量，资本开支包括产线及周转配套。资本开支按经济口径估算含维持和增长投入。悲观情景 2027 年收入走弱时，只假定释放 0.80 亿元营运资金，反映回款滞后。",
+    "税率参考 2026 年前三季度有效税率与主体适用税率。母公司续认在半年报时待审核，悲观假定 25%，基准显式期 17% 且永续期 18%。",
+    "季末至估值日净金融头寸包含预测现金滚动及已实施分红。尾段按自然日比例，季度回款时点为估算。",
+    "FPEG 用独立于归母历史年化的基准经营预测按财务费用、税率和流通经济股数推算 EPS。未取得含时点、覆盖及区间的一致预期。"
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "company": "国际复材",
+  "ticker": "301526.SZ",
+  "report_period": "26Q3",
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "information_cutoff": "2026-11-19 23:59:59 +08:00",
+  "valuation_date": "2026-11-19",
+  "market_price": 17.14,
+  "balance_date": "2026-09-30",
+  "market_sources": {
+    "historical": "https://cn.investing.com/equities/chongqing-polycomp-international-historical-data",
+    "prior_close_check": "https://qt.gtimg.cn/q=sz301526",
+    "index_samples": "https://www.cnindex.com.cn/sample-detail/download?indexcode=980080&date=2026-11-20",
+    "government_yield": "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/more?locale=cn_zh"
+  },
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2030,
+    "base_eps": 0.5678200071030247,
+    "end_eps": 0.7179229785582288
+  },
+  "fpeg_eps_bridge": {
+    "tax_rate": 0.17,
+    "net_financing_cost": {
+      "2027": 2.8,
+      "2030": 3.35
+    },
+    "minority_profit": {
+      "2027": 0.55,
+      "2030": 0.65
+    },
+    "estimated_parent_profit": {
+      "2027": 21.4118,
+      "2030": 27.072
+    },
+    "shares": 37.70878048,
+    "consensus": "N/A。采用自主预测，缺少基准日可回溯的一致预期覆盖样本和完整序列。"
+  },
+  "bridge": {
+    "cash_equivalents": 11.399618678,
+    "operating_cash": 8,
+    "nonoperating_financial_assets": 2.3063151313,
+    "debt_components": {
+      "短期借款（含在借款中核算的有追索权票据贴现）": 29.8700643217,
+      "一年内到期的非流动负债": 24.1946089957,
+      "长期借款": 58.1760861409,
+      "非流动租赁负债": 1.0466782753,
+      "拆借款（长期应付款）": 2.0
+    },
+    "other_claims": 3.8021729443,
+    "shares": 37.70878048
+  },
+  "bridge_details": {
+    "cash_balance": 12.5836597478,
+    "excluded_cash_gap": 1.1840410698,
+    "cash_at_group_finance_company_h1": 7.7730920057,
+    "equity_method_investment": 1.3063151313,
+    "finance_company_equity_stake_as_reported": 1.0,
+    "operating_cash_basis": "必要现金取 8 亿元，约为 2026 年估计收入的 7%。历史投入资本按各期滚动收入的 7% 加回经营现金。",
+    "minority_basis": "Q3 股东权益账面代理。宏发新材少数股权收购已于 H1 完成交割，价款于上半年支付，已反映在三季末资产负债表内。",
+    "parent_funding_after_period": {
+      "refinancing": 2,
+      "cost": 0.0162,
+      "term_years": 3,
+      "note": "用途为归还银行贷款，价值桥接视为债务替换。实际划付日和还款日未详，潜在利息节省未单独加值。"
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "wacc": 0.09,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.085,
+      "terminal_margin": 0.125,
+      "terminal_tax_rate": 0.17,
+      "incremental_nwc_ratio": 0.42,
+      "base_annual_revenue": 113.4482681327,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "uniform_fcff",
+        "revenue": 33.5,
+        "ebit_margin": 0.24,
+        "tax_rate": 0.17,
+        "da": 3.4,
+        "capex": 8.3,
+        "delta_nwc": 1.8,
+        "after_tax_interest": 0.62
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 120,
+          "ebit_margin": 0.178,
+          "tax_rate": 0.17,
+          "da": 13.4,
+          "capex": 24.0
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 123,
+          "ebit_margin": 0.153,
+          "tax_rate": 0.17,
+          "da": 14.3,
+          "capex": 23.5
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 126,
+          "ebit_margin": 0.139,
+          "tax_rate": 0.17,
+          "da": 15.1,
+          "capex": 20.5
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 129,
+          "ebit_margin": 0.132,
+          "tax_rate": 0.17,
+          "da": 15.4,
+          "capex": 18.5
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 132,
+          "ebit_margin": 0.131,
+          "tax_rate": 0.17,
+          "da": 15.6,
+          "capex": 17.5
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 136,
+          "ebit_margin": 0.128,
+          "tax_rate": 0.17,
+          "da": 15.7,
+          "capex": 17.6
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 139,
+          "ebit_margin": 0.127,
+          "tax_rate": 0.17,
+          "da": 15.9,
+          "capex": 17.7
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 141,
+          "ebit_margin": 0.125,
+          "tax_rate": 0.17,
+          "da": 16.0,
+          "capex": 17.8
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.09,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.12,
+      "terminal_margin": 0.18,
+      "terminal_tax_rate": 0.17,
+      "incremental_nwc_ratio": 0.32,
+      "base_annual_revenue": 113.4482681327,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "uniform_fcff",
+        "revenue": 33.5,
+        "ebit_margin": 0.24,
+        "tax_rate": 0.17,
+        "da": 3.4,
+        "capex": 8.3,
+        "delta_nwc": 1.8,
+        "after_tax_interest": 0.62
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 133,
+          "ebit_margin": 0.22,
+          "tax_rate": 0.17,
+          "da": 13.8,
+          "capex": 29.0
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 151,
+          "ebit_margin": 0.222,
+          "tax_rate": 0.17,
+          "da": 15.0,
+          "capex": 28.0
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 164,
+          "ebit_margin": 0.218,
+          "tax_rate": 0.17,
+          "da": 16.4,
+          "capex": 25.0
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 175,
+          "ebit_margin": 0.21,
+          "tax_rate": 0.17,
+          "da": 17.1,
+          "capex": 19.0
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 184,
+          "ebit_margin": 0.202,
+          "tax_rate": 0.17,
+          "da": 17.6,
+          "capex": 20.1
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 191,
+          "ebit_margin": 0.194,
+          "tax_rate": 0.17,
+          "da": 18.1,
+          "capex": 20.7
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 197,
+          "ebit_margin": 0.186,
+          "tax_rate": 0.17,
+          "da": 18.5,
+          "capex": 21.1
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 202,
+          "ebit_margin": 0.18,
+          "tax_rate": 0.17,
+          "da": 19.0,
+          "capex": 21.5
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.09,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.17,
+      "terminal_margin": 0.24,
+      "terminal_tax_rate": 0.17,
+      "incremental_nwc_ratio": 0.25,
+      "base_annual_revenue": 113.4482681327,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "uniform_fcff",
+        "revenue": 33.5,
+        "ebit_margin": 0.24,
+        "tax_rate": 0.17,
+        "da": 3.4,
+        "capex": 8.3,
+        "delta_nwc": 1.8,
+        "after_tax_interest": 0.62
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 143,
+          "ebit_margin": 0.253,
+          "tax_rate": 0.17,
+          "da": 14.1,
+          "capex": 31.0
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 171,
+          "ebit_margin": 0.27,
+          "tax_rate": 0.17,
+          "da": 16.1,
+          "capex": 31.0
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 199,
+          "ebit_margin": 0.28,
+          "tax_rate": 0.17,
+          "da": 18.6,
+          "capex": 29.0
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 222,
+          "ebit_margin": 0.28,
+          "tax_rate": 0.17,
+          "da": 20.5,
+          "capex": 26.0
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 241,
+          "ebit_margin": 0.27,
+          "tax_rate": 0.17,
+          "da": 22.0,
+          "capex": 26.8
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 257,
+          "ebit_margin": 0.26,
+          "tax_rate": 0.17,
+          "da": 23.1,
+          "capex": 27.5
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 270,
+          "ebit_margin": 0.25,
+          "tax_rate": 0.17,
+          "da": 24.0,
+          "capex": 28.3
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 280,
+          "ebit_margin": 0.244,
+          "tax_rate": 0.17,
+          "da": 24.8,
+          "capex": 29.0
+        }
+      ]
+    }
+  },
+  "capacity_basis": {
+    "high_frequency_capacity_100m_meters": 0.2513,
+    "longshan_capacity_100m_meters": 1.11324,
+    "q_cloth_pilot_capacity_100m_meters": 0.023,
+    "f07_fine_yarn_capacity_10k_tons": 3.2,
+    "announced_ex_interest_and_working_capital_investment": {
+      "high_frequency": 29.710766,
+      "f07": 7.910206,
+      "q_cloth_pilot": 3.346413,
+      "longshan": 11.25866
+    },
+    "scenarios_2030": {
+      "bear": {
+        "high_frequency_sold_ratio": 0.65,
+        "high_frequency_blended_asp": 35,
+        "longshan_sold_ratio": 0.75,
+        "longshan_blended_asp": 10,
+        "gross_cloth_revenue": 14.066375,
+        "displaced_sales": 4.066375,
+        "increment": 10,
+        "legacy": 119
+      },
+      "base": {
+        "high_frequency_sold_ratio": 0.85,
+        "high_frequency_blended_asp": 55,
+        "longshan_sold_ratio": 0.85,
+        "longshan_blended_asp": 14,
+        "gross_cloth_revenue": 24.995831,
+        "displaced_sales": 3.995831,
+        "increment": 21,
+        "legacy": 154
+      },
+      "bull": {
+        "high_frequency_sold_ratio": 0.95,
+        "high_frequency_blended_asp": 80,
+        "longshan_sold_ratio": 0.95,
+        "longshan_blended_asp": 19,
+        "gross_cloth_revenue": 39.192782,
+        "displaced_sales": 4.192782,
+        "increment": 35,
+        "legacy": 187
+      }
+    },
+    "base_high_frequency_and_longshan_net_revenue_path": [
+      4,
+      12,
+      17,
+      21,
+      23,
+      24,
+      25,
+      26
+    ],
+    "base_capital_budget_explanation": "2027—2030 年资本开支总额 101 亿元，约 48 亿元为披露项目截至 2026 年末后的建设支出假设，约 53 亿元为持续更新及其他支出。"
+  },
+  "wacc_basis": {
+    "ten_year_cgb": 0.015755,
+    "beta_assumption": 1.25,
+    "equity_risk_premium": 0.055,
+    "additional_risk_premium": 0.0175,
+    "pre_tax_debt_cost": 0.031
+  },
+  "sensitivity": {
+    "wacc": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.8,
+      1,
+      1.2
+    ]
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "revenue_growth",
+    "stage": "growth",
+    "lower": -0.15,
+    "upper": 1.0,
+    "reinvestment": {
+      "capex": "revenue_ratio",
+      "da": "revenue_ratio"
+    },
+    "price_tolerance": 0.001
+  },
+  "case_checks": {
+    "placement": {
+      "gross_proceeds_limit": 50,
+      "shares_limit": 342692882,
+      "illustrative_fees": 0.45,
+      "issue_prices": [
+        13.712,
+        17.14
+      ]
+    },
+    "limited_cash": {
+      "amount": 7.7730920057,
+      "description": "以最近可得的半年报同集团财务公司存款规模作为资金集中压力测试。"
+    },
+    "macrofa_assets": {
+      "amount": 5.9138890136,
+      "assumed_loss_ratio": 0.5,
+      "description": "宏发新材受限固定资产及存货的八月披露账面值。不计经营影响的额外折损压力测试。"
+    },
+    "one_year_delay": {
+      "capex_changes": [
+        -4.0,
+        -2.0,
+        3.0,
+        3.0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "da_changes": [
+        -0.4,
+        -0.8,
+        -0.7,
+        -0.6,
+        -0.3,
+        -0.15,
+        0,
+        0
+      ],
+      "margin_changes": [
+        -0.005,
+        -0.014,
+        -0.012,
+        -0.009,
+        -0.004,
+        0,
+        0,
+        0
+      ],
+      "description": "高速布与龙山项目净增量顺延一年，并相应调整设备购置、折旧与良率费用。"
+    }
+  },
+  "model_notes": [
+    "三情景应用同一 WACC、成熟增速和估值年度剩余现金流，经营假设决定价值差异。",
+    "必要经营现金在桥接中剔除，未来新增现金储备和票据回款等占款纳入营运资金。",
+    "F07 细纱按纱布一体化计，避免重复计同一产品在纱与布的营业收入。",
+    "基准给予 Q 布中试投入，不给独立商业化收入。乐观成长含高端业务整体渗透贡献，未单列 Q 布收入。",
+    "资金约束已进入悲观和延期情形。拟定增未进入当期桥接，到账和股数按独立情形测算。"
+  ]
+}

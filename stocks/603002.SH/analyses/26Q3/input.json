@@ -1,0 +1,673 @@
+{
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "issuer": {
+    "name": "宏昌电子材料股份有限公司",
+    "ticker": "603002.SH",
+    "report_period": "26Q3"
+  },
+  "information_cutoff": "2026-11-20",
+  "valuation_date": "2026-11-20",
+  "balance_date": "2026-09-30",
+  "market_price": 11.56,
+  "market_reference": {
+    "stock_daily_url": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh603002,day,,,10",
+    "daily_bar": [
+      "2026-11-20",
+      "11.400",
+      "11.560",
+      "12.200",
+      "11.300",
+      "614293.000"
+    ],
+    "quote_cst": "20261120161439",
+    "raw_quote": "1~宏昌电子~603002~11.56~11.66~11.40~614293~303885~310408~11.56~1396~11.55~907~11.54~474~11.53~250~11.52~480~11.57~176~11.58~47~11.59~34~11.60~51~11.61~43~~20261120161439~-0.10~-0.86~12.20~11.30~11.56/614293/728847073~614293~72885~5.42~49.17~~12.20~11.30~7.72~131.10~131.10~3.55~12.83~10.49~1.55~3156~11.86~38.45~370.63~~~2.54~72884.7073~33.8708~293~   A~GP-A~56.75~-6.77~0.13~7.22~3.86~27.45~6.59~-10.25~-17.72~-29.17~1134078509~1134078509~81.80~-5.05~1134078509~~~48.68~0.17~~CNY~0~___D__F__N~11.50~2156~",
+    "eastmoney_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.603002&klt=101&fqt=0&lmt=5&end=20261120&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57",
+    "eastmoney_daily_bar": [
+      "2026-11-20",
+      "11.40",
+      "11.56",
+      "12.20",
+      "11.30",
+      "614293",
+      "728847073.00"
+    ],
+    "index_code": "980080",
+    "index_sample_date": "2026-11-19",
+    "index_url": "https://www.cnindex.com.cn/sample-detail/download?indexcode=980080&dateStr=2026-11-19"
+  },
+  "bridge": {
+    "cash_equivalents": 8.842812716,
+    "operating_cash": 2.0,
+    "nonoperating_financial_assets": 1.9000000000000001,
+    "debt_components": {
+      "short_term_borrowings": 3.3093326911,
+      "current_noncurrent_liabilities": 0.7807064951,
+      "long_term_borrowings_noncurrent": 5.6811105967,
+      "prior_equipment_and_construction_payables_proxy": 0.6736975174
+    },
+    "other_claims": 0,
+    "shares": 11.34078509
+  },
+  "bridge_adjustments": [
+    {
+      "amount": -0.10791056775961319,
+      "reason": "以基准Q4 FCFF扣估计税后净利息，按已经过的51/92天滚动。"
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "wacc": 0.103,
+      "terminal_growth": 0.017,
+      "terminal_roic": 0.089,
+      "terminal_margin": 0.06,
+      "terminal_tax_rate": 0.2,
+      "base_annual_revenue": 50.5,
+      "incremental_nwc_ratio": 0.24,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 13.6942696785,
+        "ebit_margin": 0.096,
+        "tax_rate": 0.2,
+        "da": 0.36,
+        "capex": 0.65,
+        "delta_nwc": 1.31
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 55,
+          "ebit_margin": 0.06572727272727273,
+          "tax_rate": 0.2,
+          "da": 1.45,
+          "capex": 2.7
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 60.04,
+          "ebit_margin": 0.06461359093937376,
+          "tax_rate": 0.2,
+          "da": 1.61,
+          "capex": 3.38
+        },
+        {
+          "year": 2029,
+          "stage": "transition",
+          "revenue": 66.25,
+          "ebit_margin": 0.06616603773584906,
+          "tax_rate": 0.2,
+          "da": 1.71,
+          "capex": 3.08
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 71.55,
+          "ebit_margin": 0.06850454227812719,
+          "tax_rate": 0.2,
+          "da": 1.86,
+          "capex": 2.65
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 75.8,
+          "ebit_margin": 0.0679815303430079,
+          "tax_rate": 0.2,
+          "da": 2.03,
+          "capex": 2.28
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 80.0,
+          "ebit_margin": 0.067275,
+          "tax_rate": 0.2,
+          "da": 2.18,
+          "capex": 2.31
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 83.25,
+          "ebit_margin": 0.06656456456456455,
+          "tax_rate": 0.2,
+          "da": 2.29,
+          "capex": 2.36
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 85.5,
+          "ebit_margin": 0.06450877192982456,
+          "tax_rate": 0.2,
+          "da": 2.35,
+          "capex": 2.39
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.103,
+      "terminal_growth": 0.026,
+      "terminal_roic": 0.123,
+      "terminal_margin": 0.101,
+      "terminal_tax_rate": 0.2,
+      "base_annual_revenue": 53.0,
+      "incremental_nwc_ratio": 0.179,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 16.1942696785,
+        "ebit_margin": 0.127,
+        "tax_rate": 0.2,
+        "da": 0.38,
+        "capex": 1.05,
+        "delta_nwc": 1.1
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 64,
+          "ebit_margin": 0.09359375,
+          "tax_rate": 0.2,
+          "da": 1.55,
+          "capex": 5.75
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 75.35,
+          "ebit_margin": 0.10313868613138688,
+          "tax_rate": 0.2,
+          "da": 1.88,
+          "capex": 6.7
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 87.45,
+          "ebit_margin": 0.1118982275586049,
+          "tax_rate": 0.2,
+          "da": 2.38,
+          "capex": 5.66
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 97.45,
+          "ebit_margin": 0.1163596716264751,
+          "tax_rate": 0.2,
+          "da": 2.78,
+          "capex": 4.1
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 106.2,
+          "ebit_margin": 0.11584745762711864,
+          "tax_rate": 0.2,
+          "da": 3.09,
+          "capex": 3.76
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 113.65,
+          "ebit_margin": 0.11414210294764626,
+          "tax_rate": 0.2,
+          "da": 3.25,
+          "capex": 3.73
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 119.9,
+          "ebit_margin": 0.11298582151793161,
+          "tax_rate": 0.2,
+          "da": 3.39,
+          "capex": 3.78
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 125.0,
+          "ebit_margin": 0.10919999999999999,
+          "tax_rate": 0.2,
+          "da": 3.53,
+          "capex": 3.85
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.103,
+      "terminal_growth": 0.031,
+      "terminal_roic": 0.159,
+      "terminal_margin": 0.14,
+      "terminal_tax_rate": 0.2,
+      "base_annual_revenue": 54.5,
+      "incremental_nwc_ratio": 0.145,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 17.6942696785,
+        "ebit_margin": 0.166,
+        "tax_rate": 0.2,
+        "da": 0.39,
+        "capex": 1.24,
+        "delta_nwc": 1.24
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 72.1,
+          "ebit_margin": 0.12337031900138697,
+          "tax_rate": 0.2,
+          "da": 1.64,
+          "capex": 6.8
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 87.85,
+          "ebit_margin": 0.13660785429709732,
+          "tax_rate": 0.2,
+          "da": 2.12,
+          "capex": 8.3
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 106.3,
+          "ebit_margin": 0.14959548447789278,
+          "tax_rate": 0.2,
+          "da": 2.74,
+          "capex": 7.3
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 125.8,
+          "ebit_margin": 0.16000794912559618,
+          "tax_rate": 0.2,
+          "da": 3.41,
+          "capex": 5.99
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 141.0,
+          "ebit_margin": 0.16053191489361704,
+          "tax_rate": 0.2,
+          "da": 3.9,
+          "capex": 5.6
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 153.7,
+          "ebit_margin": 0.1552049446974626,
+          "tax_rate": 0.2,
+          "da": 4.26,
+          "capex": 5.45
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 163.1,
+          "ebit_margin": 0.15029736358062537,
+          "tax_rate": 0.2,
+          "da": 4.53,
+          "capex": 5.5
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 171.4,
+          "ebit_margin": 0.14644107351225205,
+          "tax_rate": 0.2,
+          "da": 4.76,
+          "capex": 5.65
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.093,
+      0.103,
+      0.113
+    ],
+    "growth": [
+      0.02,
+      0.026,
+      0.032
+    ],
+    "capex_multipliers": [
+      0.9,
+      1,
+      1.1
+    ]
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "terminal_margin",
+    "lower": 0.02,
+    "upper": 0.45,
+    "search_steps": 100,
+    "price_tolerance": 0.0005
+  },
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2029,
+    "base_eps": 0.38406696519486566,
+    "end_eps": 0.5657072442924537
+  },
+  "eps_forecast": {
+    "basis": "自主预测，母公司全资合并。以基准定增假设计算预计加权普通股数。",
+    "notes": "净利息反映银行贷款增长及存款利息；暂无已发行潜在可摊薄股权。",
+    "periods": {
+      "2027": {
+        "ebit": 5.99,
+        "net_interest": 0.31,
+        "parent_profit": 4.5440000000000005,
+        "estimated_weighted_shares_with_issue": 11.8312700955535,
+        "eps": 0.38406696519486566,
+        "eps_current_share_count": 0.40067772768278426
+      },
+      "2028": {
+        "ebit": 7.7715000000000005,
+        "net_interest": 0.36,
+        "parent_profit": 5.929200000000001,
+        "estimated_weighted_shares_with_issue": 13.286731035945946,
+        "eps": 0.44624971966085053,
+        "eps_current_share_count": 0.5228209469579147
+      },
+      "2029": {
+        "ebit": 9.785499999999999,
+        "net_interest": 0.39,
+        "parent_profit": 7.516399999999999,
+        "estimated_weighted_shares_with_issue": 13.286731035945946,
+        "eps": 0.5657072442924537,
+        "eps_current_share_count": 0.662775984233028
+      }
+    }
+  },
+  "model_notes": {
+    "business_forecasts": {
+      "bear": {
+        "forecast": {
+          "2027": {
+            "external_epoxy_revenue": 30,
+            "epoxy_ebit_margin": 0.029,
+            "external_ccl_prepreg_other_revenue": 25,
+            "ccl_prepreg_other_ebit_margin": 0.117,
+            "external_gbf_revenue": 0,
+            "gbf_ebit_margin": 0,
+            "corporate_cost": 0.18
+          },
+          "2028": {
+            "external_epoxy_revenue": 32,
+            "epoxy_ebit_margin": 0.031,
+            "external_ccl_prepreg_other_revenue": 28,
+            "ccl_prepreg_other_ebit_margin": 0.11,
+            "external_gbf_revenue": 0.04,
+            "gbf_ebit_margin": 0.06,
+            "corporate_cost": 0.195
+          },
+          "2029": {
+            "external_epoxy_revenue": 34,
+            "epoxy_ebit_margin": 0.032,
+            "external_ccl_prepreg_other_revenue": 32,
+            "ccl_prepreg_other_ebit_margin": 0.109,
+            "external_gbf_revenue": 0.25,
+            "gbf_ebit_margin": 0.07,
+            "corporate_cost": 0.21
+          },
+          "2030": {
+            "external_epoxy_revenue": 35,
+            "epoxy_ebit_margin": 0.035,
+            "external_ccl_prepreg_other_revenue": 36,
+            "ccl_prepreg_other_ebit_margin": 0.107,
+            "external_gbf_revenue": 0.55,
+            "gbf_ebit_margin": 0.09,
+            "corporate_cost": 0.22499999999999998
+          },
+          "2031": {
+            "external_epoxy_revenue": 36,
+            "epoxy_ebit_margin": 0.036,
+            "external_ccl_prepreg_other_revenue": 39,
+            "ccl_prepreg_other_ebit_margin": 0.103,
+            "external_gbf_revenue": 0.8,
+            "gbf_ebit_margin": 0.1,
+            "corporate_cost": 0.24
+          },
+          "2032": {
+            "external_epoxy_revenue": 37,
+            "epoxy_ebit_margin": 0.036,
+            "external_ccl_prepreg_other_revenue": 42,
+            "ccl_prepreg_other_ebit_margin": 0.1,
+            "external_gbf_revenue": 1.0,
+            "gbf_ebit_margin": 0.105,
+            "corporate_cost": 0.255
+          },
+          "2033": {
+            "external_epoxy_revenue": 38,
+            "epoxy_ebit_margin": 0.037,
+            "external_ccl_prepreg_other_revenue": 44,
+            "ccl_prepreg_other_ebit_margin": 0.097,
+            "external_gbf_revenue": 1.25,
+            "gbf_ebit_margin": 0.11,
+            "corporate_cost": 0.27
+          },
+          "2034": {
+            "external_epoxy_revenue": 39,
+            "epoxy_ebit_margin": 0.037,
+            "external_ccl_prepreg_other_revenue": 45,
+            "ccl_prepreg_other_ebit_margin": 0.093,
+            "external_gbf_revenue": 1.5,
+            "gbf_ebit_margin": 0.115,
+            "corporate_cost": 0.285
+          }
+        },
+        "incremental_nwc_ratio": 0.24,
+        "investments": "新增资本开支含日常维护与项目投入，不含9月末待付历史设备工程款。"
+      },
+      "base": {
+        "forecast": {
+          "2027": {
+            "external_epoxy_revenue": 34,
+            "epoxy_ebit_margin": 0.05,
+            "external_ccl_prepreg_other_revenue": 30,
+            "ccl_prepreg_other_ebit_margin": 0.149,
+            "external_gbf_revenue": 0,
+            "gbf_ebit_margin": 0,
+            "corporate_cost": 0.18
+          },
+          "2028": {
+            "external_epoxy_revenue": 38,
+            "epoxy_ebit_margin": 0.054,
+            "external_ccl_prepreg_other_revenue": 37,
+            "ccl_prepreg_other_ebit_margin": 0.159,
+            "external_gbf_revenue": 0.35,
+            "gbf_ebit_margin": 0.09,
+            "corporate_cost": 0.195
+          },
+          "2029": {
+            "external_epoxy_revenue": 41,
+            "epoxy_ebit_margin": 0.057,
+            "external_ccl_prepreg_other_revenue": 45,
+            "ccl_prepreg_other_ebit_margin": 0.166,
+            "external_gbf_revenue": 1.45,
+            "gbf_ebit_margin": 0.13,
+            "corporate_cost": 0.21
+          },
+          "2030": {
+            "external_epoxy_revenue": 43,
+            "epoxy_ebit_margin": 0.06,
+            "external_ccl_prepreg_other_revenue": 52,
+            "ccl_prepreg_other_ebit_margin": 0.165,
+            "external_gbf_revenue": 2.45,
+            "gbf_ebit_margin": 0.165,
+            "corporate_cost": 0.22499999999999998
+          },
+          "2031": {
+            "external_epoxy_revenue": 45,
+            "epoxy_ebit_margin": 0.061,
+            "external_ccl_prepreg_other_revenue": 58,
+            "ccl_prepreg_other_ebit_margin": 0.159,
+            "external_gbf_revenue": 3.2,
+            "gbf_ebit_margin": 0.18,
+            "corporate_cost": 0.24
+          },
+          "2032": {
+            "external_epoxy_revenue": 46,
+            "epoxy_ebit_margin": 0.06,
+            "external_ccl_prepreg_other_revenue": 64,
+            "ccl_prepreg_other_ebit_margin": 0.153,
+            "external_gbf_revenue": 3.65,
+            "gbf_ebit_margin": 0.185,
+            "corporate_cost": 0.255
+          },
+          "2033": {
+            "external_epoxy_revenue": 47,
+            "epoxy_ebit_margin": 0.058,
+            "external_ccl_prepreg_other_revenue": 69,
+            "ccl_prepreg_other_ebit_margin": 0.15,
+            "external_gbf_revenue": 3.9,
+            "gbf_ebit_margin": 0.19,
+            "corporate_cost": 0.27
+          },
+          "2034": {
+            "external_epoxy_revenue": 48,
+            "epoxy_ebit_margin": 0.057,
+            "external_ccl_prepreg_other_revenue": 73,
+            "ccl_prepreg_other_ebit_margin": 0.143,
+            "external_gbf_revenue": 4.0,
+            "gbf_ebit_margin": 0.19,
+            "corporate_cost": 0.285
+          }
+        },
+        "incremental_nwc_ratio": 0.179,
+        "investments": "新增资本开支含日常维护与项目投入，不含9月末待付历史设备工程款。"
+      },
+      "bull": {
+        "forecast": {
+          "2027": {
+            "external_epoxy_revenue": 37,
+            "epoxy_ebit_margin": 0.07,
+            "external_ccl_prepreg_other_revenue": 35,
+            "ccl_prepreg_other_ebit_margin": 0.185,
+            "external_gbf_revenue": 0.1,
+            "gbf_ebit_margin": 0.1,
+            "corporate_cost": 0.18
+          },
+          "2028": {
+            "external_epoxy_revenue": 42,
+            "epoxy_ebit_margin": 0.075,
+            "external_ccl_prepreg_other_revenue": 45,
+            "ccl_prepreg_other_ebit_margin": 0.198,
+            "external_gbf_revenue": 0.85,
+            "gbf_ebit_margin": 0.16,
+            "corporate_cost": 0.195
+          },
+          "2029": {
+            "external_epoxy_revenue": 46,
+            "epoxy_ebit_margin": 0.078,
+            "external_ccl_prepreg_other_revenue": 58,
+            "ccl_prepreg_other_ebit_margin": 0.208,
+            "external_gbf_revenue": 2.3,
+            "gbf_ebit_margin": 0.2,
+            "corporate_cost": 0.21
+          },
+          "2030": {
+            "external_epoxy_revenue": 50,
+            "epoxy_ebit_margin": 0.08,
+            "external_ccl_prepreg_other_revenue": 72,
+            "ccl_prepreg_other_ebit_margin": 0.215,
+            "external_gbf_revenue": 3.8,
+            "gbf_ebit_margin": 0.23,
+            "corporate_cost": 0.22499999999999998
+          },
+          "2031": {
+            "external_epoxy_revenue": 53,
+            "epoxy_ebit_margin": 0.079,
+            "external_ccl_prepreg_other_revenue": 83,
+            "ccl_prepreg_other_ebit_margin": 0.211,
+            "external_gbf_revenue": 5.0,
+            "gbf_ebit_margin": 0.235,
+            "corporate_cost": 0.24
+          },
+          "2032": {
+            "external_epoxy_revenue": 55,
+            "epoxy_ebit_margin": 0.077,
+            "external_ccl_prepreg_other_revenue": 93,
+            "ccl_prepreg_other_ebit_margin": 0.199,
+            "external_gbf_revenue": 5.7,
+            "gbf_ebit_margin": 0.24,
+            "corporate_cost": 0.255
+          },
+          "2033": {
+            "external_epoxy_revenue": 56,
+            "epoxy_ebit_margin": 0.075,
+            "external_ccl_prepreg_other_revenue": 101,
+            "ccl_prepreg_other_ebit_margin": 0.189,
+            "external_gbf_revenue": 6.1,
+            "gbf_ebit_margin": 0.245,
+            "corporate_cost": 0.27
+          },
+          "2034": {
+            "external_epoxy_revenue": 57,
+            "epoxy_ebit_margin": 0.073,
+            "external_ccl_prepreg_other_revenue": 108,
+            "ccl_prepreg_other_ebit_margin": 0.182,
+            "external_gbf_revenue": 6.4,
+            "gbf_ebit_margin": 0.245,
+            "corporate_cost": 0.285
+          }
+        },
+        "incremental_nwc_ratio": 0.145,
+        "investments": "新增资本开支含日常维护与项目投入，不含9月末待付历史设备工程款。"
+      }
+    },
+    "group_revenue_26q3_ytd": 36.8057303215,
+    "bank_wealth_management": 1.6,
+    "short_certificate_total_proxy": 1.3,
+    "short_certificate_free_proxy": 0.3,
+    "prior_capex_payable_proxy_as_of": "2026-06-30",
+    "cash_at_quarter_end": 13.4673621778,
+    "estimated_base_full_q4_fcff": -0.12466220066440026,
+    "estimated_after_tax_interest_fullq4": 0.07,
+    "elapsed_q4_days": 51,
+    "total_q4_days": 92,
+    "proposed_equity_financing": {
+      "status": "2026-09-10董事会通过预案，估值时点按待后续审议及审核测算。",
+      "expected_subscription_date_assumption": "2027-09-30",
+      "gross_proceeds_assumption": 18,
+      "gross_issue_price_assumption": 9.25,
+      "issue_fee_assumption": 0.18,
+      "annual_equity_cost_proxy": 0.114755,
+      "net_proceeds_discounted_to_valuation": 16.23007269024355,
+      "incremental_shares_assumption": 1.945945945945946,
+      "estimated_total_shares": 13.286731035945946,
+      "conditional_price_formula": "(DCF使用当前股本得到的股权价值+发行净款现值)/(现股数+模拟增发股数)",
+      "price_sensitivity_assumptions": [
+        9.25,
+        10.4,
+        11.56
+      ]
+    }
+  }
+}
