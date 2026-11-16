@@ -1,1 +1,7 @@
 **/analyses/**/*.pdf
+
+/node_modules/
+
+/.venv/
+/.cache/
+__pycache__/

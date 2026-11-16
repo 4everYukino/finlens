@@ -1,4 +1,4 @@
-# FinLens
+## FinLens
 
 跟踪国证成长 100 指数成分股，采用 [统一方法论](FinAnalysis.md)。
 
@@ -25,3 +25,19 @@
 导出时显式指定 `--document-title`，采用「公司(代码) | 报告期」格式，例如 `松发股份(603268) | 2026 Q3`。
 
 估值计算见 [scripts](scripts/README.md)。
+
+## 依赖
+
+* Node.js 20+
+* Python 3.11+
+* pip 22.3+
+
+执行：
+
+```bash
+npm ci --cache .cache/npm
+python3 -m venv --without-pip .venv
+python3 -m pip --python .venv install --cache-dir .cache/pip -r requirements.txt
+```
+
+然后请使用 `.venv/bin/python` 和 `node_modules/.bin/md-to-pdf`，避免每次重新安装。
