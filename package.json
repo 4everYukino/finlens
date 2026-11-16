@@ -1,0 +1,12 @@
+{
+  "name": "finlens",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "katex": "0.18.2",
+    "marked-katex-extension": "5.1.13",
+    "md-to-pdf": "5.2.5"
+  }
+}
