@@ -1,0 +1,33 @@
+{
+  "status": "outside_search_range",
+  "variable": "revenue_growth",
+  "scope": {
+    "stage": "growth",
+    "years": [
+      2027,
+      2028,
+      2029
+    ]
+  },
+  "base_value": 0.3405578322851943,
+  "market_price": 203.22,
+  "market_ev": 513.9768513568262,
+  "lower": -0.1,
+  "upper": 1.5,
+  "price_tolerance": 0.001,
+  "fixed_parameters": {
+    "scenario": "base",
+    "wacc": 0.11,
+    "terminal_growth": 0.025,
+    "terminal_roic": 0.171015628093753
+  },
+  "reinvestment": {
+    "capex": "revenue_ratio",
+    "da": "revenue_ratio"
+  },
+  "tested_price_range": [
+    12.065767963633396,
+    199.7260416964095
+  ],
+  "reason": "给定搜索范围与采样精度内未得到解，不代表模型在所有范围均无解。"
+}

@@ -1,0 +1,1103 @@
+{
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "issuer": {
+    "name": "宝鼎科技股份有限公司",
+    "ticker": "002552.SZ",
+    "report_period": "26Q3"
+  },
+  "information_cutoff": "2026-11-20",
+  "valuation_date": "2026-11-20",
+  "balance_date": "2026-09-30",
+  "market_price": 28.27,
+  "market_reference": {
+    "stock_daily_url": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz002552,day,,,10",
+    "daily_bar": [
+      "2026-11-20",
+      "27.70",
+      "28.27",
+      "29.95",
+      "27.70",
+      "190319"
+    ],
+    "quote_cst": "20261120161445",
+    "raw_quote": "51~宝鼎科技~002552~28.27~28.56~27.70~190319~91223~99096~28.27~110~28.26~8~28.25~12~28.23~12~28.22~131~28.28~44~28.29~44~28.30~677~28.31~8~28.32~7~~20261120161445~-0.29~-1.02~29.95~27.70~28.27/190319/552478484~190319~55248~5.16~25.54~~29.95~27.70~7.88~104.18~109.68~5.90~31.42~25.70~1.54~-507~29.03~23.05~88.28~~~2.84~55247.8484~36.7510~130~   A~GP-A~71.23~-8.36~0.00~23.08~9.65~78.98~15.19~-10.82~-26.36~-50.44~368503289~387985331~-48.15~35.78~368503289~~~73.86~0.18~~CNY~0~~28.21~48~",
+    "eastmoney_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002552&klt=101&fqt=0&lmt=5&end=20261120&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57",
+    "eastmoney_daily_bar": "2026-11-20,27.70,28.27,29.95,27.70,190319,552478483.50",
+    "index_code": "980080",
+    "index_sample_date": "2026-11-19",
+    "index_url": "https://www.cnindex.com.cn/sample-detail/download?indexcode=980080&dateStr=2026-11-19"
+  },
+  "bridge": {
+    "cash_equivalents": 2.5711566777999995,
+    "operating_cash": 1.30683,
+    "nonoperating_financial_assets": 0.8331895993,
+    "debt_components": {
+      "short_term_borrowings": 9.21169927156544,
+      "current_noncurrent_liabilities": 1.9114167361513599,
+      "long_term_borrowings_noncurrent": 0.5784438,
+      "lease_liabilities_noncurrent": 0.02882676648654,
+      "preexisting_equipment_and_construction_payables_proxy": 0.452335123064928,
+      "preexisting_mining_right_payables_proxy": 0.152
+    },
+    "other_claims": 0.3997332659,
+    "shares": 3.87985331
+  },
+  "bridge_adjustments": [
+    {
+      "amount": 0.8605896790422334,
+      "reason": "用基准 Q4 归属口径 FCFF 扣税后净利息后按已经过的 51/92 天估计。"
+    }
+  ],
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2029,
+    "base_eps": 1.2540809105722506,
+    "end_eps": 1.4717192292939398
+  },
+  "eps_forecast": {
+    "basis": "自主预测，以归属经营路径、利息与不同业务所得税率推导。",
+    "periods": {
+      "2027": {
+        "jinbao_net_finance": 0.46,
+        "gold_net_finance": 0.035,
+        "headquarters_net_finance": 0.033,
+        "parent_net_profit": 4.8656499718915605,
+        "diluted_shares": 3.87985331,
+        "eps": 1.2540809105722506
+      },
+      "2028": {
+        "jinbao_net_finance": 0.52,
+        "gold_net_finance": 0.04,
+        "headquarters_net_finance": 0.033,
+        "parent_net_profit": 5.362019704786403,
+        "diluted_shares": 3.87985331,
+        "eps": 1.3820160909089634
+      },
+      "2029": {
+        "jinbao_net_finance": 0.56,
+        "gold_net_finance": 0.042,
+        "headquarters_net_finance": 0.033,
+        "parent_net_profit": 5.710054723166742,
+        "diluted_shares": 3.87985331,
+        "eps": 1.4717192292939398
+      }
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "wacc": 0.106,
+      "terminal_growth": 0.018,
+      "terminal_roic": 0.085,
+      "terminal_margin": 0.054,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 34.86904,
+      "stub": {
+        "revenue": 9.343360699799998,
+        "ebit_margin": 0.15547808033442356,
+        "tax_rate": 0.1951495742276539,
+        "da": 0.40266799999999997,
+        "capex": 0.431398,
+        "delta_nwc": 0.5078119999999999,
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit"
+      },
+      "forecast": [
+        {
+          "revenue": 35.62786145572918,
+          "ebit_margin": 0.10145008732057814,
+          "tax_rate": 0.20841169906413473,
+          "da": 1.6069259999999999,
+          "capex": 1.6369259999999999,
+          "delta_nwc": 0.23581771645833463,
+          "year": 2027,
+          "stage": "growth"
+        },
+        {
+          "revenue": 36.026749571377856,
+          "ebit_margin": 0.08652514058205221,
+          "tax_rate": 0.2075753337319306,
+          "da": 1.6231799999999998,
+          "capex": 1.585656,
+          "delta_nwc": 0.1569910492518939,
+          "year": 2028,
+          "stage": "growth"
+        },
+        {
+          "revenue": 36.9584727342868,
+          "ebit_margin": 0.07903363202497805,
+          "tax_rate": 0.20219761707947792,
+          "da": 1.6431799999999996,
+          "capex": 1.6131799999999998,
+          "delta_nwc": 0.3246978530327159,
+          "year": 2029,
+          "stage": "transition"
+        },
+        {
+          "revenue": 37.90435288996771,
+          "ebit_margin": 0.07405122303804368,
+          "tax_rate": 0.19753536463977917,
+          "da": 1.641942,
+          "capex": 1.653212,
+          "delta_nwc": 0.32583041245447264,
+          "year": 2030,
+          "stage": "transition"
+        },
+        {
+          "revenue": 39.047341945012036,
+          "ebit_margin": 0.07087174202303267,
+          "tax_rate": 0.1952035529786566,
+          "da": 1.600704,
+          "capex": 1.628228,
+          "delta_nwc": 0.34159912440354573,
+          "year": 2031,
+          "stage": "transition"
+        },
+        {
+          "revenue": 38.507826859081355,
+          "ebit_margin": 0.05556182816836315,
+          "tax_rate": 0.1787734555638505,
+          "da": 1.459466,
+          "capex": 1.470736,
+          "delta_nwc": 0.20699879312554573,
+          "year": 2032,
+          "stage": "transition"
+        },
+        {
+          "revenue": 37.211299999999994,
+          "ebit_margin": 0.0538304386033275,
+          "tax_rate": 0.17276470787338388,
+          "da": 1.12572,
+          "capex": 1.150736,
+          "delta_nwc": 0.08389785127349145,
+          "year": 2033,
+          "stage": "transition"
+        },
+        {
+          "revenue": 38.1494,
+          "ebit_margin": 0.053664351208669074,
+          "tax_rate": 0.173299402499767,
+          "da": 1.144482,
+          "capex": 1.163244,
+          "delta_nwc": 0.262668,
+          "year": 2034,
+          "stage": "transition"
+        },
+        {
+          "revenue": 39.0875,
+          "ebit_margin": 0.053506236008954274,
+          "tax_rate": 0.17381151607157797,
+          "da": 1.15699,
+          "capex": 1.182006,
+          "delta_nwc": 0.262668,
+          "year": 2035,
+          "stage": "transition"
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.106,
+      "terminal_growth": 0.024,
+      "terminal_roic": 0.115,
+      "terminal_margin": 0.087,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 37.3454,
+      "stub": {
+        "revenue": 11.8197206998,
+        "ebit_margin": 0.20847989220331545,
+        "tax_rate": 0.18831372917232475,
+        "da": 0.408922,
+        "capex": 0.530192,
+        "delta_nwc": 0.24143,
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit"
+      },
+      "forecast": [
+        {
+          "revenue": 42.92621192252208,
+          "ebit_margin": 0.15047141206357306,
+          "tax_rate": 0.1996753151545232,
+          "da": 1.641942,
+          "capex": 2.0884199999999997,
+          "delta_nwc": 1.1969449538017665,
+          "year": 2027,
+          "stage": "growth"
+        },
+        {
+          "revenue": 48.625596886381864,
+          "ebit_margin": 0.14546263160345496,
+          "tax_rate": 0.19393759097609575,
+          "da": 1.769498,
+          "capex": 2.3072779999999997,
+          "delta_nwc": 1.300240797108783,
+          "year": 2028,
+          "stage": "growth"
+        },
+        {
+          "revenue": 53.47633696422233,
+          "ebit_margin": 0.13991012453280002,
+          "tax_rate": 0.18840661162565028,
+          "da": 1.89207,
+          "capex": 2.422358,
+          "delta_nwc": 1.1385392062272361,
+          "year": 2029,
+          "stage": "growth"
+        },
+        {
+          "revenue": 57.217072289484214,
+          "ebit_margin": 0.12688054454716421,
+          "tax_rate": 0.18394576895894899,
+          "da": 1.93588,
+          "capex": 2.311088,
+          "delta_nwc": 0.9559288260209515,
+          "year": 2030,
+          "stage": "transition"
+        },
+        {
+          "revenue": 60.544762506325476,
+          "ebit_margin": 0.1185906659651252,
+          "tax_rate": 0.18053828912481112,
+          "da": 1.954674,
+          "capex": 2.184802,
+          "delta_nwc": 0.829075217347301,
+          "year": 2031,
+          "stage": "transition"
+        },
+        {
+          "revenue": 62.20651375442783,
+          "ebit_margin": 0.10419806806753361,
+          "tax_rate": 0.1723026640258715,
+          "da": 1.8872140000000002,
+          "capex": 2.028548,
+          "delta_nwc": 0.6019900998481885,
+          "year": 2032,
+          "stage": "transition"
+        },
+        {
+          "revenue": 61.289199999999994,
+          "ebit_margin": 0.09003990915202026,
+          "tax_rate": 0.1582631539081275,
+          "da": 1.5572460000000001,
+          "capex": 1.663564,
+          "delta_nwc": 0.301854899645773,
+          "year": 2033,
+          "stage": "transition"
+        },
+        {
+          "revenue": 63.4781,
+          "ebit_margin": 0.08799039826333808,
+          "tax_rate": 0.15854002567701053,
+          "da": 1.601024,
+          "capex": 1.694834,
+          "delta_nwc": 0.503447,
+          "year": 2034,
+          "stage": "transition"
+        },
+        {
+          "revenue": 65.3543,
+          "ebit_margin": 0.08691999761301092,
+          "tax_rate": 0.1587666863664789,
+          "da": 1.62604,
+          "capex": 1.7198499999999999,
+          "delta_nwc": 0.431526,
+          "year": 2035,
+          "stage": "transition"
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.106,
+      "terminal_growth": 0.029,
+      "terminal_roic": 0.15,
+      "terminal_margin": 0.132,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 39.483979999999995,
+      "stub": {
+        "revenue": 13.958300699800002,
+        "ebit_margin": 0.24556635508722868,
+        "tax_rate": 0.18693404799485805,
+        "da": 0.425176,
+        "capex": 0.607716,
+        "delta_nwc": 0.58286,
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit"
+      },
+      "forecast": [
+        {
+          "revenue": 48.918380577244065,
+          "ebit_margin": 0.18516226355738383,
+          "tax_rate": 0.19315467492253277,
+          "da": 1.7344819999999999,
+          "capex": 2.689978,
+          "delta_nwc": 1.704109246179525,
+          "year": 2027,
+          "stage": "growth"
+        },
+        {
+          "revenue": 60.48578825921022,
+          "ebit_margin": 0.19057402723779482,
+          "tax_rate": 0.18682207685736324,
+          "da": 1.9508320000000001,
+          "capex": 3.2690279999999996,
+          "delta_nwc": 2.1292876145572914,
+          "year": 2028,
+          "stage": "growth"
+        },
+        {
+          "revenue": 72.62103613021746,
+          "ebit_margin": 0.18999902046944464,
+          "tax_rate": 0.1809570888678073,
+          "da": 2.197214,
+          "capex": 3.6917280000000003,
+          "delta_nwc": 2.27790582968058,
+          "year": 2029,
+          "stage": "growth"
+        },
+        {
+          "revenue": 83.81289616357766,
+          "ebit_margin": 0.18375463047499882,
+          "tax_rate": 0.17647291804643928,
+          "da": 2.4811199999999998,
+          "capex": 3.8618239999999995,
+          "delta_nwc": 2.1336408026688156,
+          "year": 2030,
+          "stage": "growth"
+        },
+        {
+          "revenue": 93.12855619693786,
+          "ebit_margin": 0.1745089396916069,
+          "tax_rate": 0.1735836295698236,
+          "da": 2.7650259999999998,
+          "capex": 3.8943319999999995,
+          "delta_nwc": 1.7771628026688155,
+          "year": 2031,
+          "stage": "transition"
+        },
+        {
+          "revenue": 100.56801623029804,
+          "ebit_margin": 0.16673215062629815,
+          "tax_rate": 0.1715197584402946,
+          "da": 3.0326779999999998,
+          "capex": 3.8217920000000003,
+          "delta_nwc": 1.4206848026688155,
+          "year": 2032,
+          "stage": "transition"
+        },
+        {
+          "revenue": 106.26880451274769,
+          "ebit_margin": 0.15715771894981934,
+          "tax_rate": 0.16881211597895102,
+          "da": 3.186552,
+          "capex": 3.684268,
+          "delta_nwc": 1.1440030625959714,
+          "year": 2033,
+          "stage": "transition"
+        },
+        {
+          "revenue": 108.58870988273966,
+          "ebit_margin": 0.1441610449156643,
+          "tax_rate": 0.16167356146478276,
+          "da": 3.0429019999999998,
+          "capex": 3.2817600000000002,
+          "delta_nwc": 0.735944429599358,
+          "year": 2034,
+          "stage": "transition"
+        },
+        {
+          "revenue": 108.8196,
+          "ebit_margin": 0.13294907902620484,
+          "tax_rate": 0.15344220621474988,
+          "da": 2.6892199999999997,
+          "capex": 2.7955379999999996,
+          "delta_nwc": 0.5000292093808263,
+          "year": 2035,
+          "stage": "transition"
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.096,
+      0.106,
+      0.116
+    ],
+    "growth": [
+      0.018,
+      0.024,
+      0.03
+    ],
+    "capex_multipliers": [
+      0.9,
+      1,
+      1.1
+    ]
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "terminal_margin",
+    "lower": 0,
+    "upper": 0.55,
+    "search_steps": 110,
+    "price_tolerance": 0.001
+  },
+  "model_notes": {
+    "cashflow_scope": "逐项计入金宝电子 62.54% + 河西金矿 100% + 总部 100%。按相同口径桥接，不再次扣除少数股东账面权益。",
+    "gold_terminal": "2035 年完整财年起三情景均无黄金收入。矿山弃置预计负债作为非经营索取权。",
+    "tax_rates": {
+      "jinbao": 0.15,
+      "gold": 0.25,
+      "headquarters_shield": 0
+    },
+    "gold_metal_grade_g_per_t": 2.474998736356279,
+    "mine_recovery_and_payability": 0.88,
+    "disclosed_reserve_ore_10kt_as_of_20251231": 172.1213,
+    "disclosed_total_resource_ore_10kt_as_of_20251231": 431.2805,
+    "estimated_debt_outside_jinbao": {
+      "short_term_borrowings": 1.457012,
+      "current_noncurrent_liabilities": 0.52,
+      "long_term_borrowings_noncurrent": 0.08,
+      "lease_liabilities_noncurrent": 0.01,
+      "preexisting_equipment_and_construction_payables_proxy": 0.12917955308,
+      "preexisting_mining_right_payables_proxy": 0.152
+    },
+    "consolidated_debt": {
+      "short_term_borrowings": 13.8565759136,
+      "current_noncurrent_liabilities": 2.7448428784,
+      "long_term_borrowings_noncurrent": 0.877,
+      "lease_liabilities_noncurrent": 0.0401035601,
+      "preexisting_equipment_and_construction_payables_proxy": 0.6458977654,
+      "preexisting_mining_right_payables_proxy": 0.152
+    },
+    "consolidated_cash": 3.3578166778,
+    "estimated_jinbao_cash": 2.1,
+    "required_operating_cash_by_entity": {
+      "jinbao": 1.45,
+      "other": 0.4
+    },
+    "other_claims_details": {
+      "long_term_equity_payable": 0.145,
+      "current_equity_payable_proxy": 0.0228068304,
+      "noncurrent_termination_benefits": 0.0376461055,
+      "mining_closure_provision": 0.19428033
+    },
+    "consolidated_september_cash_balance": 5.6451880096,
+    "weighted_full_q4_fcff": 1.63743628376246,
+    "weighted_full_q4_after_tax_interest": 0.085,
+    "q4_days": 92,
+    "elapsed_q4_days": 51,
+    "scenarios": {
+      "bear": {
+        "full_year_2026": {
+          "jinbao_revenue": 47.6,
+          "gold_revenue": 5.1,
+          "ore_10kt": 25
+        },
+        "full_q4": {
+          "jinbao": [
+            12.886437,
+            1.4819402550000003,
+            0.42,
+            0.37
+          ],
+          "gold": [
+            1.2841829999999996,
+            0.5778823499999999,
+            0.14,
+            0.2
+          ],
+          "jinbao_delta_nwc": 0.78,
+          "gold_delta_nwc": 0.02,
+          "headquarters_cost": 0.052
+        },
+        "jinbao_incremental_nwc_ratio": 0.28,
+        "gold_incremental_nwc_ratio": 0.08,
+        "forecast": {
+          "2027": {
+            "jinbao_revenue": 49,
+            "jinbao_ebit": 3.2830000000000004,
+            "jinbao_ebit_margin": 0.067,
+            "jinbao_da": 1.69,
+            "jinbao_capex": 1.69,
+            "jinbao_delta_nwc": 0.3919999999999996,
+            "gold_revenue": 4.983261455729186,
+            "gold_ebit": 1.7812614557291857,
+            "gold_da": 0.55,
+            "gold_capex": 0.58,
+            "gold_delta_nwc": -0.009339083541665119,
+            "gold_ore_10kt": 26,
+            "gold_kg": 566.2797108783166,
+            "gold_cny_per_g": 880,
+            "gold_variable_cny_per_t": 920,
+            "gold_fixed_operating_cost": 0.81,
+            "headquarters_cost": 0.22
+          },
+          "2028": {
+            "jinbao_revenue": 50,
+            "jinbao_ebit": 3.05,
+            "jinbao_ebit_margin": 0.061,
+            "jinbao_da": 1.7,
+            "jinbao_capex": 1.64,
+            "jinbao_delta_nwc": 0.28,
+            "gold_revenue": 4.756749571377859,
+            "gold_ebit": 1.4437495713778588,
+            "gold_da": 0.56,
+            "gold_capex": 0.56,
+            "gold_delta_nwc": -0.01812095074810614,
+            "gold_ore_10kt": 26,
+            "gold_kg": 566.2797108783166,
+            "gold_cny_per_g": 840,
+            "gold_variable_cny_per_t": 955,
+            "gold_fixed_operating_cost": 0.83,
+            "headquarters_cost": 0.234
+          },
+          "2029": {
+            "jinbao_revenue": 52,
+            "jinbao_ebit": 3.224,
+            "jinbao_ebit_margin": 0.062,
+            "jinbao_da": 1.7,
+            "jinbao_capex": 1.7,
+            "jinbao_delta_nwc": 0.56,
+            "gold_revenue": 4.437672734286807,
+            "gold_ebit": 1.1526727342868077,
+            "gold_da": 0.58,
+            "gold_capex": 0.55,
+            "gold_delta_nwc": -0.02552614696728412,
+            "gold_ore_10kt": 25,
+            "gold_kg": 544.4997219983813,
+            "gold_cny_per_g": 815,
+            "gold_variable_cny_per_t": 978,
+            "gold_fixed_operating_cost": 0.84,
+            "headquarters_cost": 0.248
+          },
+          "2030": {
+            "jinbao_revenue": 54,
+            "jinbao_ebit": 3.402,
+            "jinbao_ebit_margin": 0.063,
+            "jinbao_da": 1.73,
+            "jinbao_capex": 1.78,
+            "jinbao_delta_nwc": 0.56,
+            "gold_revenue": 4.132752889967715,
+            "gold_ebit": 0.9412528899677145,
+            "gold_da": 0.56,
+            "gold_capex": 0.54,
+            "gold_delta_nwc": -0.024393587545527423,
+            "gold_ore_10kt": 23,
+            "gold_kg": 500.93974423851085,
+            "gold_cny_per_g": 825,
+            "gold_variable_cny_per_t": 1005,
+            "gold_fixed_operating_cost": 0.88,
+            "headquarters_cost": 0.262
+          },
+          "2031": {
+            "jinbao_revenue": 56,
+            "jinbao_ebit": 3.528,
+            "jinbao_ebit_margin": 0.063,
+            "jinbao_da": 1.76,
+            "jinbao_capex": 1.82,
+            "jinbao_delta_nwc": 0.56,
+            "gold_revenue": 4.024941945012036,
+            "gold_ebit": 0.836941945012036,
+            "gold_da": 0.5,
+            "gold_capex": 0.49,
+            "gold_delta_nwc": -0.008624875596454303,
+            "gold_ore_10kt": 22,
+            "gold_kg": 479.15975535857564,
+            "gold_cny_per_g": 840,
+            "gold_variable_cny_per_t": 1040,
+            "gold_fixed_operating_cost": 0.9,
+            "headquarters_cost": 0.276
+          },
+          "2032": {
+            "jinbao_revenue": 58,
+            "jinbao_ebit": 3.596,
+            "jinbao_ebit_margin": 0.062,
+            "jinbao_da": 1.79,
+            "jinbao_capex": 1.84,
+            "jinbao_delta_nwc": 0.56,
+            "gold_revenue": 2.234626859081357,
+            "gold_ebit": 0.18062685908135712,
+            "gold_da": 0.34,
+            "gold_capex": 0.32,
+            "gold_delta_nwc": -0.1432252068744543,
+            "gold_ore_10kt": 12,
+            "gold_kg": 261.35986655922306,
+            "gold_cny_per_g": 855,
+            "gold_variable_cny_per_t": 1095,
+            "gold_fixed_operating_cost": 0.74,
+            "headquarters_cost": 0.29000000000000004
+          },
+          "2033": {
+            "jinbao_revenue": 59.5,
+            "jinbao_ebit": 3.689,
+            "jinbao_ebit_margin": 0.062,
+            "jinbao_da": 1.8,
+            "jinbao_capex": 1.84,
+            "jinbao_delta_nwc": 0.42000000000000004,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": -0.17877014872650857,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.304
+          },
+          "2034": {
+            "jinbao_revenue": 61,
+            "jinbao_ebit": 3.782,
+            "jinbao_ebit_margin": 0.062,
+            "jinbao_da": 1.83,
+            "jinbao_capex": 1.86,
+            "jinbao_delta_nwc": 0.42000000000000004,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": 0.0,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.318
+          },
+          "2035": {
+            "jinbao_revenue": 62.5,
+            "jinbao_ebit": 3.875,
+            "jinbao_ebit_margin": 0.062,
+            "jinbao_da": 1.85,
+            "jinbao_capex": 1.89,
+            "jinbao_delta_nwc": 0.42000000000000004,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": 0.0,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.332
+          }
+        },
+        "cumulative_ore_10kt": 159,
+        "required_reserve_conversion_10kt": 0
+      },
+      "base": {
+        "full_year_2026": {
+          "jinbao_revenue": 51.0,
+          "gold_revenue": 5.45,
+          "ore_10kt": 25
+        },
+        "full_q4": {
+          "jinbao": [
+            16.286437,
+            2.638402794,
+            0.43,
+            0.48
+          ],
+          "gold": [
+            1.6341830000000002,
+            0.8661169900000001,
+            0.14,
+            0.23
+          ],
+          "jinbao_delta_nwc": 0.45,
+          "gold_delta_nwc": -0.04,
+          "headquarters_cost": 0.052
+        },
+        "jinbao_incremental_nwc_ratio": 0.23,
+        "gold_incremental_nwc_ratio": 0.08,
+        "forecast": {
+          "2027": {
+            "jinbao_revenue": 59,
+            "jinbao_ebit": 6.077,
+            "jinbao_ebit_margin": 0.103,
+            "jinbao_da": 1.73,
+            "jinbao_capex": 2.3,
+            "jinbao_delta_nwc": 1.84,
+            "gold_revenue": 6.027611922522082,
+            "gold_ebit": 2.878611922522082,
+            "gold_da": 0.56,
+            "gold_capex": 0.65,
+            "gold_delta_nwc": 0.04620895380176655,
+            "gold_ore_10kt": 27,
+            "gold_kg": 588.0596997582519,
+            "gold_cny_per_g": 1025,
+            "gold_variable_cny_per_t": 870,
+            "gold_fixed_operating_cost": 0.8,
+            "headquarters_cost": 0.22
+          },
+          "2028": {
+            "jinbao_revenue": 68,
+            "jinbao_ebit": 7.276,
+            "jinbao_ebit_margin": 0.107,
+            "jinbao_da": 1.87,
+            "jinbao_capex": 2.57,
+            "jinbao_delta_nwc": 2.0700000000000003,
+            "gold_revenue": 6.098396886381871,
+            "gold_ebit": 2.756796886381871,
+            "gold_da": 0.6,
+            "gold_capex": 0.7,
+            "gold_delta_nwc": 0.005662797108783125,
+            "gold_ore_10kt": 28,
+            "gold_kg": 609.8396886381871,
+            "gold_cny_per_g": 1000,
+            "gold_variable_cny_per_t": 897,
+            "gold_fixed_operating_cost": 0.83,
+            "headquarters_cost": 0.234
+          },
+          "2029": {
+            "jinbao_revenue": 76,
+            "jinbao_ebit": 8.36,
+            "jinbao_ebit_margin": 0.11,
+            "jinbao_da": 2.05,
+            "jinbao_capex": 2.77,
+            "jinbao_delta_nwc": 1.84,
+            "gold_revenue": 5.945936964222324,
+            "gold_ebit": 2.501536964222324,
+            "gold_da": 0.61,
+            "gold_capex": 0.69,
+            "gold_delta_nwc": -0.012196793772763783,
+            "gold_ore_10kt": 28,
+            "gold_kg": 609.8396886381871,
+            "gold_cny_per_g": 975,
+            "gold_variable_cny_per_t": 923,
+            "gold_fixed_operating_cost": 0.86,
+            "headquarters_cost": 0.248
+          },
+          "2030": {
+            "jinbao_revenue": 83,
+            "jinbao_ebit": 8.715,
+            "jinbao_ebit_margin": 0.105,
+            "jinbao_da": 2.2,
+            "jinbao_capex": 2.72,
+            "jinbao_delta_nwc": 1.61,
+            "gold_revenue": 5.308872289484218,
+            "gold_ebit": 2.071372289484218,
+            "gold_da": 0.56,
+            "gold_capex": 0.61,
+            "gold_delta_nwc": -0.05096517397904848,
+            "gold_ore_10kt": 25,
+            "gold_kg": 544.4997219983813,
+            "gold_cny_per_g": 975,
+            "gold_variable_cny_per_t": 951,
+            "gold_fixed_operating_cost": 0.86,
+            "headquarters_cost": 0.262
+          },
+          "2031": {
+            "jinbao_revenue": 89,
+            "jinbao_ebit": 9.078,
+            "jinbao_ebit_margin": 0.102,
+            "jinbao_da": 2.31,
+            "jinbao_capex": 2.63,
+            "jinbao_delta_nwc": 1.3800000000000001,
+            "gold_revenue": 4.884162506325481,
+            "gold_ebit": 1.7786625063254813,
+            "gold_da": 0.51,
+            "gold_capex": 0.54,
+            "gold_delta_nwc": -0.03397678265269896,
+            "gold_ore_10kt": 23,
+            "gold_kg": 500.93974423851085,
+            "gold_cny_per_g": 975,
+            "gold_variable_cny_per_t": 985,
+            "gold_fixed_operating_cost": 0.84,
+            "headquarters_cost": 0.276
+          },
+          "2032": {
+            "jinbao_revenue": 94,
+            "jinbao_ebit": 9.212,
+            "jinbao_ebit_margin": 0.098,
+            "jinbao_da": 2.41,
+            "jinbao_capex": 2.62,
+            "jinbao_delta_nwc": 1.1500000000000001,
+            "gold_revenue": 3.418913754427837,
+            "gold_ebit": 1.0106137544278369,
+            "gold_da": 0.38,
+            "gold_capex": 0.39,
+            "gold_delta_nwc": -0.11721990015181152,
+            "gold_ore_10kt": 16.1,
+            "gold_kg": 350.6578209669576,
+            "gold_cny_per_g": 975,
+            "gold_variable_cny_per_t": 1030,
+            "gold_fixed_operating_cost": 0.75,
+            "headquarters_cost": 0.29000000000000004
+          },
+          "2033": {
+            "jinbao_revenue": 98,
+            "jinbao_ebit": 9.31,
+            "jinbao_ebit_margin": 0.095,
+            "jinbao_da": 2.49,
+            "jinbao_capex": 2.66,
+            "jinbao_delta_nwc": 0.92,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": -0.273513100354227,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.304
+          },
+          "2034": {
+            "jinbao_revenue": 101.5,
+            "jinbao_ebit": 9.4395,
+            "jinbao_ebit_margin": 0.093,
+            "jinbao_da": 2.56,
+            "jinbao_capex": 2.71,
+            "jinbao_delta_nwc": 0.805,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": 0.0,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.318
+          },
+          "2035": {
+            "jinbao_revenue": 104.5,
+            "jinbao_ebit": 9.613999999999999,
+            "jinbao_ebit_margin": 0.092,
+            "jinbao_da": 2.6,
+            "jinbao_capex": 2.75,
+            "jinbao_delta_nwc": 0.6900000000000001,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": 0.0,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.332
+          }
+        },
+        "cumulative_ore_10kt": 172.1,
+        "required_reserve_conversion_10kt": 0
+      },
+      "bull": {
+        "full_year_2026": {
+          "jinbao_revenue": 53.7,
+          "gold_revenue": 5.9,
+          "ore_10kt": 25
+        },
+        "full_q4": {
+          "jinbao": [
+            18.986437000000002,
+            3.6643823410000005,
+            0.44,
+            0.54
+          ],
+          "gold": [
+            2.0841830000000003,
+            1.18798431,
+            0.15,
+            0.27
+          ],
+          "jinbao_delta_nwc": 0.9,
+          "gold_delta_nwc": 0.02,
+          "headquarters_cost": 0.052
+        },
+        "jinbao_incremental_nwc_ratio": 0.19,
+        "gold_incremental_nwc_ratio": 0.08,
+        "forecast": {
+          "2027": {
+            "jinbao_revenue": 67.5,
+            "jinbao_ebit": 9.1125,
+            "jinbao_ebit_margin": 0.135,
+            "jinbao_da": 1.83,
+            "jinbao_capex": 3.07,
+            "jinbao_delta_nwc": 2.6219999999999994,
+            "gold_revenue": 6.703880577244072,
+            "gold_ebit": 3.578880577244072,
+            "gold_da": 0.59,
+            "gold_capex": 0.77,
+            "gold_delta_nwc": 0.06431044617952572,
+            "gold_ore_10kt": 27,
+            "gold_kg": 588.0596997582519,
+            "gold_cny_per_g": 1140,
+            "gold_variable_cny_per_t": 850,
+            "gold_fixed_operating_cost": 0.83,
+            "headquarters_cost": 0.22
+          },
+          "2028": {
+            "jinbao_revenue": 85,
+            "jinbao_ebit": 12.58,
+            "jinbao_ebit_margin": 0.148,
+            "jinbao_da": 2.08,
+            "jinbao_capex": 3.82,
+            "jinbao_delta_nwc": 3.325,
+            "gold_revenue": 7.326788259210218,
+            "gold_ebit": 3.893488259210218,
+            "gold_da": 0.65,
+            "gold_capex": 0.88,
+            "gold_delta_nwc": 0.04983261455729171,
+            "gold_ore_10kt": 29,
+            "gold_kg": 631.6196775181223,
+            "gold_cny_per_g": 1160,
+            "gold_variable_cny_per_t": 877,
+            "gold_fixed_operating_cost": 0.89,
+            "headquarters_cost": 0.234
+          },
+          "2029": {
+            "jinbao_revenue": 104,
+            "jinbao_ebit": 16.224,
+            "jinbao_ebit_margin": 0.156,
+            "jinbao_da": 2.41,
+            "jinbao_capex": 4.32,
+            "jinbao_delta_nwc": 3.61,
+            "gold_revenue": 7.579436130217468,
+            "gold_ebit": 3.8994361302174676,
+            "gold_da": 0.69,
+            "gold_capex": 0.99,
+            "gold_delta_nwc": 0.020211829680579996,
+            "gold_ore_10kt": 30,
+            "gold_kg": 653.3996663980577,
+            "gold_cny_per_g": 1160,
+            "gold_variable_cny_per_t": 910,
+            "gold_fixed_operating_cost": 0.95,
+            "headquarters_cost": 0.248
+          },
+          "2030": {
+            "jinbao_revenue": 122,
+            "jinbao_ebit": 19.154,
+            "jinbao_ebit_margin": 0.157,
+            "jinbao_da": 2.8,
+            "jinbao_capex": 4.56,
+            "jinbao_delta_nwc": 3.42,
+            "gold_revenue": 7.514096163577663,
+            "gold_ebit": 3.6840961635776623,
+            "gold_da": 0.73,
+            "gold_capex": 1.01,
+            "gold_delta_nwc": -0.005227197331184428,
+            "gold_ore_10kt": 30,
+            "gold_kg": 653.3996663980577,
+            "gold_cny_per_g": 1150,
+            "gold_variable_cny_per_t": 950,
+            "gold_fixed_operating_cost": 0.98,
+            "headquarters_cost": 0.262
+          },
+          "2031": {
+            "jinbao_revenue": 137,
+            "jinbao_ebit": 20.961,
+            "jinbao_ebit_margin": 0.153,
+            "jinbao_da": 3.19,
+            "jinbao_capex": 4.58,
+            "jinbao_delta_nwc": 2.85,
+            "gold_revenue": 7.4487561969378575,
+            "gold_ebit": 3.4187561969378573,
+            "gold_da": 0.77,
+            "gold_capex": 1.03,
+            "gold_delta_nwc": -0.005227197331184428,
+            "gold_ore_10kt": 30,
+            "gold_kg": 653.3996663980577,
+            "gold_cny_per_g": 1140,
+            "gold_variable_cny_per_t": 1000,
+            "gold_fixed_operating_cost": 1.03,
+            "headquarters_cost": 0.276
+          },
+          "2032": {
+            "jinbao_revenue": 149,
+            "jinbao_ebit": 22.201,
+            "jinbao_ebit_margin": 0.149,
+            "jinbao_da": 3.57,
+            "jinbao_capex": 4.48,
+            "jinbao_delta_nwc": 2.2800000000000002,
+            "gold_revenue": 7.383416230298051,
+            "gold_ebit": 3.173416230298051,
+            "gold_da": 0.8,
+            "gold_capex": 1.02,
+            "gold_delta_nwc": -0.0052271973311844985,
+            "gold_ore_10kt": 30,
+            "gold_kg": 653.3996663980577,
+            "gold_cny_per_g": 1130,
+            "gold_variable_cny_per_t": 1050,
+            "gold_fixed_operating_cost": 1.06,
+            "headquarters_cost": 0.29000000000000004
+          },
+          "2033": {
+            "jinbao_revenue": 159,
+            "jinbao_ebit": 22.895999999999997,
+            "jinbao_ebit_margin": 0.144,
+            "jinbao_da": 3.88,
+            "jinbao_capex": 4.42,
+            "jinbao_delta_nwc": 1.9,
+            "gold_revenue": 6.830204512747696,
+            "gold_ebit": 2.685804512747696,
+            "gold_da": 0.76,
+            "gold_capex": 0.92,
+            "gold_delta_nwc": -0.04425693740402842,
+            "gold_ore_10kt": 28,
+            "gold_kg": 609.8396886381871,
+            "gold_cny_per_g": 1120,
+            "gold_variable_cny_per_t": 1098,
+            "gold_fixed_operating_cost": 1.07,
+            "headquarters_cost": 0.304
+          },
+          "2034": {
+            "jinbao_revenue": 167,
+            "jinbao_ebit": 23.380000000000003,
+            "jinbao_ebit_margin": 0.14,
+            "jinbao_da": 4.13,
+            "jinbao_capex": 4.4,
+            "jinbao_delta_nwc": 1.52,
+            "gold_revenue": 4.146909882739672,
+            "gold_ebit": 1.3504098827396724,
+            "gold_da": 0.46,
+            "gold_capex": 0.53,
+            "gold_delta_nwc": -0.21466357040064188,
+            "gold_ore_10kt": 17,
+            "gold_kg": 370.2598109588993,
+            "gold_cny_per_g": 1120,
+            "gold_variable_cny_per_t": 1145,
+            "gold_fixed_operating_cost": 0.85,
+            "headquarters_cost": 0.318
+          },
+          "2035": {
+            "jinbao_revenue": 174,
+            "jinbao_ebit": 23.664,
+            "jinbao_ebit_margin": 0.136,
+            "jinbao_da": 4.3,
+            "jinbao_capex": 4.47,
+            "jinbao_delta_nwc": 1.33,
+            "gold_revenue": 0.0,
+            "gold_ebit": 0.0,
+            "gold_da": 0,
+            "gold_capex": 0,
+            "gold_delta_nwc": -0.3317527906191738,
+            "gold_ore_10kt": 0,
+            "gold_kg": 0.0,
+            "gold_cny_per_g": 0,
+            "gold_variable_cny_per_t": 0,
+            "gold_fixed_operating_cost": 0,
+            "headquarters_cost": 0.332
+          }
+        },
+        "cumulative_ore_10kt": 246,
+        "required_reserve_conversion_10kt": 73.87870000000001
+      }
+    }
+  }
+}

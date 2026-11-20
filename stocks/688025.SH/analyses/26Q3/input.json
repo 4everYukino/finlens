@@ -1,0 +1,544 @@
+{
+  "company": "杰普特",
+  "ticker": "688025.SH",
+  "report_period": "26Q3",
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "information_cutoff": "2026-11-19 23:59:59 +08:00",
+  "valuation_date": "2026-11-19",
+  "market_price": 232.4,
+  "balance_date": "2026-09-30",
+  "prices": {
+    "688025.SH": {
+      "close": 232.4,
+      "date": "2026-11-19",
+      "source": "https://cn.investing.com/equities/shenzhen-jpt-opto-electronics-historical-data",
+      "crosscheck": "https://www.laocaifu.com/stock/688025/lishi/"
+    },
+    "688635.SH": {
+      "close": 151.88,
+      "date": "2026-11-19",
+      "source": "https://www.dabanke.com/gupiao-688635.html",
+      "crosscheck": "https://www.laocaifu.com/stock/688635/"
+    }
+  },
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2030,
+    "base_eps": 9.027742299517639,
+    "end_eps": 16.2488821120098
+  },
+  "fpeg_eps_bridge": {
+    "net_nonoperating_pretax_each_year": 0.1,
+    "tax_rate": 0.15,
+    "minority_profit_each_year": 0.02,
+    "shares": 0.9487421899999999,
+    "includes_condition_met_75200_shares": true,
+    "parent_profit_2027": 8.565,
+    "parent_profit_2030": 15.416,
+    "consensus": "N/A。采用自主预测，缺可回溯覆盖与完整 EPS 序列。"
+  },
+  "bridge": {
+    "cash_equivalents": 4.7047810208,
+    "operating_cash": 4.717945,
+    "nonoperating_financial_assets": 14.2488564748,
+    "debt_components": {
+      "短期借款（包含半年报已识别为融资的信用证贴现类别）": 1.8397952234,
+      "一年内到期非流动负债": 0.3235734269,
+      "长期借款": 1.3352035621,
+      "租赁负债（非流动）": 0.0679886166
+    },
+    "other_claims": 0.1712100086,
+    "shares": 0.94799019
+  },
+  "bridge_adjustments": [
+    {
+      "amount": 0.160326087,
+      "reason": "9 月末至 11 月 19 日，用 Q4 基准预估 FCFF 减税后利息，按 50/92 滚转净金融头寸。"
+    }
+  ],
+  "stub_bridge_assumptions": {
+    "elapsed_days": 50,
+    "total_days": 92,
+    "after_tax_interest": 0.018
+  },
+  "scenarios": {
+    "bear": {
+      "wacc": 0.105,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.14,
+      "terminal_margin": 0.14,
+      "terminal_tax_rate": 0.15,
+      "incremental_nwc_ratio": 0.3,
+      "base_annual_revenue": 38.29611311,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 12.0,
+        "ebit_margin": 0.215,
+        "tax_rate": 0.15,
+        "da": 0.32,
+        "capex": 1.2,
+        "delta_nwc": 1.0
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 43,
+          "ebit_margin": 0.174,
+          "tax_rate": 0.15,
+          "da": 1.05,
+          "capex": 4.3
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 49,
+          "ebit_margin": 0.169,
+          "tax_rate": 0.15,
+          "da": 1.2,
+          "capex": 4.0
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 54,
+          "ebit_margin": 0.164,
+          "tax_rate": 0.15,
+          "da": 1.35,
+          "capex": 3.5
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 58,
+          "ebit_margin": 0.16,
+          "tax_rate": 0.15,
+          "da": 1.5,
+          "capex": 3.1
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 61,
+          "ebit_margin": 0.154,
+          "tax_rate": 0.15,
+          "da": 1.55,
+          "capex": 2.8
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 64,
+          "ebit_margin": 0.15,
+          "tax_rate": 0.15,
+          "da": 1.6,
+          "capex": 2.7
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 67,
+          "ebit_margin": 0.145,
+          "tax_rate": 0.15,
+          "da": 1.65,
+          "capex": 2.65
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 69,
+          "ebit_margin": 0.143,
+          "tax_rate": 0.15,
+          "da": 1.7,
+          "capex": 2.65
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.105,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.18,
+      "terminal_margin": 0.18,
+      "terminal_tax_rate": 0.15,
+      "incremental_nwc_ratio": 0.25,
+      "base_annual_revenue": 38.29611311,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 12.0,
+        "ebit_margin": 0.215,
+        "tax_rate": 0.15,
+        "da": 0.32,
+        "capex": 1.2,
+        "delta_nwc": 1.0
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 50,
+          "ebit_margin": 0.2,
+          "tax_rate": 0.15,
+          "da": 1.15,
+          "capex": 5.1
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 62,
+          "ebit_margin": 0.208,
+          "tax_rate": 0.15,
+          "da": 1.45,
+          "capex": 5.0
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 74,
+          "ebit_margin": 0.212,
+          "tax_rate": 0.15,
+          "da": 1.75,
+          "capex": 4.2
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 84,
+          "ebit_margin": 0.215,
+          "tax_rate": 0.15,
+          "da": 1.9,
+          "capex": 3.95
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 93,
+          "ebit_margin": 0.21,
+          "tax_rate": 0.15,
+          "da": 2.0,
+          "capex": 3.8
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 101,
+          "ebit_margin": 0.2,
+          "tax_rate": 0.15,
+          "da": 2.1,
+          "capex": 3.8
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 107,
+          "ebit_margin": 0.19,
+          "tax_rate": 0.15,
+          "da": 2.2,
+          "capex": 3.85
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 111,
+          "ebit_margin": 0.182,
+          "tax_rate": 0.15,
+          "da": 2.25,
+          "capex": 3.95
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.105,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.22,
+      "terminal_margin": 0.22,
+      "terminal_tax_rate": 0.15,
+      "incremental_nwc_ratio": 0.22,
+      "base_annual_revenue": 38.29611311,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 12.0,
+        "ebit_margin": 0.215,
+        "tax_rate": 0.15,
+        "da": 0.32,
+        "capex": 1.2,
+        "delta_nwc": 1.0
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 57,
+          "ebit_margin": 0.223,
+          "tax_rate": 0.15,
+          "da": 1.25,
+          "capex": 6.6
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 77,
+          "ebit_margin": 0.239,
+          "tax_rate": 0.15,
+          "da": 1.8,
+          "capex": 7.2
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 98,
+          "ebit_margin": 0.249,
+          "tax_rate": 0.15,
+          "da": 2.35,
+          "capex": 7.1
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 116,
+          "ebit_margin": 0.25,
+          "tax_rate": 0.15,
+          "da": 2.85,
+          "capex": 6.2
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 135,
+          "ebit_margin": 0.245,
+          "tax_rate": 0.15,
+          "da": 3.2,
+          "capex": 5.85
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 150,
+          "ebit_margin": 0.235,
+          "tax_rate": 0.15,
+          "da": 3.4,
+          "capex": 5.85
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 162,
+          "ebit_margin": 0.226,
+          "tax_rate": 0.15,
+          "da": 3.55,
+          "capex": 5.95
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 172,
+          "ebit_margin": 0.22,
+          "tax_rate": 0.15,
+          "da": 3.6,
+          "capex": 6.15
+        }
+      ]
+    }
+  },
+  "segments": {
+    "2026_estimate": {
+      "optical": 11.3,
+      "other": 26.99611311
+    },
+    "years": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034
+    ],
+    "bear": {
+      "optical": [
+        13,
+        16,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "other": [
+        30,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        44
+      ]
+    },
+    "base": {
+      "optical": [
+        18,
+        25,
+        32,
+        38,
+        43,
+        47,
+        50,
+        52
+      ],
+      "other": [
+        32,
+        37,
+        42,
+        46,
+        50,
+        54,
+        57,
+        59
+      ]
+    },
+    "bull": {
+      "optical": [
+        23,
+        36,
+        49,
+        60,
+        72,
+        80,
+        86,
+        91
+      ],
+      "other": [
+        34,
+        41,
+        49,
+        56,
+        63,
+        70,
+        76,
+        81
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.095,
+      0.105,
+      0.115
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.8,
+      1.0,
+      1.2
+    ]
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "revenue_growth",
+    "stage": "growth",
+    "lower": -0.1,
+    "upper": 1.0,
+    "reinvestment": {
+      "capex": "revenue_ratio",
+      "da": "revenue_ratio"
+    },
+    "price_tolerance": 0.001
+  },
+  "bridge_details": {
+    "other_claims_basis": "少数股东权益（期末账面代理）",
+    "registered_shares": 95049423,
+    "treasury_shares": 250404,
+    "valuation_shares": 94799019,
+    "cash_balance_26q3": 7.8536378957,
+    "cash_excluded_from_cce": 3.1488568749,
+    "liquid_financial_assets": 1.9203338568,
+    "total_book_associates": 2.8109975544,
+    "other_noncurrent_financial_assets": 0.9346158169,
+    "changjin": {
+      "shares": 9332715,
+      "preipo": 8600651,
+      "placement": 732064,
+      "unadjusted_market_value": 14.174527542,
+      "haircut": 0.25,
+      "market_value_after_haircut": 10.6308956565,
+      "book_carve_out_h126": 2.0479864098
+    },
+    "company_operating_cash_reference_2025": 4.717945,
+    "basis": "受限用途及定期存款结构的三季报明细缺失，货币资金与现金等价物差额整体暂不加回；其他股权按账面代理。"
+  },
+  "case_checks": {
+    "fundraising": {
+      "gross_proceeds": 13.7297,
+      "estimated_fees": 0.1,
+      "issue_price_cases": [
+        185.92,
+        232.4
+      ],
+      "max_legal_shares": 28514826,
+      "reason": "示例发行价为估值日收盘的 80% 和 100%，实际发行底价按发行期首日前二十日交易均价而定。"
+    },
+    "changjin_haircuts": [
+      0.15,
+      0.25,
+      0.4
+    ],
+    "more_operating_cash": 8.71,
+    "one_year_delay": {
+      "project_revenue_path_before_delay": [
+        0.0,
+        2.176,
+        11.968,
+        17.408,
+        21.76,
+        21.76,
+        21.76,
+        21.76
+      ],
+      "capex_changes": [
+        -1.0,
+        -0.2,
+        1.2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ebit_margin_changes": [
+        0,
+        -0.003,
+        -0.01,
+        -0.006,
+        -0.004,
+        0,
+        0,
+        0
+      ],
+      "reason": "以公示达产节奏估算两条产线增量收入，并整体延后一年。延后部分设备资本开支并保留已开工投入。"
+    }
+  },
+  "model_notes": [
+    "三情景采用同一 WACC 与永续增速，第四季度剩余现金流采用共同估计。",
+    "估值年度 2026 Q4 为估计值。经营预测含扩产支出，融资收益和股本变动用独立条件检查。",
+    "成熟期回报率为新增投入回报率假设。折旧含租赁使用权，经济资本开支保留租赁资产更新成本。",
+    "净营运资金联动率包含普通营运资金和未来所需经营现金的增量，已在估值时点扣除必要经营储备。"
+  ]
+}

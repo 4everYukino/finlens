@@ -1,0 +1,4430 @@
+{
+  "company": "昆山东威科技股份有限公司",
+  "ticker": "688700.SH",
+  "analysis_period": "26Q3",
+  "tracking_type": "首次跟踪",
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "information_cutoff": "2026-11-17 15:07:24 Asia/Shanghai",
+  "valuation_date": "2026-11-17",
+  "balance_date": "2026-09-30",
+  "market_price": 32.99,
+  "market_snapshot": {
+    "source": "S7",
+    "timestamp": "2026-11-17 15:07:24",
+    "price": 32.99,
+    "issued_shares": 2.9840136,
+    "type": "常规收盘后冻结行情快照；快照时间不等于成交时间。",
+    "raw_quote": "v_sh688700=\"1~东威科技~688700~32.99~33.30~33.00~10457702~5414107~5043595~32.99~2~0.00~0~0.00~0~0.00~0~0.00~0~0.00~0~0.00~0~0.00~0~0.00~0~0.00~0~~20261117150724~-0.31~-0.93~34.62~32.33~32.99/10457702/349319522~10457702~34932~3.50~49.59~~34.62~32.33~6.88~98.44~98.44~5.20~39.96~26.64~0.94~2~33.40~45.31~81.40~~~2.57~34931.9522~0.0000~0~B RB~GP-A-KCB~-5.50~-11.32~1.12~10.49~4.29~103.51~31.92~-3.65~-30.27~-45.94~298401360~298401360~100.00~-18.70~298401360~~~-8.69~0.03~~CNY~0~___D__F__NY~0.00~0~100\";\n"
+  },
+  "index_membership": {
+    "index_code": "980080",
+    "official_sample_date": "2026-11-16",
+    "download_date": "2026-11-17",
+    "weight": null
+  },
+  "financial_history": {
+    "24FY": {
+      "balance": {
+        "cash": 2.2373652281,
+        "trading_assets": 0.9696641667,
+        "bills_receivable": 0.4518451371,
+        "ar": 6.396159580700001,
+        "ar_financing": 0.08775864779999999,
+        "prepaid": 0.095859321,
+        "inventory": 6.341483587000001,
+        "contract_assets": 0.35524565840000005,
+        "current_long_ar": 0.0,
+        "long_ar": 0.0,
+        "long_investment": 0.0,
+        "equity_investment": 0.0,
+        "other_financial": 0.0,
+        "other_current_assets": 0.1919064087,
+        "other_debt_assets": 5.0181459722,
+        "other_receivables": 0.0633721854,
+        "ap": 3.3656384357999998,
+        "bills_payable": 1.1736602952,
+        "contract_liab": 3.6811546230000003,
+        "short_debt": 0.0,
+        "current_debt": 0.0157857099,
+        "long_debt": 0.0,
+        "bonds": 0.0,
+        "leases": 0.0246095584,
+        "other_current_liab": 0.45094960689999997,
+        "other_payables": 0.0463478808,
+        "assets": 27.1798769316,
+        "fixed_assets": 3.5937056188,
+        "cip": 0.1242165189,
+        "rou": 0.0366016531,
+        "intangible": 0.8239372478,
+        "goodwill": 0.0,
+        "long_prepaid": 0.0015239044,
+        "tax_payable": 0.087276978,
+        "staff_payable": 0.44935414020000003,
+        "other_noncurrent": 0.0431683717,
+        "development": 0.0,
+        "dividend_payable": 0.0,
+        "long_payables": 0.0,
+        "equity": 17.3362556191,
+        "parent_equity": 17.3362556191,
+        "minority_equity": 0.0,
+        "treasury": 0.1505960337,
+        "liabilities": 9.8436213125,
+        "shares": 2.9840136,
+        "deferred_income": 0.1926666668,
+        "provisions": 0.3077395088
+      },
+      "revenue": 7.499975049500001,
+      "cogs": 4.9875855361,
+      "surtax": 0.0827837617,
+      "selling": 0.38608813670000003,
+      "admin": 0.5704592987,
+      "rd": 0.8264117518,
+      "finance": -0.0353826717,
+      "interest_expense": 0.0025263222,
+      "interest_income": 0.017504638,
+      "other_income": 0.2280778747,
+      "investment_income": 0.17539770579999997,
+      "fair_value": 0.0059465556,
+      "credit_impairment": -0.2248226374,
+      "asset_impairment": -0.1296290875,
+      "disposal_gain": 0.0009284568,
+      "operating_profit": 0.7379281042,
+      "pretax_profit": 0.7358913978,
+      "income_tax": 0.0431624824,
+      "net_profit": 0.6927289154,
+      "parent_profit": 0.6927289154,
+      "minority_profit": 0.0,
+      "cfo": 0.9354406852,
+      "sales_cash": 7.633423658099999,
+      "purchase_cash": 3.7298621432999997,
+      "cash_in": 8.0841804246,
+      "cash_out": 7.148739739400001,
+      "cash_capex": 0.7820376203,
+      "cash_equivalents": 2.2328652281,
+      "acquisition_cash": 0.0,
+      "equity_cash": 0.0,
+      "dividend_and_interest_cash": 0.573078,
+      "other_financing_paid": 0.1838715306,
+      "borrowing_cash": 0.0,
+      "debt_repayment_cash": 0.0,
+      "other_financing_received": 0.0,
+      "cash_investing": 0.5212531765,
+      "cash_financing": -0.7569495306,
+      "fx_cash": 0.010744819499999999,
+      "cash_net_change": 0.7104891506000001,
+      "page_numbers": {
+        "balance": 111,
+        "income": 115,
+        "cashflow": 119
+      },
+      "core_ebit": 0.3125991955,
+      "gross_margin": 0.3349863828636994,
+      "core_ebit_margin": 0.041680031391683095,
+      "cash_conversion": 1.3503704903957297,
+      "cash_after_capex": 0.1534030649,
+      "operating_nwc_proxy": 5.5078985780000025,
+      "financial_assets": 5.9878101389000005,
+      "bank_lease_debt": 0.040395268299999995,
+      "operating_cash_proxy": 0.59999800396,
+      "ic_proxy": 9.75597352436,
+      "da": 0.29253095030000004
+    },
+    "25FY": {
+      "balance": {
+        "cash": 2.4953145502000003,
+        "trading_assets": 1.2320336767,
+        "bills_receivable": 0.5823725814999999,
+        "ar": 7.124829869299999,
+        "ar_financing": 0.1585984715,
+        "prepaid": 0.1413856219,
+        "inventory": 10.3075883958,
+        "contract_assets": 0.38549037799999997,
+        "current_long_ar": 4.8517206695,
+        "long_ar": 0.0,
+        "long_investment": 0.0,
+        "equity_investment": 0.0,
+        "other_financial": 0.0,
+        "fixed_assets": 4.1561494095,
+        "cip": 0.8182539482,
+        "rou": 0.1077604489,
+        "intangible": 0.8086112654000001,
+        "development": 0.0,
+        "other_current_assets": 0.19145825579999998,
+        "other_debt_assets": 0.31180833329999996,
+        "other_receivables": 0.050795207099999996,
+        "ap": 4.559632532799999,
+        "bills_payable": 2.2064015182,
+        "contract_liab": 6.9390702061,
+        "short_debt": 0.0,
+        "current_debt": 0.0266658419,
+        "long_debt": 0.0,
+        "bonds": 0.0,
+        "leases": 0.08789722650000001,
+        "long_payables": 0.0,
+        "other_current_liab": 0.6094779466,
+        "other_payables": 0.10182110539999999,
+        "assets": 34.2409403928,
+        "liabilities": 15.9199075192,
+        "goodwill": 0.0,
+        "long_prepaid": 0.0186189297,
+        "tax_payable": 0.2378440662,
+        "staff_payable": 0.5510389122,
+        "deferred_income": 0.2837541316,
+        "other_noncurrent": 0.1351866826,
+        "dividend_payable": 0.0,
+        "provisions": 0.31630403170000004,
+        "equity": 18.3210328736,
+        "parent_equity": 18.3210328736,
+        "minority_equity": 0.0,
+        "treasury": 0.1505960337,
+        "shares": 2.9840136
+      },
+      "revenue": 10.983867786500001,
+      "cogs": 7.205250329400001,
+      "surtax": 0.1360927064,
+      "selling": 0.5181095142000001,
+      "admin": 0.6895031843,
+      "rd": 1.0006508052,
+      "finance": -0.019933368700000002,
+      "interest_expense": 0.0023719597,
+      "interest_income": 0.0167157406,
+      "other_income": 0.2872789557,
+      "investment_income": 0.1537917951,
+      "fair_value": 0.005243343399999999,
+      "credit_impairment": -0.3523092702,
+      "asset_impairment": -0.1388358124,
+      "disposal_gain": 0.0010912932,
+      "operating_profit": 1.4104549205,
+      "pretax_profit": 1.3947231605000001,
+      "income_tax": 0.1853540097,
+      "net_profit": 1.2093691508,
+      "parent_profit": 1.2093691508,
+      "minority_profit": 0.0,
+      "cfo": 2.4494279292,
+      "sales_cash": 11.245545203599999,
+      "purchase_cash": 5.3865525737,
+      "cash_in": 11.9465556274,
+      "cash_out": 9.4971276982,
+      "cash_capex": 1.6475386542,
+      "cash_equivalents": 2.4908145502,
+      "acquisition_cash": 0.0,
+      "equity_cash": 0.0,
+      "dividend_and_interest_cash": 0.29800056,
+      "other_financing_paid": 0.0155855679,
+      "borrowing_cash": 0.0,
+      "debt_repayment_cash": 0.0,
+      "other_financing_received": 0.0,
+      "cash_investing": -1.8932144546,
+      "cash_financing": -0.3135861279,
+      "fx_cash": 0.0153219754,
+      "cash_net_change": 0.2579493221,
+      "page_numbers": {
+        "balance": 103,
+        "income": 107,
+        "cashflow": 111
+      },
+      "core_ebit": 0.9487057522000001,
+      "gross_margin": 0.34401519852088946,
+      "core_ebit_margin": 0.08637264856429087,
+      "cash_conversion": 2.025376558993339,
+      "cash_after_capex": 0.8018892750000002,
+      "operating_nwc_proxy": 4.995161060899999,
+      "financial_assets": 6.395562679499999,
+      "bank_lease_debt": 0.11456306840000001,
+      "operating_cash_proxy": 0.8787094229200001,
+      "ic_proxy": 10.42792813522,
+      "da": 0.3418073392
+    },
+    "25Q3": {
+      "balance": {
+        "cash": 2.2169841719,
+        "trading_assets": 0.1300916667,
+        "bills_receivable": 0.6670570305,
+        "ar": 6.954014759700001,
+        "ar_financing": 0.0240363673,
+        "prepaid": 0.15329169410000001,
+        "inventory": 9.3272502538,
+        "contract_assets": 0.36978853479999996,
+        "current_long_ar": 0.0,
+        "long_ar": 0.0,
+        "long_investment": 0.0,
+        "equity_investment": 0.0,
+        "other_current_assets": 0.1419042568,
+        "other_debt_assets": 5.1254742952,
+        "other_receivables": 0.0963146967,
+        "ap": 3.9864472154,
+        "bills_payable": 1.9540014933,
+        "contract_liab": 5.599101136900001,
+        "short_debt": 0.0,
+        "current_debt": 0.0122103712,
+        "other_current_liab": 0.6546650268,
+        "other_payables": 0.031023308599999997,
+        "other_financial": 0.0,
+        "assets": 31.4517943486,
+        "fixed_assets": 3.5121653626,
+        "cip": 0.6293505468,
+        "rou": 0.0249057913,
+        "intangible": 0.8158483547,
+        "goodwill": 0.0,
+        "long_prepaid": 0.0005442095,
+        "tax_payable": 0.1416287191,
+        "staff_payable": 0.4632540221,
+        "other_noncurrent": 0.8081711145,
+        "development": 0.0,
+        "dividend_payable": 0.0,
+        "long_debt": 0.0,
+        "bonds": 0.0,
+        "leases": 0.0169304551,
+        "long_payables": 0.0,
+        "equity": 17.9565163629,
+        "parent_equity": 17.9565163629,
+        "minority_equity": 0.0,
+        "treasury": 0.1505960337,
+        "liabilities": 13.4952779857,
+        "shares": 2.9840136,
+        "deferred_income": 0.2794513606,
+        "provisions": 0.301747056
+      },
+      "revenue": 7.5694287684,
+      "cogs": 4.997162202,
+      "surtax": 0.0753199149,
+      "selling": 0.3393758683,
+      "admin": 0.5087968102,
+      "rd": 0.6655218970000001,
+      "finance": -0.0246073569,
+      "interest_expense": 0.0011796517,
+      "interest_income": 0.0125977396,
+      "other_income": 0.22085293050000002,
+      "investment_income": 0.1138351143,
+      "fair_value": 0.0023152222,
+      "credit_impairment": -0.2920307728,
+      "asset_impairment": -0.073265416,
+      "disposal_gain": -0.0027533582,
+      "operating_profit": 0.9768131529,
+      "pretax_profit": 0.9679789679,
+      "income_tax": 0.11430630929999999,
+      "net_profit": 0.8536726586,
+      "parent_profit": 0.8536726586,
+      "minority_profit": 0.0,
+      "cfo": 0.7848088643000001,
+      "sales_cash": 7.0172265997,
+      "purchase_cash": 3.8961838026,
+      "cash_in": 7.596977935,
+      "cash_out": 6.8121690707,
+      "cash_capex": 1.3601445793,
+      "cash_equivalents": 2.2124841719,
+      "acquisition_cash": 0.0,
+      "equity_cash": 0.0,
+      "dividend_and_interest_cash": 0.29800056,
+      "other_financing_paid": 0.011415848000000001,
+      "borrowing_cash": 0.0,
+      "debt_repayment_cash": 0.0,
+      "other_financing_received": 0.0,
+      "cash_investing": -0.5106336458,
+      "cash_financing": -0.30941640800000003,
+      "fx_cash": 0.014860133300000002,
+      "cash_net_change": -0.0203810562,
+      "page_numbers": {
+        "balance": 6,
+        "income": 8,
+        "cashflow": 11
+      },
+      "core_ebit": 0.6311451562,
+      "gross_margin": 0.3398230758361065,
+      "core_ebit_margin": 0.08338081716745045,
+      "cash_conversion": 0.919332318299927,
+      "cash_after_capex": -0.5753357149999999,
+      "operating_nwc_proxy": 5.955888794599998,
+      "financial_assets": 5.2555659619,
+      "bank_lease_debt": 0.0291408263,
+      "operating_cash_proxy": 0.807405735296,
+      "ic_proxy": 11.325012790696
+    },
+    "26Q1": {
+      "balance": {
+        "cash": 2.2955821609,
+        "trading_assets": 2.6860089027,
+        "bills_receivable": 0.5655339842,
+        "ar": 6.9883075485,
+        "ar_financing": 0.09186730130000001,
+        "prepaid": 0.2253023649,
+        "inventory": 11.8418024871,
+        "contract_assets": 0.34680244,
+        "current_long_ar": 4.4476676008,
+        "long_ar": 0.0,
+        "long_investment": 0.0,
+        "equity_investment": 0.0,
+        "other_financial": 0.0,
+        "fixed_assets": 4.1362121079000005,
+        "cip": 0.9300755875,
+        "other_current_assets": 0.15732710960000001,
+        "other_debt_assets": 0.7141527777,
+        "other_receivables": 0.047506965199999994,
+        "ap": 5.1596568976,
+        "bills_payable": 2.2451187688,
+        "contract_liab": 8.7196118394,
+        "short_debt": 0.0,
+        "current_debt": 0.021547447200000003,
+        "long_debt": 0.0,
+        "bonds": 0.0,
+        "other_current_liab": 0.6517637211999999,
+        "other_payables": 0.0817179273,
+        "assets": 36.9266146394,
+        "rou": 0.10067728710000001,
+        "intangible": 0.8049605076,
+        "goodwill": 0.0,
+        "long_prepaid": 0.0175195148,
+        "tax_payable": 0.1553257383,
+        "staff_payable": 0.4411862458,
+        "other_noncurrent": 0.1531188811,
+        "development": 0.0,
+        "dividend_payable": 0.0,
+        "leases": 0.0846325652,
+        "long_payables": 0.0,
+        "equity": 18.769725352200002,
+        "parent_equity": 18.769725352200002,
+        "minority_equity": 0.0,
+        "treasury": 0.1505960337,
+        "liabilities": 18.156889287200002,
+        "shares": 2.9840136,
+        "deferred_income": 0.2701391883,
+        "provisions": 0.3261889481
+      },
+      "revenue": 3.05476484,
+      "cogs": 1.9167581756999998,
+      "surtax": 0.0577980185,
+      "selling": 0.1657603598,
+      "admin": 0.17646031980000002,
+      "rd": 0.26939324530000003,
+      "finance": 0.011432633000000001,
+      "interest_expense": 0.0009765028,
+      "interest_income": 0.0028226124,
+      "other_income": 0.061309744299999996,
+      "investment_income": 0.0396922306,
+      "fair_value": 0.0058494583,
+      "credit_impairment": -0.0557471839,
+      "asset_impairment": -0.0073042257999999995,
+      "disposal_gain": -0.0021449366,
+      "operating_profit": 0.4988171748,
+      "pretax_profit": 0.49823437670000004,
+      "income_tax": 0.0550760344,
+      "net_profit": 0.44315834229999995,
+      "parent_profit": 0.44315834229999995,
+      "minority_profit": 0.0,
+      "sales_cash": 4.7696041402,
+      "cfo": 1.4909785465,
+      "cash_capex": 0.2665060147,
+      "purchase_cash": 1.9540239486000002,
+      "acquisition_cash": 0.0,
+      "equity_cash": 0.0,
+      "dividend_and_interest_cash": 0.0,
+      "other_financing_paid": 0.0070455415,
+      "borrowing_cash": 0.0,
+      "debt_repayment_cash": 0.0,
+      "cash_in": 4.9191411664,
+      "cash_out": 3.4281626199,
+      "other_financing_received": 0.0,
+      "cash_investing": -1.6727910775,
+      "cash_equivalents": 2.2910821609,
+      "cash_financing": -0.0070455415,
+      "fx_cash": -0.010874316799999999,
+      "cash_net_change": -0.1997323893,
+      "page_numbers": {
+        "balance": 6,
+        "income": 8,
+        "cashflow": 10
+      },
+      "core_ebit": 0.39226456860000003,
+      "gross_margin": 0.3725349491386709,
+      "core_ebit_margin": 0.12841072525896954,
+      "cash_conversion": 3.3644375027711177,
+      "cash_after_capex": 1.2244725318,
+      "operating_nwc_proxy": 3.9352286202,
+      "financial_assets": 7.8478292812,
+      "bank_lease_debt": 0.1061800124,
+      "operating_cash_proxy": 0.9775247488,
+      "ic_proxy": 9.714518671300002
+    },
+    "26H1": {
+      "balance": {
+        "cash": 4.5337564918,
+        "trading_assets": 2.9393565416000005,
+        "bills_receivable": 0.6969035112,
+        "ar": 7.2769042258,
+        "ar_financing": 0.08899076689999999,
+        "prepaid": 0.2226618444,
+        "inventory": 14.774467480899999,
+        "contract_assets": 0.341193827,
+        "current_long_ar": 3.2776708244,
+        "long_ar": 0.0,
+        "long_investment": 0.0,
+        "equity_investment": 0.0,
+        "other_financial": 0.0,
+        "fixed_assets": 5.2746458131,
+        "other_current_assets": 0.2335215433,
+        "other_debt_assets": 0.7179191667,
+        "other_receivables": 0.0732539494,
+        "ap": 6.687955766,
+        "bills_payable": 2.6830491308,
+        "contract_liab": 11.144494339300001,
+        "short_debt": 0.0,
+        "current_debt": 0.0220614702,
+        "long_debt": 0.0,
+        "bonds": 0.0,
+        "leases": 0.0790595761,
+        "long_payables": 0.0,
+        "other_current_liab": 0.7610431276,
+        "other_payables": 0.037904178399999995,
+        "assets": 42.1169033402,
+        "cip": 0.06501004769999999,
+        "rou": 0.0940743694,
+        "intangible": 0.7995405181,
+        "goodwill": 0.0,
+        "long_prepaid": 0.016476821399999998,
+        "tax_payable": 0.1942791438,
+        "staff_payable": 0.5112660106,
+        "other_noncurrent": 0.2730871786,
+        "development": 0.0,
+        "dividend_payable": 0.0,
+        "equity": 19.3817679838,
+        "parent_equity": 19.3817679838,
+        "minority_equity": 0.0,
+        "treasury": 0.0473536737,
+        "liabilities": 22.735135356399997,
+        "shares": 2.9840136,
+        "deferred_income": 0.27299483329999996,
+        "provisions": 0.3410277803
+      },
+      "revenue": 6.7366128042,
+      "cogs": 4.2064246683999995,
+      "surtax": 0.0897529492,
+      "selling": 0.29136619129999997,
+      "admin": 0.3766397299,
+      "rd": 0.5487069979,
+      "finance": 0.0315357619,
+      "interest_expense": 0.0018805776,
+      "interest_income": 0.0048071178999999995,
+      "other_income": 0.12776712869999998,
+      "investment_income": 0.083092757,
+      "fair_value": 0.0138928055,
+      "credit_impairment": -0.1693779804,
+      "asset_impairment": -0.0965205209,
+      "disposal_gain": 0.0002847092,
+      "operating_profit": 1.1513254046999999,
+      "pretax_profit": 1.1380608933,
+      "income_tax": 0.1468442632,
+      "net_profit": 0.9912166301,
+      "parent_profit": 0.9912166301,
+      "minority_profit": 0.0,
+      "sales_cash": 10.047989295399999,
+      "purchase_cash": 4.5253415764,
+      "cash_in": 10.3692375221,
+      "cfo": 3.1143581310000004,
+      "cash_capex": 0.6444457471,
+      "acquisition_cash": 0.0,
+      "equity_cash": 0.0,
+      "dividend_and_interest_cash": 0.0,
+      "borrowing_cash": 0.0,
+      "debt_repayment_cash": 0.0,
+      "cash_out": 7.2548793911,
+      "other_financing_received": 0.05515236,
+      "cash_investing": -1.0862107378,
+      "cash_equivalents": 4.5292564918,
+      "other_financing_paid": 0.0165201707,
+      "cash_financing": 0.0386321893,
+      "fx_cash": -0.0283376409,
+      "cash_net_change": 2.0384419416,
+      "page_numbers": {
+        "balance": 53,
+        "income": 57,
+        "cashflow": 61
+      },
+      "core_ebit": 0.923361464,
+      "gross_margin": 0.3755875852360897,
+      "core_ebit_margin": 0.13706613261553674,
+      "cash_conversion": 3.1419550847182665,
+      "cash_after_capex": 2.4699123839000006,
+      "operating_nwc_proxy": 2.8856224200999954,
+      "financial_assets": 6.934946532700001,
+      "bank_lease_debt": 0.1011210463,
+      "operating_cash_proxy": 1.077858048672,
+      "ic_proxy": 9.096544054272,
+      "da": 0.1959857192
+    },
+    "26Q3": {
+      "balance": {
+        "cash": 4.992442099100001,
+        "trading_assets": 6.148093555499999,
+        "bills_receivable": 0.7668806881,
+        "ar": 7.690876709099999,
+        "ar_financing": 0.1425494557,
+        "prepaid": 0.29929301070000003,
+        "inventory": 17.5817404251,
+        "contract_assets": 0.4172209776,
+        "current_long_ar": 0.31772333329999997,
+        "long_ar": 0.0,
+        "long_investment": 0.0,
+        "other_current_assets": 0.2528263536,
+        "other_debt_assets": 0.4040036111,
+        "other_receivables": 0.09690617300000001,
+        "ap": 7.465356042000001,
+        "bills_payable": 3.5318701319,
+        "contract_liab": 13.6849821429,
+        "short_debt": 0.0,
+        "current_debt": 0.021809244,
+        "other_current_liab": 0.9714519934,
+        "other_payables": 0.061603261299999997,
+        "equity_investment": 0.0,
+        "other_financial": 0.0,
+        "assets": 46.233593024799994,
+        "fixed_assets": 5.3182864992,
+        "cip": 0.1479295763,
+        "rou": 0.0958529323,
+        "intangible": 0.7933185205,
+        "goodwill": 0.0,
+        "long_prepaid": 0.0167332494,
+        "tax_payable": 0.2550246907,
+        "staff_payable": 0.6193173755,
+        "other_noncurrent": 0.2714140996,
+        "development": 0.0,
+        "dividend_payable": 0.0,
+        "long_debt": 0.0,
+        "bonds": 0.0,
+        "leases": 0.0735356009,
+        "long_payables": 0.0,
+        "equity": 18.9251917714,
+        "parent_equity": 18.9251917714,
+        "minority_equity": 0.0,
+        "treasury": 0.0473536737,
+        "liabilities": 27.308401253400003,
+        "shares": 2.9840136,
+        "deferred_income": 0.25585047829999996,
+        "provisions": 0.3676002925
+      },
+      "revenue": 11.033360442200001,
+      "cogs": 7.0280693746,
+      "surtax": 0.141799017,
+      "selling": 0.4822787822,
+      "admin": 0.589183483,
+      "rd": 0.8054207931999999,
+      "finance": 0.0489697663,
+      "interest_expense": 0.0027490887,
+      "interest_income": 0.0059915156,
+      "other_income": 0.2191895878,
+      "investment_income": 0.09732069630000001,
+      "fair_value": 0.0065590606000000004,
+      "credit_impairment": -0.2353852734,
+      "asset_impairment": -0.1562333931,
+      "disposal_gain": 0.00030172740000000003,
+      "operating_profit": 1.8693916315,
+      "pretax_profit": 1.8522427749,
+      "income_tax": 0.2227355823,
+      "net_profit": 1.6295071926,
+      "parent_profit": 1.6295071926,
+      "minority_profit": 0.0,
+      "cfo": 4.7897901647,
+      "sales_cash": 15.772069068199999,
+      "purchase_cash": 7.2235043513,
+      "cash_in": 16.3706634111,
+      "cash_out": 11.580873246400001,
+      "cash_capex": 0.810665014,
+      "cash_equivalents": 4.9822497175,
+      "acquisition_cash": 0.0,
+      "equity_cash": 0.0,
+      "dividend_and_interest_cash": 1.103618832,
+      "other_financing_paid": 0.0240574205,
+      "borrowing_cash": 0.0,
+      "debt_repayment_cash": 0.0,
+      "other_financing_received": 0.0561581766,
+      "cash_investing": -1.1861021591,
+      "cash_financing": -1.0715180759,
+      "fx_cash": -0.0407347624,
+      "cash_net_change": 2.4914351672999997,
+      "page_numbers": {
+        "balance": 6,
+        "income": 9,
+        "cashflow": 11
+      },
+      "core_ebit": 1.5427781324999998,
+      "gross_margin": 0.36301642537487555,
+      "core_ebit_margin": 0.1398284902031513,
+      "cash_conversion": 2.9394102624717684,
+      "cash_after_capex": 3.9791251507000003,
+      "operating_nwc_proxy": 2.216352949499999,
+      "financial_assets": 6.869820499899999,
+      "bank_lease_debt": 0.0953448449,
+      "operating_cash_proxy": 1.1768917805013335,
+      "ic_proxy": 8.345358179401337
+    }
+  },
+  "financial_extraction_evidence": {
+    "24FY": {
+      "balance": {
+        "cash": [
+          111,
+          "223,736,522.81",
+          410.3401184082031
+        ],
+        "trading_assets": [
+          111,
+          "96,966,416.67",
+          410.3401184082031
+        ],
+        "bills_receivable": [
+          111,
+          "45,184,513.71",
+          410.3401184082031
+        ],
+        "ar": [
+          111,
+          "639,615,958.07",
+          410.3401184082031
+        ],
+        "ar_financing": [
+          111,
+          "8,775,864.78",
+          410.3401184082031
+        ],
+        "prepaid": [
+          111,
+          "9,585,932.10",
+          410.3401184082031
+        ],
+        "inventory": [
+          111,
+          "634,148,358.70",
+          410.3401184082031
+        ],
+        "contract_assets": [
+          111,
+          "35,524,565.84",
+          410.3401184082031
+        ],
+        "current_long_ar": [
+          111,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "long_ar": [
+          111,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "long_investment": [
+          111,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "equity_investment": [
+          111,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "other_financial": [
+          111,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "other_current_assets": [
+          111,
+          "19,190,640.87",
+          410.3401184082031
+        ],
+        "other_debt_assets": [
+          111,
+          "501,814,597.22",
+          410.3401184082031
+        ],
+        "other_receivables": [
+          111,
+          "6,337,218.54",
+          410.3401184082031
+        ],
+        "ap": [
+          112,
+          "336,563,843.58",
+          410.3401184082031
+        ],
+        "bills_payable": [
+          112,
+          "117,366,029.52",
+          410.3401184082031
+        ],
+        "contract_liab": [
+          112,
+          "368,115,462.30",
+          410.3401184082031
+        ],
+        "short_debt": [
+          112,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "current_debt": [
+          112,
+          "1,578,570.99",
+          410.3401184082031
+        ],
+        "long_debt": [
+          112,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "bonds": [
+          112,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "leases": [
+          112,
+          "2,460,955.84",
+          410.3401184082031
+        ],
+        "other_current_liab": [
+          112,
+          "45,094,960.69",
+          410.3401184082031
+        ],
+        "other_payables": [
+          112,
+          "4,634,788.08",
+          410.3401184082031
+        ],
+        "assets": [
+          112,
+          "2,717,987,693.16",
+          410.3401184082031
+        ],
+        "fixed_assets": [
+          112,
+          "359,370,561.88",
+          410.3401184082031
+        ],
+        "cip": [
+          112,
+          "12,421,651.89",
+          410.3401184082031
+        ],
+        "rou": [
+          112,
+          "3,660,165.31",
+          410.3401184082031
+        ],
+        "intangible": [
+          112,
+          "82,393,724.78",
+          410.3401184082031
+        ],
+        "goodwill": [
+          112,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "long_prepaid": [
+          112,
+          "152,390.44",
+          410.3401184082031
+        ],
+        "tax_payable": [
+          112,
+          "8,727,697.80",
+          410.3401184082031
+        ],
+        "staff_payable": [
+          112,
+          "44,935,414.02",
+          410.3401184082031
+        ],
+        "other_noncurrent": [
+          112,
+          "4,316,837.17",
+          410.3401184082031
+        ],
+        "development": [
+          112,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "dividend_payable": [
+          112,
+          "本期列空白",
+          410.3401184082031
+        ],
+        "long_payables": [
+          113,
+          "本期列空白",
+          410.33966064453125
+        ],
+        "equity": [
+          113,
+          "1,733,625,561.91",
+          410.33966064453125
+        ],
+        "parent_equity": [
+          113,
+          "1,733,625,561.91",
+          410.33966064453125
+        ],
+        "minority_equity": [
+          113,
+          "本期列空白",
+          410.33966064453125
+        ],
+        "treasury": [
+          113,
+          "15,059,603.37",
+          410.33966064453125
+        ],
+        "liabilities": [
+          113,
+          "984,362,131.25",
+          410.33966064453125
+        ],
+        "shares": [
+          113,
+          "298,401,360.00",
+          410.33966064453125
+        ],
+        "deferred_income": [
+          113,
+          "19,266,666.68",
+          410.33966064453125
+        ],
+        "provisions": [
+          113,
+          "30,773,950.88",
+          410.33966064453125
+        ]
+      },
+      "income": {
+        "revenue": [
+          115,
+          "749,997,504.95",
+          430.61981201171875
+        ],
+        "cogs": [
+          115,
+          "498,758,553.61",
+          430.61981201171875
+        ],
+        "surtax": [
+          116,
+          "8,278,376.17",
+          430.50164794921875
+        ],
+        "selling": [
+          116,
+          "38,608,813.67",
+          430.50164794921875
+        ],
+        "admin": [
+          116,
+          "57,045,929.87",
+          430.50164794921875
+        ],
+        "rd": [
+          116,
+          "82,641,175.18",
+          430.50164794921875
+        ],
+        "finance": [
+          116,
+          "-3,538,267.17",
+          430.50164794921875
+        ],
+        "interest_expense": [
+          116,
+          "252,632.22",
+          430.50164794921875
+        ],
+        "interest_income": [
+          116,
+          "1,750,463.80",
+          430.50164794921875
+        ],
+        "other_income": [
+          116,
+          "22,807,787.47",
+          430.50164794921875
+        ],
+        "investment_income": [
+          116,
+          "17,539,770.58",
+          430.50164794921875
+        ],
+        "fair_value": [
+          116,
+          "594,655.56",
+          430.50164794921875
+        ],
+        "credit_impairment": [
+          116,
+          "-22,482,263.74",
+          430.50164794921875
+        ],
+        "asset_impairment": [
+          116,
+          "-12,962,908.75",
+          430.50164794921875
+        ],
+        "disposal_gain": [
+          116,
+          "92,845.68",
+          430.50164794921875
+        ],
+        "operating_profit": [
+          116,
+          "73,792,810.42",
+          430.50164794921875
+        ],
+        "pretax_profit": [
+          116,
+          "73,589,139.78",
+          430.50164794921875
+        ],
+        "income_tax": [
+          116,
+          "4,316,248.24",
+          430.50164794921875
+        ],
+        "net_profit": [
+          116,
+          "69,272,891.54",
+          430.50164794921875
+        ],
+        "parent_profit": [
+          116,
+          "69,272,891.54",
+          430.50164794921875
+        ],
+        "minority_profit": [
+          116,
+          "本期列空白",
+          430.50164794921875
+        ]
+      },
+      "cashflow": {
+        "cfo": [
+          119,
+          "93,544,068.52",
+          423.0594787597656
+        ],
+        "sales_cash": [
+          119,
+          "763,342,365.81",
+          423.0594787597656
+        ],
+        "purchase_cash": [
+          119,
+          "372,986,214.33",
+          423.0594787597656
+        ],
+        "cash_in": [
+          119,
+          "808,418,042.46",
+          423.0594787597656
+        ],
+        "cash_out": [
+          119,
+          "714,873,973.94",
+          423.0594787597656
+        ],
+        "cash_capex": [
+          120,
+          "78,203,762.03",
+          423.0594787597656
+        ],
+        "cash_equivalents": [
+          120,
+          "223,286,522.81",
+          423.0594787597656
+        ],
+        "acquisition_cash": [
+          120,
+          "本期列空白",
+          423.0594787597656
+        ],
+        "equity_cash": [
+          120,
+          "本期列空白",
+          423.0594787597656
+        ],
+        "dividend_and_interest_cash": [
+          120,
+          "57,307,800.00",
+          423.0594787597656
+        ],
+        "other_financing_paid": [
+          120,
+          "18,387,153.06",
+          423.0594787597656
+        ],
+        "borrowing_cash": [
+          120,
+          "本期列空白",
+          423.0594787597656
+        ],
+        "debt_repayment_cash": [
+          120,
+          "本期列空白",
+          423.0594787597656
+        ],
+        "other_financing_received": [
+          120,
+          "本期列空白",
+          423.0594787597656
+        ],
+        "cash_investing": [
+          120,
+          "52,125,317.65",
+          423.0594787597656
+        ],
+        "cash_financing": [
+          120,
+          "-75,694,953.06",
+          423.0594787597656
+        ],
+        "fx_cash": [
+          120,
+          "1,074,481.95",
+          423.0594787597656
+        ],
+        "cash_net_change": [
+          120,
+          "71,048,915.06",
+          423.0594787597656
+        ]
+      }
+    },
+    "25FY": {
+      "balance": {
+        "cash": [
+          103,
+          "249,531,455.02",
+          408.1809387207031
+        ],
+        "trading_assets": [
+          103,
+          "123,203,367.67",
+          408.1809387207031
+        ],
+        "bills_receivable": [
+          103,
+          "58,237,258.15",
+          408.1809387207031
+        ],
+        "ar": [
+          103,
+          "712,482,986.93",
+          408.1809387207031
+        ],
+        "ar_financing": [
+          103,
+          "15,859,847.15",
+          408.1809387207031
+        ],
+        "prepaid": [
+          103,
+          "14,138,562.19",
+          408.1809387207031
+        ],
+        "inventory": [
+          103,
+          "1,030,758,839.58",
+          408.1809387207031
+        ],
+        "contract_assets": [
+          103,
+          "38,549,037.80",
+          408.1809387207031
+        ],
+        "current_long_ar": [
+          103,
+          "485,172,066.95",
+          408.1809387207031
+        ],
+        "long_ar": [
+          103,
+          "本期列空白",
+          408.1809387207031
+        ],
+        "long_investment": [
+          103,
+          "本期列空白",
+          408.1809387207031
+        ],
+        "equity_investment": [
+          103,
+          "本期列空白",
+          408.1809387207031
+        ],
+        "other_financial": [
+          103,
+          "本期列空白",
+          408.1809387207031
+        ],
+        "fixed_assets": [
+          103,
+          "415,614,940.95",
+          408.1809387207031
+        ],
+        "cip": [
+          103,
+          "81,825,394.82",
+          408.1809387207031
+        ],
+        "rou": [
+          103,
+          "10,776,044.89",
+          408.1809387207031
+        ],
+        "intangible": [
+          103,
+          "80,861,126.54",
+          408.1809387207031
+        ],
+        "development": [
+          103,
+          "本期列空白",
+          408.1809387207031
+        ],
+        "other_current_assets": [
+          103,
+          "19,145,825.58",
+          408.1809387207031
+        ],
+        "other_debt_assets": [
+          103,
+          "31,180,833.33",
+          408.1809387207031
+        ],
+        "other_receivables": [
+          103,
+          "5,079,520.71",
+          408.1809387207031
+        ],
+        "ap": [
+          104,
+          "455,963,253.28",
+          408.1806335449219
+        ],
+        "bills_payable": [
+          104,
+          "220,640,151.82",
+          408.1806335449219
+        ],
+        "contract_liab": [
+          104,
+          "693,907,020.61",
+          408.1806335449219
+        ],
+        "short_debt": [
+          104,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "current_debt": [
+          104,
+          "2,666,584.19",
+          408.1806335449219
+        ],
+        "long_debt": [
+          104,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "bonds": [
+          104,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "leases": [
+          104,
+          "8,789,722.65",
+          408.1806335449219
+        ],
+        "long_payables": [
+          104,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "other_current_liab": [
+          104,
+          "60,947,794.66",
+          408.1806335449219
+        ],
+        "other_payables": [
+          104,
+          "10,182,110.54",
+          408.1806335449219
+        ],
+        "assets": [
+          104,
+          "3,424,094,039.28",
+          408.1806335449219
+        ],
+        "liabilities": [
+          104,
+          "1,591,990,751.92",
+          408.1806335449219
+        ],
+        "goodwill": [
+          104,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "long_prepaid": [
+          104,
+          "1,861,892.97",
+          408.1806335449219
+        ],
+        "tax_payable": [
+          104,
+          "23,784,406.62",
+          408.1806335449219
+        ],
+        "staff_payable": [
+          104,
+          "55,103,891.22",
+          408.1806335449219
+        ],
+        "deferred_income": [
+          104,
+          "28,375,413.16",
+          408.1806335449219
+        ],
+        "other_noncurrent": [
+          104,
+          "13,518,668.26",
+          408.1806335449219
+        ],
+        "dividend_payable": [
+          104,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "provisions": [
+          104,
+          "31,630,403.17",
+          408.1806335449219
+        ],
+        "equity": [
+          105,
+          "1,832,103,287.36",
+          408.1806335449219
+        ],
+        "parent_equity": [
+          105,
+          "1,832,103,287.36",
+          408.1806335449219
+        ],
+        "minority_equity": [
+          105,
+          "本期列空白",
+          408.1806335449219
+        ],
+        "treasury": [
+          105,
+          "15,059,603.37",
+          408.1806335449219
+        ],
+        "shares": [
+          105,
+          "298,401,360.00",
+          408.1806335449219
+        ]
+      },
+      "income": {
+        "revenue": [
+          107,
+          "1,098,386,778.65",
+          436.14093017578125
+        ],
+        "cogs": [
+          107,
+          "720,525,032.94",
+          436.14093017578125
+        ],
+        "surtax": [
+          107,
+          "13,609,270.64",
+          436.14093017578125
+        ],
+        "selling": [
+          107,
+          "51,810,951.42",
+          436.14093017578125
+        ],
+        "admin": [
+          107,
+          "68,950,318.43",
+          436.14093017578125
+        ],
+        "rd": [
+          107,
+          "100,065,080.52",
+          436.14093017578125
+        ],
+        "finance": [
+          107,
+          "-1,993,336.87",
+          436.14093017578125
+        ],
+        "interest_expense": [
+          107,
+          "237,195.97",
+          436.14093017578125
+        ],
+        "interest_income": [
+          107,
+          "1,671,574.06",
+          436.14093017578125
+        ],
+        "other_income": [
+          107,
+          "28,727,895.57",
+          436.14093017578125
+        ],
+        "investment_income": [
+          108,
+          "15,379,179.51",
+          436.14093017578125
+        ],
+        "fair_value": [
+          108,
+          "524,334.34",
+          436.14093017578125
+        ],
+        "credit_impairment": [
+          108,
+          "-35,230,927.02",
+          436.14093017578125
+        ],
+        "asset_impairment": [
+          108,
+          "-13,883,581.24",
+          436.14093017578125
+        ],
+        "disposal_gain": [
+          108,
+          "109,129.32",
+          436.14093017578125
+        ],
+        "operating_profit": [
+          108,
+          "141,045,492.05",
+          436.14093017578125
+        ],
+        "pretax_profit": [
+          108,
+          "139,472,316.05",
+          436.14093017578125
+        ],
+        "income_tax": [
+          108,
+          "18,535,400.97",
+          436.14093017578125
+        ],
+        "net_profit": [
+          108,
+          "120,936,915.08",
+          436.14093017578125
+        ],
+        "parent_profit": [
+          108,
+          "120,936,915.08",
+          436.14093017578125
+        ],
+        "minority_profit": [
+          108,
+          "本期列空白",
+          436.14093017578125
+        ]
+      },
+      "cashflow": {
+        "cfo": [
+          111,
+          "244,942,792.92",
+          428.580322265625
+        ],
+        "sales_cash": [
+          111,
+          "1,124,554,520.36",
+          428.580322265625
+        ],
+        "purchase_cash": [
+          111,
+          "538,655,257.37",
+          428.580322265625
+        ],
+        "cash_in": [
+          111,
+          "1,194,655,562.74",
+          428.580322265625
+        ],
+        "cash_out": [
+          111,
+          "949,712,769.82",
+          428.580322265625
+        ],
+        "cash_capex": [
+          112,
+          "164,753,865.42",
+          428.580322265625
+        ],
+        "cash_equivalents": [
+          112,
+          "249,081,455.02",
+          428.580322265625
+        ],
+        "acquisition_cash": [
+          112,
+          "本期列空白",
+          428.580322265625
+        ],
+        "equity_cash": [
+          112,
+          "本期列空白",
+          428.580322265625
+        ],
+        "dividend_and_interest_cash": [
+          112,
+          "29,800,056.00",
+          428.580322265625
+        ],
+        "other_financing_paid": [
+          112,
+          "1,558,556.79",
+          428.580322265625
+        ],
+        "borrowing_cash": [
+          112,
+          "本期列空白",
+          428.580322265625
+        ],
+        "debt_repayment_cash": [
+          112,
+          "本期列空白",
+          428.580322265625
+        ],
+        "other_financing_received": [
+          112,
+          "本期列空白",
+          428.580322265625
+        ],
+        "cash_investing": [
+          112,
+          "-189,321,445.46",
+          428.580322265625
+        ],
+        "cash_financing": [
+          112,
+          "-31,358,612.79",
+          428.580322265625
+        ],
+        "fx_cash": [
+          112,
+          "1,532,197.54",
+          428.580322265625
+        ],
+        "cash_net_change": [
+          112,
+          "25,794,932.21",
+          428.580322265625
+        ]
+      }
+    },
+    "25Q3": {
+      "balance": {
+        "cash": [
+          6,
+          "221,698,417.19",
+          404.57952880859375
+        ],
+        "trading_assets": [
+          6,
+          "13,009,166.67",
+          404.57952880859375
+        ],
+        "bills_receivable": [
+          6,
+          "66,705,703.05",
+          404.57952880859375
+        ],
+        "ar": [
+          6,
+          "695,401,475.97",
+          404.57952880859375
+        ],
+        "ar_financing": [
+          6,
+          "2,403,636.73",
+          404.57952880859375
+        ],
+        "prepaid": [
+          6,
+          "15,329,169.41",
+          404.57952880859375
+        ],
+        "inventory": [
+          6,
+          "932,725,025.38",
+          404.57952880859375
+        ],
+        "contract_assets": [
+          6,
+          "36,978,853.48",
+          404.57952880859375
+        ],
+        "current_long_ar": [
+          6,
+          "本期列空白",
+          404.57952880859375
+        ],
+        "long_ar": [
+          6,
+          "本期列空白",
+          404.57952880859375
+        ],
+        "long_investment": [
+          6,
+          "本期列空白",
+          404.57952880859375
+        ],
+        "equity_investment": [
+          6,
+          "本期列空白",
+          404.57952880859375
+        ],
+        "other_current_assets": [
+          6,
+          "14,190,425.68",
+          404.57952880859375
+        ],
+        "other_debt_assets": [
+          6,
+          "512,547,429.52",
+          404.57952880859375
+        ],
+        "other_receivables": [
+          6,
+          "9,631,469.67",
+          404.57952880859375
+        ],
+        "ap": [
+          7,
+          "398,644,721.54",
+          404.5792236328125
+        ],
+        "bills_payable": [
+          7,
+          "195,400,149.33",
+          404.5792236328125
+        ],
+        "contract_liab": [
+          7,
+          "559,910,113.69",
+          404.5792236328125
+        ],
+        "short_debt": [
+          7,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "current_debt": [
+          7,
+          "1,221,037.12",
+          404.5792236328125
+        ],
+        "other_current_liab": [
+          7,
+          "65,466,502.68",
+          404.5792236328125
+        ],
+        "other_payables": [
+          7,
+          "3,102,330.86",
+          404.5792236328125
+        ],
+        "other_financial": [
+          7,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "assets": [
+          7,
+          "3,145,179,434.86",
+          404.5792236328125
+        ],
+        "fixed_assets": [
+          7,
+          "351,216,536.26",
+          404.5792236328125
+        ],
+        "cip": [
+          7,
+          "62,935,054.68",
+          404.5792236328125
+        ],
+        "rou": [
+          7,
+          "2,490,579.13",
+          404.5792236328125
+        ],
+        "intangible": [
+          7,
+          "81,584,835.47",
+          404.5792236328125
+        ],
+        "goodwill": [
+          7,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "long_prepaid": [
+          7,
+          "54,420.95",
+          404.5792236328125
+        ],
+        "tax_payable": [
+          7,
+          "14,162,871.91",
+          404.5792236328125
+        ],
+        "staff_payable": [
+          7,
+          "46,325,402.21",
+          404.5792236328125
+        ],
+        "other_noncurrent": [
+          7,
+          "80,817,111.45",
+          404.5792236328125
+        ],
+        "development": [
+          7,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "dividend_payable": [
+          7,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "long_debt": [
+          8,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "bonds": [
+          8,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "leases": [
+          8,
+          "1,693,045.51",
+          404.5792236328125
+        ],
+        "long_payables": [
+          8,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "equity": [
+          8,
+          "1,795,651,636.29",
+          404.5792236328125
+        ],
+        "parent_equity": [
+          8,
+          "1,795,651,636.29",
+          404.5792236328125
+        ],
+        "minority_equity": [
+          8,
+          "本期列空白",
+          404.5792236328125
+        ],
+        "treasury": [
+          8,
+          "15,059,603.37",
+          404.5792236328125
+        ],
+        "liabilities": [
+          8,
+          "1,349,527,798.57",
+          404.5792236328125
+        ],
+        "shares": [
+          8,
+          "298,401,360.00",
+          404.5792236328125
+        ],
+        "deferred_income": [
+          8,
+          "27,945,136.06",
+          404.5792236328125
+        ],
+        "provisions": [
+          8,
+          "30,174,705.60",
+          404.5792236328125
+        ]
+      },
+      "income": {
+        "revenue": [
+          9,
+          "756,942,876.84",
+          404.70013427734375
+        ],
+        "cogs": [
+          9,
+          "499,716,220.20",
+          404.70013427734375
+        ],
+        "surtax": [
+          9,
+          "7,531,991.49",
+          404.70013427734375
+        ],
+        "selling": [
+          9,
+          "33,937,586.83",
+          404.70013427734375
+        ],
+        "admin": [
+          9,
+          "50,879,681.02",
+          404.70013427734375
+        ],
+        "rd": [
+          9,
+          "66,552,189.70",
+          404.70013427734375
+        ],
+        "finance": [
+          9,
+          "-2,460,735.69",
+          404.70013427734375
+        ],
+        "interest_expense": [
+          9,
+          "117,965.17",
+          404.70013427734375
+        ],
+        "interest_income": [
+          9,
+          "1,259,773.96",
+          404.70013427734375
+        ],
+        "other_income": [
+          9,
+          "22,085,293.05",
+          404.70013427734375
+        ],
+        "investment_income": [
+          9,
+          "11,383,511.43",
+          404.70013427734375
+        ],
+        "fair_value": [
+          9,
+          "231,522.22",
+          404.70013427734375
+        ],
+        "credit_impairment": [
+          9,
+          "-29,203,077.28",
+          404.70013427734375
+        ],
+        "asset_impairment": [
+          9,
+          "-7,326,541.60",
+          404.70013427734375
+        ],
+        "disposal_gain": [
+          9,
+          "-275,335.82",
+          404.70013427734375
+        ],
+        "operating_profit": [
+          9,
+          "97,681,315.29",
+          404.70013427734375
+        ],
+        "pretax_profit": [
+          9,
+          "96,797,896.79",
+          404.70013427734375
+        ],
+        "income_tax": [
+          9,
+          "11,430,630.93",
+          404.70013427734375
+        ],
+        "net_profit": [
+          10,
+          "85,367,265.86",
+          404.70135498046875
+        ],
+        "parent_profit": [
+          10,
+          "85,367,265.86",
+          404.70135498046875
+        ],
+        "minority_profit": [
+          10,
+          "本期列空白",
+          404.70135498046875
+        ]
+      },
+      "cashflow": {
+        "cfo": [
+          11,
+          "78,480,886.43",
+          404.94012451171875
+        ],
+        "sales_cash": [
+          11,
+          "701,722,659.97",
+          404.94012451171875
+        ],
+        "purchase_cash": [
+          11,
+          "389,618,380.26",
+          404.94012451171875
+        ],
+        "cash_in": [
+          11,
+          "759,697,793.50",
+          404.94012451171875
+        ],
+        "cash_out": [
+          11,
+          "681,216,907.07",
+          404.94012451171875
+        ],
+        "cash_capex": [
+          12,
+          "136,014,457.93",
+          404.9388122558594
+        ],
+        "cash_equivalents": [
+          12,
+          "221,248,417.19",
+          404.9388122558594
+        ],
+        "acquisition_cash": [
+          12,
+          "本期列空白",
+          404.9388122558594
+        ],
+        "equity_cash": [
+          12,
+          "本期列空白",
+          404.9388122558594
+        ],
+        "dividend_and_interest_cash": [
+          12,
+          "29,800,056.00",
+          404.9388122558594
+        ],
+        "other_financing_paid": [
+          12,
+          "1,141,584.80",
+          404.9388122558594
+        ],
+        "borrowing_cash": [
+          12,
+          "本期列空白",
+          404.9388122558594
+        ],
+        "debt_repayment_cash": [
+          12,
+          "本期列空白",
+          404.9388122558594
+        ],
+        "other_financing_received": [
+          12,
+          "本期列空白",
+          404.9388122558594
+        ],
+        "cash_investing": [
+          12,
+          "-51,063,364.58",
+          404.9388122558594
+        ],
+        "cash_financing": [
+          12,
+          "-30,941,640.80",
+          404.9388122558594
+        ],
+        "fx_cash": [
+          12,
+          "1,486,013.33",
+          404.9388122558594
+        ],
+        "cash_net_change": [
+          12,
+          "-2,038,105.62",
+          404.9388122558594
+        ]
+      }
+    },
+    "26Q1": {
+      "balance": {
+        "cash": [
+          6,
+          "229,558,216.09",
+          389.2201232910156
+        ],
+        "trading_assets": [
+          6,
+          "268,600,890.27",
+          389.2201232910156
+        ],
+        "bills_receivable": [
+          6,
+          "56,553,398.42",
+          389.2201232910156
+        ],
+        "ar": [
+          6,
+          "698,830,754.85",
+          389.2201232910156
+        ],
+        "ar_financing": [
+          6,
+          "9,186,730.13",
+          389.2201232910156
+        ],
+        "prepaid": [
+          6,
+          "22,530,236.49",
+          389.2201232910156
+        ],
+        "inventory": [
+          6,
+          "1,184,180,248.71",
+          389.2201232910156
+        ],
+        "contract_assets": [
+          6,
+          "34,680,244.00",
+          389.2201232910156
+        ],
+        "current_long_ar": [
+          6,
+          "444,766,760.08",
+          389.2201232910156
+        ],
+        "long_ar": [
+          6,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "long_investment": [
+          6,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "equity_investment": [
+          6,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "other_financial": [
+          6,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "fixed_assets": [
+          6,
+          "413,621,210.79",
+          389.2201232910156
+        ],
+        "cip": [
+          6,
+          "93,007,558.75",
+          389.2201232910156
+        ],
+        "other_current_assets": [
+          6,
+          "15,732,710.96",
+          389.2201232910156
+        ],
+        "other_debt_assets": [
+          6,
+          "71,415,277.77",
+          389.2201232910156
+        ],
+        "other_receivables": [
+          6,
+          "4,750,696.52",
+          389.2201232910156
+        ],
+        "ap": [
+          7,
+          "515,965,689.76",
+          389.2201232910156
+        ],
+        "bills_payable": [
+          7,
+          "224,511,876.88",
+          389.2201232910156
+        ],
+        "contract_liab": [
+          7,
+          "871,961,183.94",
+          389.2201232910156
+        ],
+        "short_debt": [
+          7,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "current_debt": [
+          7,
+          "2,154,744.72",
+          389.2201232910156
+        ],
+        "long_debt": [
+          7,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "bonds": [
+          7,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "other_current_liab": [
+          7,
+          "65,176,372.12",
+          389.2201232910156
+        ],
+        "other_payables": [
+          7,
+          "8,171,792.73",
+          389.2201232910156
+        ],
+        "assets": [
+          7,
+          "3,692,661,463.94",
+          389.2201232910156
+        ],
+        "rou": [
+          7,
+          "10,067,728.71",
+          389.2201232910156
+        ],
+        "intangible": [
+          7,
+          "80,496,050.76",
+          389.2201232910156
+        ],
+        "goodwill": [
+          7,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "long_prepaid": [
+          7,
+          "1,751,951.48",
+          389.2201232910156
+        ],
+        "tax_payable": [
+          7,
+          "15,532,573.83",
+          389.2201232910156
+        ],
+        "staff_payable": [
+          7,
+          "44,118,624.58",
+          389.2201232910156
+        ],
+        "other_noncurrent": [
+          7,
+          "15,311,888.11",
+          389.2201232910156
+        ],
+        "development": [
+          7,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "dividend_payable": [
+          7,
+          "本期列空白",
+          389.2201232910156
+        ],
+        "leases": [
+          8,
+          "8,463,256.52",
+          389.2796630859375
+        ],
+        "long_payables": [
+          8,
+          "本期列空白",
+          389.2796630859375
+        ],
+        "equity": [
+          8,
+          "1,876,972,535.22",
+          389.2796630859375
+        ],
+        "parent_equity": [
+          8,
+          "1,876,972,535.22",
+          389.2796630859375
+        ],
+        "minority_equity": [
+          8,
+          "本期列空白",
+          389.2796630859375
+        ],
+        "treasury": [
+          8,
+          "15,059,603.37",
+          389.2796630859375
+        ],
+        "liabilities": [
+          8,
+          "1,815,688,928.72",
+          389.2796630859375
+        ],
+        "shares": [
+          8,
+          "298,401,360.00",
+          389.2796630859375
+        ],
+        "deferred_income": [
+          8,
+          "27,013,918.83",
+          389.2796630859375
+        ],
+        "provisions": [
+          8,
+          "32,618,894.81",
+          389.2796630859375
+        ]
+      },
+      "income": {
+        "revenue": [
+          8,
+          "305,476,484.00",
+          424.49981689453125
+        ],
+        "cogs": [
+          9,
+          "191,675,817.57",
+          424.5001220703125
+        ],
+        "surtax": [
+          9,
+          "5,779,801.85",
+          424.5001220703125
+        ],
+        "selling": [
+          9,
+          "16,576,035.98",
+          424.5001220703125
+        ],
+        "admin": [
+          9,
+          "17,646,031.98",
+          424.5001220703125
+        ],
+        "rd": [
+          9,
+          "26,939,324.53",
+          424.5001220703125
+        ],
+        "finance": [
+          9,
+          "1,143,263.30",
+          424.5001220703125
+        ],
+        "interest_expense": [
+          9,
+          "97,650.28",
+          424.5001220703125
+        ],
+        "interest_income": [
+          9,
+          "282,261.24",
+          424.5001220703125
+        ],
+        "other_income": [
+          9,
+          "6,130,974.43",
+          424.5001220703125
+        ],
+        "investment_income": [
+          9,
+          "3,969,223.06",
+          424.5001220703125
+        ],
+        "fair_value": [
+          9,
+          "584,945.83",
+          424.5001220703125
+        ],
+        "credit_impairment": [
+          9,
+          "-5,574,718.39",
+          424.5001220703125
+        ],
+        "asset_impairment": [
+          9,
+          "-730,422.58",
+          424.5001220703125
+        ],
+        "disposal_gain": [
+          9,
+          "-214,493.66",
+          424.5001220703125
+        ],
+        "operating_profit": [
+          9,
+          "49,881,717.48",
+          424.5001220703125
+        ],
+        "pretax_profit": [
+          9,
+          "49,823,437.67",
+          424.5001220703125
+        ],
+        "income_tax": [
+          9,
+          "5,507,603.44",
+          424.5001220703125
+        ],
+        "net_profit": [
+          9,
+          "44,315,834.23",
+          424.5001220703125
+        ],
+        "parent_profit": [
+          9,
+          "44,315,834.23",
+          424.5001220703125
+        ],
+        "minority_profit": [
+          9,
+          "本期列空白",
+          424.5001220703125
+        ]
+      },
+      "cashflow": {
+        "sales_cash": [
+          10,
+          "476,960,414.02",
+          417.4198303222656
+        ],
+        "cfo": [
+          11,
+          "149,097,854.65",
+          417.4201354980469
+        ],
+        "cash_capex": [
+          11,
+          "26,650,601.47",
+          417.4201354980469
+        ],
+        "purchase_cash": [
+          11,
+          "195,402,394.86",
+          417.4201354980469
+        ],
+        "acquisition_cash": [
+          11,
+          "本期列空白",
+          417.4201354980469
+        ],
+        "equity_cash": [
+          11,
+          "本期列空白",
+          417.4201354980469
+        ],
+        "dividend_and_interest_cash": [
+          11,
+          "本期列空白",
+          417.4201354980469
+        ],
+        "other_financing_paid": [
+          11,
+          "704,554.15",
+          417.4201354980469
+        ],
+        "borrowing_cash": [
+          11,
+          "本期列空白",
+          417.4201354980469
+        ],
+        "debt_repayment_cash": [
+          11,
+          "本期列空白",
+          417.4201354980469
+        ],
+        "cash_in": [
+          11,
+          "491,914,116.64",
+          417.4201354980469
+        ],
+        "cash_out": [
+          11,
+          "342,816,261.99",
+          417.4201354980469
+        ],
+        "other_financing_received": [
+          11,
+          "本期列空白",
+          417.4201354980469
+        ],
+        "cash_investing": [
+          11,
+          "-167,279,107.75",
+          417.4201354980469
+        ],
+        "cash_equivalents": [
+          12,
+          "229,108,216.09",
+          417.41998291015625
+        ],
+        "cash_financing": [
+          12,
+          "-704,554.15",
+          417.41998291015625
+        ],
+        "fx_cash": [
+          12,
+          "-1,087,431.68",
+          417.41998291015625
+        ],
+        "cash_net_change": [
+          12,
+          "-19,973,238.93",
+          417.41998291015625
+        ]
+      }
+    },
+    "26H1": {
+      "balance": {
+        "cash": [
+          53,
+          "453,375,649.18",
+          407.6998291015625
+        ],
+        "trading_assets": [
+          53,
+          "293,935,654.16",
+          407.6998291015625
+        ],
+        "bills_receivable": [
+          53,
+          "69,690,351.12",
+          407.6998291015625
+        ],
+        "ar": [
+          53,
+          "727,690,422.58",
+          407.6998291015625
+        ],
+        "ar_financing": [
+          53,
+          "8,899,076.69",
+          407.6998291015625
+        ],
+        "prepaid": [
+          53,
+          "22,266,184.44",
+          407.6998291015625
+        ],
+        "inventory": [
+          53,
+          "1,477,446,748.09",
+          407.6998291015625
+        ],
+        "contract_assets": [
+          53,
+          "34,119,382.70",
+          407.6998291015625
+        ],
+        "current_long_ar": [
+          53,
+          "327,767,082.44",
+          407.6998291015625
+        ],
+        "long_ar": [
+          53,
+          "本期列空白",
+          407.6998291015625
+        ],
+        "long_investment": [
+          53,
+          "本期列空白",
+          407.6998291015625
+        ],
+        "equity_investment": [
+          53,
+          "本期列空白",
+          407.6998291015625
+        ],
+        "other_financial": [
+          53,
+          "本期列空白",
+          407.6998291015625
+        ],
+        "fixed_assets": [
+          53,
+          "527,464,581.31",
+          407.6998291015625
+        ],
+        "other_current_assets": [
+          53,
+          "23,352,154.33",
+          407.6998291015625
+        ],
+        "other_debt_assets": [
+          53,
+          "71,791,916.67",
+          407.6998291015625
+        ],
+        "other_receivables": [
+          53,
+          "7,325,394.94",
+          407.6998291015625
+        ],
+        "ap": [
+          54,
+          "668,795,576.60",
+          407.6997833251953
+        ],
+        "bills_payable": [
+          54,
+          "268,304,913.08",
+          407.6997833251953
+        ],
+        "contract_liab": [
+          54,
+          "1,114,449,433.93",
+          407.6997833251953
+        ],
+        "short_debt": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "current_debt": [
+          54,
+          "2,206,147.02",
+          407.6997833251953
+        ],
+        "long_debt": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "bonds": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "leases": [
+          54,
+          "7,905,957.61",
+          407.6997833251953
+        ],
+        "long_payables": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "other_current_liab": [
+          54,
+          "76,104,312.76",
+          407.6997833251953
+        ],
+        "other_payables": [
+          54,
+          "3,790,417.84",
+          407.6997833251953
+        ],
+        "assets": [
+          54,
+          "4,211,690,334.02",
+          407.6997833251953
+        ],
+        "cip": [
+          54,
+          "6,501,004.77",
+          407.6997833251953
+        ],
+        "rou": [
+          54,
+          "9,407,436.94",
+          407.6997833251953
+        ],
+        "intangible": [
+          54,
+          "79,954,051.81",
+          407.6997833251953
+        ],
+        "goodwill": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "long_prepaid": [
+          54,
+          "1,647,682.14",
+          407.6997833251953
+        ],
+        "tax_payable": [
+          54,
+          "19,427,914.38",
+          407.6997833251953
+        ],
+        "staff_payable": [
+          54,
+          "51,126,601.06",
+          407.6997833251953
+        ],
+        "other_noncurrent": [
+          54,
+          "27,308,717.86",
+          407.6997833251953
+        ],
+        "development": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "dividend_payable": [
+          54,
+          "本期列空白",
+          407.6997833251953
+        ],
+        "equity": [
+          55,
+          "1,938,176,798.38",
+          407.6998291015625
+        ],
+        "parent_equity": [
+          55,
+          "1,938,176,798.38",
+          407.6998291015625
+        ],
+        "minority_equity": [
+          55,
+          "本期列空白",
+          407.6998291015625
+        ],
+        "treasury": [
+          55,
+          "4,735,367.37",
+          407.6998291015625
+        ],
+        "liabilities": [
+          55,
+          "2,273,513,535.64",
+          407.6998291015625
+        ],
+        "shares": [
+          55,
+          "298,401,360.00",
+          407.6998291015625
+        ],
+        "deferred_income": [
+          55,
+          "27,299,483.33",
+          407.6998291015625
+        ],
+        "provisions": [
+          55,
+          "34,102,778.03",
+          407.6998291015625
+        ]
+      },
+      "income": {
+        "revenue": [
+          57,
+          "673,661,280.42",
+          427.37982177734375
+        ],
+        "cogs": [
+          57,
+          "420,642,466.84",
+          427.37982177734375
+        ],
+        "surtax": [
+          57,
+          "8,975,294.92",
+          427.37982177734375
+        ],
+        "selling": [
+          58,
+          "29,136,619.13",
+          427.380126953125
+        ],
+        "admin": [
+          58,
+          "37,663,972.99",
+          427.380126953125
+        ],
+        "rd": [
+          58,
+          "54,870,699.79",
+          427.380126953125
+        ],
+        "finance": [
+          58,
+          "3,153,576.19",
+          427.380126953125
+        ],
+        "interest_expense": [
+          58,
+          "188,057.76",
+          427.380126953125
+        ],
+        "interest_income": [
+          58,
+          "480,711.79",
+          427.380126953125
+        ],
+        "other_income": [
+          58,
+          "12,776,712.87",
+          427.380126953125
+        ],
+        "investment_income": [
+          58,
+          "8,309,275.70",
+          427.380126953125
+        ],
+        "fair_value": [
+          58,
+          "1,389,280.55",
+          427.380126953125
+        ],
+        "credit_impairment": [
+          58,
+          "-16,937,798.04",
+          427.380126953125
+        ],
+        "asset_impairment": [
+          58,
+          "-9,652,052.09",
+          427.380126953125
+        ],
+        "disposal_gain": [
+          58,
+          "28,470.92",
+          427.380126953125
+        ],
+        "operating_profit": [
+          58,
+          "115,132,540.47",
+          427.380126953125
+        ],
+        "pretax_profit": [
+          58,
+          "113,806,089.33",
+          427.380126953125
+        ],
+        "income_tax": [
+          58,
+          "14,684,426.32",
+          427.380126953125
+        ],
+        "net_profit": [
+          58,
+          "99,121,663.01",
+          427.380126953125
+        ],
+        "parent_profit": [
+          58,
+          "99,121,663.01",
+          427.380126953125
+        ],
+        "minority_profit": [
+          58,
+          "本期列空白",
+          427.380126953125
+        ]
+      },
+      "cashflow": {
+        "sales_cash": [
+          61,
+          "1,004,798,929.54",
+          420.05914306640625
+        ],
+        "purchase_cash": [
+          61,
+          "452,534,157.64",
+          420.05914306640625
+        ],
+        "cash_in": [
+          61,
+          "1,036,923,752.21",
+          420.05914306640625
+        ],
+        "cfo": [
+          62,
+          "311,435,813.10",
+          420.059814453125
+        ],
+        "cash_capex": [
+          62,
+          "64,444,574.71",
+          420.059814453125
+        ],
+        "acquisition_cash": [
+          62,
+          "本期列空白",
+          420.059814453125
+        ],
+        "equity_cash": [
+          62,
+          "本期列空白",
+          420.059814453125
+        ],
+        "dividend_and_interest_cash": [
+          62,
+          "本期列空白",
+          420.059814453125
+        ],
+        "borrowing_cash": [
+          62,
+          "本期列空白",
+          420.059814453125
+        ],
+        "debt_repayment_cash": [
+          62,
+          "本期列空白",
+          420.059814453125
+        ],
+        "cash_out": [
+          62,
+          "725,487,939.11",
+          420.059814453125
+        ],
+        "other_financing_received": [
+          62,
+          "5,515,236.00",
+          420.059814453125
+        ],
+        "cash_investing": [
+          62,
+          "-108,621,073.78",
+          420.059814453125
+        ],
+        "cash_equivalents": [
+          63,
+          "452,925,649.18",
+          420.059814453125
+        ],
+        "other_financing_paid": [
+          63,
+          "1,652,017.07",
+          420.059814453125
+        ],
+        "cash_financing": [
+          63,
+          "3,863,218.93",
+          420.059814453125
+        ],
+        "fx_cash": [
+          63,
+          "-2,833,764.09",
+          420.059814453125
+        ],
+        "cash_net_change": [
+          63,
+          "203,844,194.16",
+          420.059814453125
+        ]
+      }
+    },
+    "26Q3": {
+      "balance": {
+        "cash": [
+          6,
+          "499,244,209.91",
+          394.7401428222656
+        ],
+        "trading_assets": [
+          6,
+          "614,809,355.55",
+          394.7401428222656
+        ],
+        "bills_receivable": [
+          6,
+          "76,688,068.81",
+          394.7401428222656
+        ],
+        "ar": [
+          6,
+          "769,087,670.91",
+          394.7401428222656
+        ],
+        "ar_financing": [
+          6,
+          "14,254,945.57",
+          394.7401428222656
+        ],
+        "prepaid": [
+          6,
+          "29,929,301.07",
+          394.7401428222656
+        ],
+        "inventory": [
+          6,
+          "1,758,174,042.51",
+          394.7401428222656
+        ],
+        "contract_assets": [
+          6,
+          "41,722,097.76",
+          394.7401428222656
+        ],
+        "current_long_ar": [
+          6,
+          "31,772,333.33",
+          394.7401428222656
+        ],
+        "long_ar": [
+          6,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "long_investment": [
+          6,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "other_current_assets": [
+          6,
+          "25,282,635.36",
+          394.7401428222656
+        ],
+        "other_debt_assets": [
+          6,
+          "40,400,361.11",
+          394.7401428222656
+        ],
+        "other_receivables": [
+          6,
+          "9,690,617.30",
+          394.7401428222656
+        ],
+        "ap": [
+          7,
+          "746,535,604.20",
+          394.7401428222656
+        ],
+        "bills_payable": [
+          7,
+          "353,187,013.19",
+          394.7401428222656
+        ],
+        "contract_liab": [
+          7,
+          "1,368,498,214.29",
+          394.7401428222656
+        ],
+        "short_debt": [
+          7,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "current_debt": [
+          7,
+          "2,180,924.40",
+          394.7401428222656
+        ],
+        "other_current_liab": [
+          7,
+          "97,145,199.34",
+          394.7401428222656
+        ],
+        "other_payables": [
+          7,
+          "6,160,326.13",
+          394.7401428222656
+        ],
+        "equity_investment": [
+          7,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "other_financial": [
+          7,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "assets": [
+          7,
+          "4,623,359,302.48",
+          394.7401428222656
+        ],
+        "fixed_assets": [
+          7,
+          "531,828,649.92",
+          394.7401428222656
+        ],
+        "cip": [
+          7,
+          "14,792,957.63",
+          394.7401428222656
+        ],
+        "rou": [
+          7,
+          "9,585,293.23",
+          394.7401428222656
+        ],
+        "intangible": [
+          7,
+          "79,331,852.05",
+          394.7401428222656
+        ],
+        "goodwill": [
+          7,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "long_prepaid": [
+          7,
+          "1,673,324.94",
+          394.7401428222656
+        ],
+        "tax_payable": [
+          7,
+          "25,502,469.07",
+          394.7401428222656
+        ],
+        "staff_payable": [
+          7,
+          "61,931,737.55",
+          394.7401428222656
+        ],
+        "other_noncurrent": [
+          7,
+          "27,141,409.96",
+          394.7401428222656
+        ],
+        "development": [
+          7,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "dividend_payable": [
+          7,
+          "本期列空白",
+          394.7401428222656
+        ],
+        "long_debt": [
+          8,
+          "本期列空白",
+          394.73919677734375
+        ],
+        "bonds": [
+          8,
+          "本期列空白",
+          394.73919677734375
+        ],
+        "leases": [
+          8,
+          "7,353,560.09",
+          394.73919677734375
+        ],
+        "long_payables": [
+          8,
+          "本期列空白",
+          394.73919677734375
+        ],
+        "equity": [
+          8,
+          "1,892,519,177.14",
+          394.73919677734375
+        ],
+        "parent_equity": [
+          8,
+          "1,892,519,177.14",
+          394.73919677734375
+        ],
+        "minority_equity": [
+          8,
+          "本期列空白",
+          394.73919677734375
+        ],
+        "treasury": [
+          8,
+          "4,735,367.37",
+          394.73919677734375
+        ],
+        "liabilities": [
+          8,
+          "2,730,840,125.34",
+          394.73919677734375
+        ],
+        "shares": [
+          8,
+          "298,401,360.00",
+          394.73919677734375
+        ],
+        "deferred_income": [
+          8,
+          "25,585,047.83",
+          394.73919677734375
+        ],
+        "provisions": [
+          8,
+          "36,760,029.25",
+          394.73919677734375
+        ]
+      },
+      "income": {
+        "revenue": [
+          9,
+          "1,103,336,044.22",
+          387.6598205566406
+        ],
+        "cogs": [
+          9,
+          "702,806,937.46",
+          387.6598205566406
+        ],
+        "surtax": [
+          9,
+          "14,179,901.70",
+          387.6598205566406
+        ],
+        "selling": [
+          9,
+          "48,227,878.22",
+          387.6598205566406
+        ],
+        "admin": [
+          9,
+          "58,918,348.30",
+          387.6598205566406
+        ],
+        "rd": [
+          9,
+          "80,542,079.32",
+          387.6598205566406
+        ],
+        "finance": [
+          9,
+          "4,896,976.63",
+          387.6598205566406
+        ],
+        "interest_expense": [
+          9,
+          "274,908.87",
+          387.6598205566406
+        ],
+        "interest_income": [
+          9,
+          "599,151.56",
+          387.6598205566406
+        ],
+        "other_income": [
+          9,
+          "21,918,958.78",
+          387.6598205566406
+        ],
+        "investment_income": [
+          9,
+          "9,732,069.63",
+          387.6598205566406
+        ],
+        "fair_value": [
+          9,
+          "655,906.06",
+          387.6598205566406
+        ],
+        "credit_impairment": [
+          9,
+          "-23,538,527.34",
+          387.6598205566406
+        ],
+        "asset_impairment": [
+          9,
+          "-15,623,339.31",
+          387.6598205566406
+        ],
+        "disposal_gain": [
+          10,
+          "30,172.74",
+          387.6598205566406
+        ],
+        "operating_profit": [
+          10,
+          "186,939,163.15",
+          387.6598205566406
+        ],
+        "pretax_profit": [
+          10,
+          "185,224,277.49",
+          387.6598205566406
+        ],
+        "income_tax": [
+          10,
+          "22,273,558.23",
+          387.6598205566406
+        ],
+        "net_profit": [
+          10,
+          "162,950,719.26",
+          387.6598205566406
+        ],
+        "parent_profit": [
+          10,
+          "162,950,719.26",
+          387.6598205566406
+        ],
+        "minority_profit": [
+          10,
+          "本期列空白",
+          387.6598205566406
+        ]
+      },
+      "cashflow": {
+        "cfo": [
+          11,
+          "478,979,016.47",
+          394.73919677734375
+        ],
+        "sales_cash": [
+          11,
+          "1,577,206,906.82",
+          394.73919677734375
+        ],
+        "purchase_cash": [
+          11,
+          "722,350,435.13",
+          394.73919677734375
+        ],
+        "cash_in": [
+          11,
+          "1,637,066,341.11",
+          394.73919677734375
+        ],
+        "cash_out": [
+          11,
+          "1,158,087,324.64",
+          394.73919677734375
+        ],
+        "cash_capex": [
+          12,
+          "81,066,501.40",
+          394.7393493652344
+        ],
+        "cash_equivalents": [
+          12,
+          "498,224,971.75",
+          394.7393493652344
+        ],
+        "acquisition_cash": [
+          12,
+          "本期列空白",
+          394.7393493652344
+        ],
+        "equity_cash": [
+          12,
+          "本期列空白",
+          394.7393493652344
+        ],
+        "dividend_and_interest_cash": [
+          12,
+          "110,361,883.20",
+          394.7393493652344
+        ],
+        "other_financing_paid": [
+          12,
+          "2,405,742.05",
+          394.7393493652344
+        ],
+        "borrowing_cash": [
+          12,
+          "本期列空白",
+          394.7393493652344
+        ],
+        "debt_repayment_cash": [
+          12,
+          "本期列空白",
+          394.7393493652344
+        ],
+        "other_financing_received": [
+          12,
+          "5,615,817.66",
+          394.7393493652344
+        ],
+        "cash_investing": [
+          12,
+          "-118,610,215.91",
+          394.7393493652344
+        ],
+        "cash_financing": [
+          12,
+          "-107,151,807.59",
+          394.7393493652344
+        ],
+        "fx_cash": [
+          12,
+          "-4,073,476.24",
+          394.7393493652344
+        ],
+        "cash_net_change": [
+          12,
+          "249,143,516.73",
+          394.7393493652344
+        ]
+      }
+    }
+  },
+  "sources": {
+    "S1": {
+      "title": "2026年第三季度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620113.PDF",
+      "archive": "../../report/26Q3.pdf",
+      "sha256": "fdc6a4c6f849c779add26e7e648c274b9c1689f7a85b7f0b5a8d86666ffb7223",
+      "pages": {
+        "balance": 6,
+        "income": 9,
+        "cashflow": 11
+      }
+    },
+    "S2": {
+      "title": "2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225463818.PDF",
+      "archive": "../../report/26H1.pdf",
+      "sha256": "c757cfab99f4c6f2196503978b4869f557de73b3b5aa3844372567c21335b7a7",
+      "pages": {
+        "balance": 53,
+        "income": 57,
+        "cashflow": 61
+      }
+    },
+    "S3": {
+      "title": "2026年第一季度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225209443.PDF",
+      "archive": "../../report/26Q1.pdf",
+      "sha256": "959a9cc3afef8fa8673fbb0a08bc36c43bcc6b80c4eed945a382011763b83771",
+      "pages": {
+        "balance": 6,
+        "income": 8,
+        "cashflow": 10
+      }
+    },
+    "S4": {
+      "title": "2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225209398.PDF",
+      "archive": "../../report/25FY.pdf",
+      "sha256": "f758d0e0b76c92217b248ba49419f3b0e014f0690cfae36f757aac83545c363f",
+      "pages": {
+        "balance": 103,
+        "income": 107,
+        "cashflow": 111
+      }
+    },
+    "S5": {
+      "title": "2025年第三季度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-24/1224727377.PDF",
+      "archive": "../../report/25Q3.pdf",
+      "sha256": "a8838e278fafc64bd0abf204e227d390ef2c8d384d7ff0fdb30ea5c15a256282",
+      "pages": {
+        "balance": 6,
+        "income": 8,
+        "cashflow": 11
+      }
+    },
+    "S6": {
+      "title": "2024年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223322879.PDF",
+      "archive": "../../report/24FY.pdf",
+      "sha256": "21049e875a45cf7a92005dcaf70f350fb2db9d120e5e4e3d5ad6111652944228",
+      "pages": {
+        "balance": 111,
+        "income": 115,
+        "cashflow": 119
+      }
+    },
+    "S7": {
+      "title": "腾讯盘中行情冻结快照",
+      "url": "https://qt.gtimg.cn/q=sh688700",
+      "timestamp": "2026-11-17 15:07:24 Asia/Shanghai"
+    },
+    "S8": {
+      "title": "国证成长100官方样本",
+      "url": "https://www.cnindex.com.cn/sample-detail/download?indexcode=980080&date=2026-11-17",
+      "actual_sample_date": "2026-11-16",
+      "sha256": "66d7f4319c094df541c0f18f4a33d0190818352dd573514642df0da97939772e",
+      "notes": "100只含688700，权重--，记N/A。"
+    },
+    "S9": {
+      "title": "自愿披露签订日常经营合同公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225479220.PDF",
+      "archive": null,
+      "sha256": "3a232956ddc3dae4b76f191affdab936f2a74d04451a051764f64f6f66624eac"
+    },
+    "S10": {
+      "title": "2026年半年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-16/1225564875.PDF",
+      "archive": null,
+      "sha256": "8b12604c98141630d25c5cebe42c30e956217db0dd460d21a54adf459b45af4a"
+    },
+    "S11": {
+      "title": "2025年限制性股票激励计划预留授予部分第一个归属期符合归属条件公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620106.PDF",
+      "archive": null,
+      "sha256": "c13d687d45fdf26bfa4c298d6949f4f346ca3c0cb1da8d9fb8f8687e9d9f26af"
+    },
+    "S12": {
+      "title": "调整2025年限制性股票激励计划相关事项公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620099.PDF",
+      "archive": null,
+      "sha256": "e2178b1e0430c4c22712227cc9830a0039b94674db1af55f739b64badc1ded7b"
+    },
+    "S13": {
+      "title": "2026年半年度募集资金存放、管理与实际使用专项报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225463806.PDF",
+      "archive": null,
+      "sha256": "f28c53aaf1fbe4c5c8f261bbe16f2acbb1b4afc794504cf004080a432f1d56b7"
+    },
+    "S14": {
+      "title": "2026年前三季度计提资产减值准备公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620104.PDF",
+      "archive": null,
+      "sha256": "3d1cbf7e181c480fe9a6afd296ad3dd8d8145450718373c5c507232257a755c3"
+    },
+    "S15": {
+      "title": "2026年提质增效重回报行动方案半年度评估报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225463823.PDF",
+      "archive": null,
+      "sha256": "9fc21ca616433614ef778824e6d08b97943a15a093cafe593c86bea90d7728aa"
+    }
+  },
+  "calculated_metrics": {
+    "ttm_revenue": 14.447799460300002,
+    "q3_revenue": 4.296747638000001,
+    "q2_revenue": 3.6818479642,
+    "ttm_cogs": 9.236157502000001,
+    "q3_cogs": 2.8216447062000007,
+    "q2_cogs": 2.2896664926999994,
+    "ttm_core_ebit": 1.8603387285,
+    "q3_core_ebit": 0.6194166684999999,
+    "q2_core_ebit": 0.5310968953999999,
+    "ttm_parent_profit": 1.9852036848,
+    "q3_parent_profit": 0.6382905624999999,
+    "q2_parent_profit": 0.5480582878000001,
+    "ttm_net_profit": 1.9852036848,
+    "q3_net_profit": 0.6382905624999999,
+    "q2_net_profit": 0.5480582878000001,
+    "ttm_minority_profit": 0.0,
+    "q3_minority_profit": 0.0,
+    "q2_minority_profit": 0.0,
+    "ttm_cfo": 6.4544092295999995,
+    "q3_cfo": 1.6754320337,
+    "q2_cfo": 1.6233795845000003,
+    "ttm_cash_capex": 1.0980590889,
+    "q3_cash_capex": 0.1662192669,
+    "q2_cash_capex": 0.3779397324,
+    "ttm_sales_cash": 20.0003876721,
+    "q3_sales_cash": 5.7240797728,
+    "q2_sales_cash": 5.278385155199999,
+    "ttm_cash_conversion": 3.251257933389465,
+    "ttm_cash_after_capex": 5.3563501407,
+    "fy25_roic_proxy": 0.07990525350060391,
+    "ttm_roic_proxy": 0.16077865756867066,
+    "q3_gross_margin": 0.34330685813482253,
+    "q3_core_ebit_margin": 0.14415942491524092,
+    "nwc_change_ytd": -2.7788081114,
+    "inventory_cover_months_q3_cost": 18.693076828348698,
+    "h1_shipped_goods_share": 0.7729996168636394,
+    "h1_shipped_goods_increment_share": 0.8021341752347402,
+    "fy25_pcb_increment_share": 0.9505488009695746,
+    "fy25_export_increment_share": 0.6384210367113645,
+    "valuation_ic": 8.819383139300003
+  },
+  "bridge": {
+    "cash_equivalents": 4.9822497175,
+    "operating_cash": 1.2,
+    "nonoperating_financial_assets": 6.869820499899999,
+    "debt_components": {
+      "short_debt": 0.0,
+      "current_debt": 0.021809244,
+      "long_debt": 0.0,
+      "leases": 0.0735356009
+    },
+    "other_claims": 0.4509167404,
+    "shares": 2.9840136
+  },
+  "bridge_adjustments": [
+    {
+      "amount": -0.11660869565217397,
+      "reason": "9/30至11/17为48/92个Q4，以统一基准FCFF加税后净金融收现0.02亿估计滚动；不是已披露现金。未来只计44/92，资产组合内转换不再加一遍。"
+    }
+  ],
+  "q4_full_forecast": {
+    "bear": {
+      "revenue": 4.1,
+      "ebit_margin": 0.125,
+      "tax_rate": 0.15,
+      "da": 0.11,
+      "capex": 0.45,
+      "delta_nwc": 0.55
+    },
+    "base": {
+      "revenue": 4.6,
+      "ebit_margin": 0.15,
+      "tax_rate": 0.15,
+      "da": 0.12,
+      "capex": 0.5,
+      "delta_nwc": 0.45
+    },
+    "bull": {
+      "revenue": 5.3,
+      "ebit_margin": 0.18,
+      "tax_rate": 0.15,
+      "da": 0.13,
+      "capex": 0.65,
+      "delta_nwc": 0.5
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "wacc": 0.115,
+      "terminal_growth": 0.02,
+      "terminal_roic": 0.13421785031074518,
+      "terminal_margin": 0.1,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 15.1333604422,
+      "incremental_nwc_ratio": 0.45,
+      "incremental_operating_cash_ratio": 0.08,
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 17.0,
+          "ebit_margin": 0.12,
+          "tax_rate": 0.15,
+          "capex": 1.1,
+          "da": 0.42500000000000004,
+          "delta_nwc": 0.8399878010099997,
+          "projected_ic_end": 11.224370940310003,
+          "projected_roic_average": 0.16566546004177615,
+          "projected_operating_cash": 1.3493311646239998
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 18.5,
+          "ebit_margin": 0.115,
+          "tax_rate": 0.15,
+          "capex": 0.9,
+          "da": 0.4995,
+          "delta_nwc": 0.675,
+          "projected_ic_end": 12.299870940310003,
+          "projected_roic_average": 0.15374565600686116,
+          "projected_operating_cash": 1.469331164624
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 20.0,
+          "ebit_margin": 0.11,
+          "tax_rate": 0.15,
+          "capex": 0.8,
+          "da": 0.56,
+          "delta_nwc": 0.675,
+          "projected_ic_end": 13.214870940310004,
+          "projected_roic_average": 0.14658192575488121,
+          "projected_operating_cash": 1.5893311646239998
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 21.0,
+          "ebit_margin": 0.11,
+          "tax_rate": 0.15,
+          "capex": 0.7350000000000001,
+          "da": 0.588,
+          "delta_nwc": 0.45,
+          "projected_ic_end": 13.811870940310003,
+          "projected_roic_average": 0.14530053298122195,
+          "projected_operating_cash": 1.6693311646239999
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 21.84,
+          "ebit_margin": 0.105,
+          "tax_rate": 0.15,
+          "capex": 0.6552,
+          "da": 0.6115200000000001,
+          "delta_nwc": 0.37799999999999995,
+          "projected_ic_end": 14.233550940310003,
+          "projected_roic_average": 0.13900450549805798,
+          "projected_operating_cash": 1.736531164624
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 22.4952,
+          "ebit_margin": 0.1,
+          "tax_rate": 0.15,
+          "capex": 0.674856,
+          "da": 0.6298656,
+          "delta_nwc": 0.2948400000000003,
+          "projected_ic_end": 14.573381340310004,
+          "projected_roic_average": 0.13275221265308895,
+          "projected_operating_cash": 1.788947164624
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 22.945104,
+          "ebit_margin": 0.1,
+          "tax_rate": 0.15,
+          "capex": 0.68835312,
+          "da": 0.642462912,
+          "delta_nwc": 0.20245680000000005,
+          "projected_ic_end": 14.821728348310003,
+          "projected_roic_average": 0.1326978440060083,
+          "projected_operating_cash": 1.824939484624
+        }
+      ],
+      "stub": {
+        "revenue": 1.960869565217391,
+        "ebit_margin": 0.125,
+        "tax_rate": 0.15,
+        "da": 0.05260869565217391,
+        "capex": 0.21521739130434783,
+        "delta_nwc": 0.2630434782608696,
+        "end": "2026-12-31",
+        "allocation": "remaining",
+        "bridge_roll": "explicit"
+      },
+      "terminal_capital_bridge": {
+        "ending_ic": 14.821728348310003,
+        "next_nopat": 1.9893405168000002,
+        "method": "IC按CapEx-DA+ΔNWC递推；末期下一年正常化NOPAT/末期IC校准ROIC。"
+      },
+      "nwc_definition": "未来总增量占款含收入增量8%的必要经营现金，剩余为贸易等经营占款；历史简化NWC不含现金。"
+    },
+    "base": {
+      "wacc": 0.105,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.2564226113838088,
+      "terminal_margin": 0.145,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 15.6333604422,
+      "incremental_nwc_ratio": 0.3,
+      "incremental_operating_cash_ratio": 0.08,
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 20.0,
+          "ebit_margin": 0.16,
+          "tax_rate": 0.15,
+          "capex": 1.4,
+          "da": 0.48,
+          "delta_nwc": 1.3099918673399997,
+          "projected_ic_end": 11.879375006640004,
+          "projected_roic_average": 0.2526852669867491,
+          "projected_operating_cash": 1.5493311646239998
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 24.0,
+          "ebit_margin": 0.17,
+          "tax_rate": 0.15,
+          "capex": 1.2,
+          "da": 0.6000000000000001,
+          "delta_nwc": 1.2,
+          "projected_ic_end": 13.679375006640004,
+          "projected_roic_average": 0.2713747736644453,
+          "projected_operating_cash": 1.869331164624
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 28.0,
+          "ebit_margin": 0.17,
+          "tax_rate": 0.15,
+          "capex": 1.0,
+          "da": 0.728,
+          "delta_nwc": 1.2,
+          "projected_ic_end": 15.151375006640004,
+          "projected_roic_average": 0.28067254567684385,
+          "projected_operating_cash": 2.189331164624
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 31.360000000000003,
+          "ebit_margin": 0.165,
+          "tax_rate": 0.15,
+          "capex": 1.0976000000000001,
+          "da": 0.8153600000000001,
+          "delta_nwc": 1.008000000000001,
+          "projected_ic_end": 16.441615006640006,
+          "projected_roic_average": 0.2784313860860409,
+          "projected_operating_cash": 2.458131164624
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 34.18240000000001,
+          "ebit_margin": 0.16,
+          "tax_rate": 0.15,
+          "capex": 1.0254720000000002,
+          "da": 0.8887424000000002,
+          "delta_nwc": 0.8467200000000016,
+          "projected_ic_end": 17.425064606640007,
+          "projected_roic_average": 0.27453570607359346,
+          "projected_operating_cash": 2.6839231646240007
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 36.23334400000001,
+          "ebit_margin": 0.15,
+          "tax_rate": 0.15,
+          "capex": 1.0145336320000002,
+          "da": 0.9420669440000002,
+          "delta_nwc": 0.6152832000000004,
+          "projected_ic_end": 18.112814494640006,
+          "projected_roic_average": 0.2599902682337397,
+          "projected_operating_cash": 2.8479986846240006
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 37.32034432000001,
+          "ebit_margin": 0.145,
+          "tax_rate": 0.15,
+          "capex": 1.0076492966400004,
+          "da": 0.9703289523200003,
+          "delta_nwc": 0.3261000960000004,
+          "projected_ic_end": 18.476234934960004,
+          "projected_roic_average": 0.25142672516214015,
+          "projected_operating_cash": 2.934958710224001
+        }
+      ],
+      "stub": {
+        "revenue": 2.1999999999999997,
+        "ebit_margin": 0.15,
+        "tax_rate": 0.15,
+        "da": 0.05739130434782608,
+        "capex": 0.2391304347826087,
+        "delta_nwc": 0.21521739130434783,
+        "end": "2026-12-31",
+        "allocation": "remaining",
+        "bridge_roll": "explicit"
+      },
+      "terminal_capital_bridge": {
+        "ending_ic": 18.476234934960004,
+        "next_nopat": 4.7377244105632,
+        "method": "IC按CapEx-DA+ΔNWC递推；末期下一年正常化NOPAT/末期IC校准ROIC。"
+      },
+      "nwc_definition": "未来总增量占款含收入增量8%的必要经营现金，剩余为贸易等经营占款；历史简化NWC不含现金。"
+    },
+    "bull": {
+      "wacc": 0.095,
+      "terminal_growth": 0.035,
+      "terminal_roic": 0.38917666410679125,
+      "terminal_margin": 0.18,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 16.3333604422,
+      "incremental_nwc_ratio": 0.2,
+      "incremental_operating_cash_ratio": 0.08,
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 23.0,
+          "ebit_margin": 0.19,
+          "tax_rate": 0.15,
+          "capex": 1.8,
+          "da": 0.552,
+          "delta_nwc": 1.33332791156,
+          "projected_ic_end": 12.420711050860003,
+          "projected_roic_average": 0.3337362338423511,
+          "projected_operating_cash": 1.733331164624
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 30.0,
+          "ebit_margin": 0.21,
+          "tax_rate": 0.15,
+          "capex": 1.8,
+          "da": 0.75,
+          "delta_nwc": 1.4000000000000001,
+          "projected_ic_end": 14.870711050860002,
+          "projected_roic_average": 0.3924309975523414,
+          "projected_operating_cash": 2.293331164624
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 38.0,
+          "ebit_margin": 0.22,
+          "tax_rate": 0.15,
+          "capex": 1.6,
+          "da": 1.026,
+          "delta_nwc": 1.6,
+          "projected_ic_end": 17.044711050860002,
+          "projected_roic_average": 0.44530195949481355,
+          "projected_operating_cash": 2.9333311646239997
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 44.08,
+          "ebit_margin": 0.21,
+          "tax_rate": 0.15,
+          "capex": 1.9835999999999998,
+          "da": 1.1901599999999999,
+          "delta_nwc": 1.2159999999999997,
+          "projected_ic_end": 19.05415105086,
+          "projected_roic_average": 0.43592953028982595,
+          "projected_operating_cash": 3.4197311646240003
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 49.369600000000005,
+          "ebit_margin": 0.2,
+          "tax_rate": 0.15,
+          "capex": 1.9747840000000003,
+          "da": 1.3329792,
+          "delta_nwc": 1.0579200000000015,
+          "projected_ic_end": 20.753875850860002,
+          "projected_roic_average": 0.42166530989946505,
+          "projected_operating_cash": 3.842899164624
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 53.31916800000001,
+          "ebit_margin": 0.19,
+          "tax_rate": 0.15,
+          "capex": 1.8661708800000005,
+          "da": 1.4396175360000003,
+          "delta_nwc": 0.7899136000000013,
+          "projected_ic_end": 21.970342794860002,
+          "projected_roic_average": 0.40309903398842534,
+          "projected_operating_cash": 4.158864604624001
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 55.45193472000001,
+          "ebit_margin": 0.18,
+          "tax_rate": 0.15,
+          "capex": 1.6635580416000002,
+          "da": 1.4972022374400002,
+          "delta_nwc": 0.4265533439999999,
+          "projected_ic_end": 22.563251943020003,
+          "projected_roic_average": 0.381022284955741,
+          "projected_operating_cash": 4.329485942224001
+        }
+      ],
+      "stub": {
+        "revenue": 2.534782608695652,
+        "ebit_margin": 0.18,
+        "tax_rate": 0.15,
+        "da": 0.06217391304347827,
+        "capex": 0.31086956521739134,
+        "delta_nwc": 0.2391304347826087,
+        "end": "2026-12-31",
+        "allocation": "remaining",
+        "bridge_roll": "explicit"
+      },
+      "terminal_capital_bridge": {
+        "ending_ic": 22.563251943020003,
+        "next_nopat": 8.7810911225856,
+        "method": "IC按CapEx-DA+ΔNWC递推；末期下一年正常化NOPAT/末期IC校准ROIC。"
+      },
+      "nwc_definition": "未来总增量占款含收入增量8%的必要经营现金，剩余为贸易等经营占款；历史简化NWC不含现金。"
+    }
+  },
+  "eps_forecast_bridge": [
+    {
+      "year": 2027,
+      "revenue": 20.0,
+      "ebit": 3.2,
+      "net_financial_income": 0.08,
+      "tax": 0.492,
+      "consolidated_profit": 2.7880000000000003,
+      "minority_profit": 0.0,
+      "parent_profit": 2.7880000000000003,
+      "shares": 2.9840136,
+      "eps": 0.9343120956285187
+    },
+    {
+      "year": 2029,
+      "revenue": 28.0,
+      "ebit": 4.760000000000001,
+      "net_financial_income": 0.08,
+      "tax": 0.7260000000000001,
+      "consolidated_profit": 4.114000000000001,
+      "minority_profit": 0.0,
+      "parent_profit": 4.114000000000001,
+      "shares": 2.9840136,
+      "eps": 1.3786800435493998
+    }
+  ],
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2029,
+    "base_eps": 0.9343120956285187,
+    "end_eps": 1.3786800435493998
+  },
+  "reverse_dcf": {
+    "scenario": "base",
+    "variable": "revenue_growth",
+    "stage": "growth",
+    "lower": -0.05,
+    "upper": 1.0,
+    "price_tolerance": 0.0001,
+    "search_steps": 96,
+    "max_iterations": 200,
+    "reinvestment": {
+      "capex": "revenue_ratio",
+      "da": "revenue_ratio"
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.095,
+      0.105,
+      0.115
+    ],
+    "growth": [
+      0.02,
+      0.03,
+      0.04
+    ],
+    "capex_multipliers": [
+      0.8,
+      1.0,
+      1.2
+    ]
+  },
+  "historical_recurring_profit_26Q3": 1.5831778284,
+  "historical_diluted_eps_26Q3": 0.55,
+  "valuation_scope": {
+    "issued_shares": 2.9840136,
+    "known_treasury_shares_at_dividend": 0.00126,
+    "float_ex_treasury_at_dividend": 2.9827536,
+    "basis": "主模型按全部已发行2.9840136亿股，包含暂在回购账户的12.6万股，以奖励全部回流口径保守计值；不另扣库存股市场价值或重复增加同一批奖励股份。",
+    "gdr": "2023年GDR对应新增A股已在现有股本，存托凭证与底层股票不重复计算。",
+    "minority_equity_book": 0.0,
+    "bills": "H1应付票据2.68305亿为采购银行承兑，按贸易NWC，不等同银行借款。H1其他流动负债内已背书未终止确认票据0.4509167404亿作为Q3金融追索权代理，Q3明细N/A；原应收票据仍在经营资产，未在NWC同时扣此代理。Q3其他流动负债合计0.9714519934亿另测全扣及不扣，不把待转销项税全部当融资。",
+    "financial_assets": "其他债权投资及一年内到期项为大额存单，交易性资产H1为银行理财。Q3按余额6.8698204999亿代理价值，未额外加入已结转的利息，非所有产品均可即时赎回，另测折价与可用现金。"
+  },
+  "assumption_notes": {
+    "growth": "2027—2029三年成长覆盖H1新签PCB订单>120%、VCP订单>150%、2027履行合同和制造验收周期；之后四年正常化。订单金额、交货验收排期、公司实际可用产能N/A，三年不等于全锁定。",
+    "volume_price": "基准2027/28/29 VCP验收销量220/270/320台，混合ASP700万元/台，收入15.4/18.9/22.4亿，其他4.6/5.1/5.6亿，共20/24/28亿。2025实际VCP生产192台、销售105台、期末166台（含发出商品），销售额7.6619954697亿、混合均价约729.71万元；未来销量与ASP均为自主拆解，非指引，旧库存不全部当新增可售。",
+    "margin": "核心历史剔除全部其他收益及投资/公允价值/处置，调整净利息，保留研发、经营汇兑、减值、保固及股份支付。剔除全部其他收益是审慎口径，不等于其全部一次性：H1软件VAT即征即退0.0694773747亿有持续经营属性。基准EBIT16/17/17%、成熟14.5%，未来补贴不单列加回，另做保留软件VAT与盈利压力检查。",
+    "capex": "经济CapEx含维护、增长、租赁新增和增长所需净收购；研发全费用化，无资本化。Q4=.5，2027—29=1.4/1.2/1.0亿，此后从收入3.5%降至2.7%；参考2025付现1.65亿、2026H1 .644亿、新能源厂房完工、泰国承诺.1945亿及GDR剩余资金。已支付和项目总预算不重复扣；扩产方向须匹配PCB需求，不将新能源厂房满额视为PCB有效产能。",
+    "da": "H1DA .1959857192亿、2025 .3418073392亿，未来DA/收入2.4/2.5/2.6%，过渡期2.6%；厂房转固及海外制造需要折旧，未假设零折旧扩张。",
+    "nwc": "基准总增量NWC30%、悲观45%、乐观20%，各含8个百分点必要经营现金增长。初始Q4ΔNWC+.45亿，之后正增加，不外推近期预收大增带来的负NWC增量。合同负债按经营履约负债处理，未来销售与成本在FCFF中，不在桥中全额重复扣13.685亿；预付支持下降另测额外占款。",
+    "cash": "Q3取现金等价物4.9822497175亿，货币资金差额.0101923816亿不加回。初始必要现金1.2亿约一个月前三季经营付现，之后随收入增量8%增加并进入ΔNWC。客户预付款与银行理财不代表全部自由分红现金，须结合交付成本与NWC；GDR余款已在资产中，未来用途在再投资与费用体现。",
+    "tax": "15%正常化税率，高于前三季有效税率约12.03%；不机械复制研发加计扣除形成的低税率。",
+    "eps": "净金融收益每年+.08亿，低于前三季投资收益.0973亿的年化规模；不重复外推大额存单利息到账4.7278千万元，也不将其当主营收入。EPS为归母税后利润/当前全部发行股数，少数利润0，未来SBC费用保留。",
+    "shares": "发行股本2.9840136亿。已完成27.48万股回购股归属，钱已进入Q3筹资现金；10/24预留归属3.12万股获批、来源仍为回购股，未提前计行权款亦不增发行股本。9/16已核回购账户12.6万股；按全发行股数保守，不将库股金额当负债或可再次加回资产。",
+    "dividend": "2025年度每股.20元于7/16支付，中期.17元9/22支付，合计1.103618832亿已反映Q3现金；当前价已除息，不再在桥中扣一次。",
+    "discount": "WACC9.5—11.5%为验收、客户扩产周期、技术及海外交付风险自主区间，非实时CAPM。g2—3.5%，成熟ROIC由投入资本递推校准，未只用低固定资产推无限资本回报。",
+    "missing": "纯AI收入、H1及Q3分产品/地区收入毛利、完整订单金额及交付验收排期、实际有效产能、Q3理财限制/其他流动负债拆分、一致预期时点覆盖N/A。缺口不直接认定经营恶化。"
+  },
+  "business_evidence": {
+    "revenue_2023": 9.092299048,
+    "parent_profit_2023": 1.5142745293,
+    "fy25_products": [
+      {
+        "name": "VCP",
+        "revenue": 7.6619954697,
+        "gross_margin": 0.3851,
+        "growth": 0.6298
+      },
+      {
+        "name": "龙门",
+        "revenue": 1.0817806236,
+        "gross_margin": 0.1396,
+        "growth": 0.098
+      },
+      {
+        "name": "五金连续",
+        "revenue": 0.4677246832,
+        "gross_margin": 0.0739,
+        "growth": 0.632
+      },
+      {
+        "name": "水平表面处理",
+        "revenue": 0.5593404116,
+        "gross_margin": 0.1075,
+        "growth": 1.6828
+      },
+      {
+        "name": "卷式水平膜材",
+        "revenue": 0.2709984202,
+        "gross_margin": 0.4328,
+        "growth": -0.4111
+      },
+      {
+        "name": "光伏镀铜",
+        "revenue": 0.0281415929,
+        "gross_margin": 0.3514,
+        "growth": -0.0619
+      },
+      {
+        "name": "其他",
+        "revenue": 0.86110001,
+        "gross_margin": 0.4676,
+        "growth": 0.1804
+      }
+    ],
+    "fy25_pcb": {
+      "revenue": 8.2213358813,
+      "growth": 0.6745,
+      "gross_margin": 0.3662
+    },
+    "fy25_exports": {
+      "revenue": 3.0636025777,
+      "growth": 2.6497,
+      "gross_margin": 0.4288
+    },
+    "fy25_vcp": {
+      "production": 192,
+      "sold": 105,
+      "inventory": 166,
+      "includes_shipped": true
+    },
+    "h1_order_growth": {
+      "pcb": ">120%",
+      "vcp": ">150%",
+      "amount": null,
+      "source": "S2/S15",
+      "comparison": "PCB全品类与VCP子类口径不同，不相加。"
+    },
+    "h1_shipped_goods": {
+      "net": 11.4206577021,
+      "prior_net": 7.8376213313,
+      "inventory_net": 14.7744674809,
+      "inventory_prior_net": 10.3075883958,
+      "provision_total": 0.2590358519,
+      "new_provision": 0.0988519184,
+      "source": "S2",
+      "pages": [
+        119,
+        120
+      ]
+    },
+    "h1_cash_bridge": {
+      "net_profit": 0.9912166301,
+      "da": 0.1959857192,
+      "inventory_change": -4.5657310035,
+      "operating_receivables_change": -0.4654829426,
+      "operating_payables_change": 6.8420669505,
+      "cfo": 3.114358131,
+      "source": "S2",
+      "page": 155,
+      "other_adjustments": 0.11630277730000005
+    },
+    "h1_software_vat_refund": 0.0694773747,
+    "h1_sbc": 0.0462227014,
+    "capitalized_rd": 0.0,
+    "h1_capital_commitment_thailand": 0.1945,
+    "gdr": {
+      "source": "S13",
+      "net_2023": 7.1181728431,
+      "used_to_h1": 4.450845,
+      "h1_remaining_with_interest": 2.88898,
+      "remaining_cash_management": 2.8,
+      "remaining_commitment_before_interest": 2.667328,
+      "not_new_cash_2026": true
+    },
+    "contract_aug": {
+      "source": "S9",
+      "amount_including_tax": 1.6334,
+      "product": "垂直连续镀铜线（脉冲、直流）及配套软件",
+      "expected_performance_year": 2027,
+      "terms": "分期付款、依客户需求交货，安装调试验收后确认，不将含税合同额直接加到收入或重复加入存货。",
+      "counterparty": "未具名上市公司二级全资子公司、非关联"
+    },
+    "h1_bank_acceptance_payable": 2.6830491308,
+    "h1_endorsed_bills_liability": 0.4509167404,
+    "h1_pending_vat_current_liab": 0.3101263872,
+    "q3_current_liab_breakdown": null,
+    "h1_ap_equipment": 0.2438053826,
+    "fy25_ap_equipment": 0.2280889813,
+    "dividend": {
+      "source": "S10/S15",
+      "annual_per_share": 0.2,
+      "annual_paid": "2026-07-16",
+      "interim_per_share": 0.17,
+      "interim_ex_paid": "2026-09-22",
+      "interim_total": 0.507068112,
+      "already_in_q3_cash": true
+    },
+    "pending_vesting": {
+      "source": "S11",
+      "shares": 0.000312,
+      "price": 19.7,
+      "cash_if_completed": 0.0061464,
+      "source_shares": "回购专户股份",
+      "new_issued_shares": 0.0,
+      "registration_complete": false
+    },
+    "tgv": "2025已交付PVD/TGV/RDL设备；H1新增TGV订单1台，不直接定义为规模利润或订单全部为AI。"
+  },
+  "supplementary_valuations": {
+    "nwc": [
+      {
+        "ratio": 0.2,
+        "price": 17.220746057939806,
+        "terminal_ic": 16.307536547180003,
+        "terminal_roic": 0.290523611390126
+      },
+      {
+        "ratio": 0.3,
+        "price": 16.554138060141394,
+        "terminal_ic": 18.476234934960004,
+        "terminal_roic": 0.2564226113838088
+      },
+      {
+        "ratio": 0.45,
+        "price": 15.554226063443776,
+        "terminal_ic": 21.729282516630008,
+        "terminal_roic": 0.21803409325352974
+      },
+      {
+        "ratio": 0.6,
+        "price": 14.554314066746157,
+        "terminal_ic": 24.982330098300007,
+        "terminal_roic": 0.18964301536010814
+      }
+    ],
+    "terminal_margin": [
+      {
+        "margin": 0.12,
+        "price": 14.762381685409935,
+        "terminal_roic": 0.21221181631763486
+      },
+      {
+        "margin": 0.145,
+        "price": 16.554138060141394,
+        "terminal_roic": 0.2564226113838088
+      },
+      {
+        "margin": 0.17,
+        "price": 18.345894434872857,
+        "terminal_roic": 0.30063340644998277
+      }
+    ],
+    "endorsement_claim": [
+      {
+        "claim": 0.0,
+        "price": 16.705248879609506,
+        "note": "Q3未拆分，0与全部其他流动负债是两端压力；不将税负直接认定为金融债。"
+      },
+      {
+        "claim": 0.4509167404,
+        "price": 16.554138060141394,
+        "note": "Q3未拆分，0与全部其他流动负债是两端压力；不将税负直接认定为金融债。"
+      },
+      {
+        "claim": 0.9714519934,
+        "price": 16.379696746268024,
+        "note": "Q3未拆分，0与全部其他流动负债是两端压力；不将税负直接认定为金融债。"
+      }
+    ],
+    "prepayment_support": [
+      {
+        "fraction": 0.2,
+        "additional_cash_need": 2.73699642858,
+        "price": 15.553897901175763,
+        "terminal_ic": 21.213231363540004,
+        "terminal_roic": 0.2233381765074278,
+        "note": "保持经营收入路径，但客户预付支持比主模型低，2027增加等额占款，不是收入已取消后的退款预测。"
+      },
+      {
+        "fraction": 0.5,
+        "additional_cash_need": 6.84249107145,
+        "price": 14.053537662727312,
+        "terminal_ic": 25.318726006410003,
+        "terminal_roic": 0.18712333351068847,
+        "note": "保持经营收入路径，但客户预付支持比主模型低，2027增加等额占款，不是收入已取消后的退款预测。"
+      }
+    ],
+    "growth_years": [
+      {
+        "years": 2,
+        "price": 15.237410149700295,
+        "terminal_year": 2032,
+        "terminal_ic": 16.529254945200005,
+        "terminal_roic": 0.24567995660354092
+      },
+      {
+        "years": 3,
+        "price": 16.554138060141394,
+        "terminal_year": 2033,
+        "terminal_ic": 18.476234934960008,
+        "terminal_roic": 0.25642261138380873
+      },
+      {
+        "years": 4,
+        "price": 17.768754228034112,
+        "terminal_year": 2034,
+        "terminal_ic": 20.547763924208006,
+        "terminal_roic": 0.2651569821536035
+      }
+    ],
+    "financial_assets_haircut": [
+      {
+        "haircut": 0.0,
+        "price": 16.554138060141394
+      },
+      {
+        "haircut": 0.05,
+        "price": 16.439027651463967
+      },
+      {
+        "haircut": 0.1,
+        "price": 16.32391724278654
+      }
+    ],
+    "reverse_standard_capital_check": {
+      "terminal_ic": 36.704901612062734,
+      "terminal_roic": 0.3175677890437499,
+      "recalibrated_price": 33.56595188239915
+    },
+    "reverse_capital_consistent_check": {
+      "revenue_growth": 0.6283708193447202,
+      "price": 32.989999999999995,
+      "error": -7.105427357601002e-15,
+      "terminal_ic": 36.088292697269885,
+      "terminal_roic": 0.31648833040212493,
+      "revenue_2029": 67.5013213866957
+    },
+    "reverse_operating_scale": [
+      {
+        "year": 2027,
+        "revenue": 25.630149703908707,
+        "ebit_margin": 0.16,
+        "nopat": 3.4857003597315837,
+        "capex": 1.7941104792736096,
+        "da": 0.615123592893809,
+        "delta_nwc": 2.9990367785126115
+      },
+      {
+        "year": 2028,
+        "revenue": 42.019409472038554,
+        "ebit_margin": 0.17,
+        "nopat": 6.0718046687095715,
+        "capex": 2.1009704736019277,
+        "da": 1.050485236800964,
+        "delta_nwc": 4.916777930438954
+      },
+      {
+        "year": 2029,
+        "revenue": 68.88882011132291,
+        "ebit_margin": 0.17,
+        "nopat": 9.95443450608616,
+        "capex": 2.4603150039758184,
+        "da": 1.7911093228943957,
+        "delta_nwc": 8.060823191785309
+      }
+    ],
+    "acceptance_delay_case": {
+      "price": 12.70222311961073,
+      "scenario": {
+        "wacc": 0.105,
+        "terminal_growth": 0.03,
+        "terminal_roic": 0.18374960114974973,
+        "terminal_margin": 0.145,
+        "terminal_tax_rate": 0.15,
+        "base_annual_revenue": 15.6333604422,
+        "incremental_nwc_ratio": 0.45,
+        "incremental_operating_cash_ratio": 0.08,
+        "forecast": [
+          {
+            "year": 2027,
+            "stage": "growth",
+            "revenue": 17.5,
+            "ebit_margin": 0.14,
+            "tax_rate": 0.15,
+            "capex": 1.4,
+            "da": 0.42,
+            "delta_nwc": 3.57698422959,
+            "projected_ic_end": 14.206367368890003,
+            "projected_roic_average": 0.1745910277930723,
+            "projected_operating_cash": 1.3493311646239998
+          },
+          {
+            "year": 2028,
+            "stage": "growth",
+            "revenue": 20.5,
+            "ebit_margin": 0.15,
+            "tax_rate": 0.15,
+            "capex": 1.2,
+            "da": 0.5125000000000001,
+            "delta_nwc": 1.35,
+            "projected_ic_end": 16.243867368890005,
+            "projected_roic_average": 0.17167355342302734,
+            "projected_operating_cash": 1.5893311646239998
+          },
+          {
+            "year": 2029,
+            "stage": "growth",
+            "revenue": 24.0,
+            "ebit_margin": 0.155,
+            "tax_rate": 0.15,
+            "capex": 0.8571428571428571,
+            "da": 0.624,
+            "delta_nwc": 1.575,
+            "projected_ic_end": 18.052010226032863,
+            "projected_roic_average": 0.18439533971675356,
+            "projected_operating_cash": 1.869331164624
+          },
+          {
+            "year": 2030,
+            "stage": "transition",
+            "revenue": 26.880000000000003,
+            "ebit_margin": 0.165,
+            "tax_rate": 0.15,
+            "capex": 0.9408000000000001,
+            "da": 0.6988800000000001,
+            "delta_nwc": 1.2960000000000012,
+            "projected_ic_end": 19.589930226032862,
+            "projected_roic_average": 0.20030423271088907,
+            "projected_operating_cash": 2.099731164624
+          },
+          {
+            "year": 2031,
+            "stage": "transition",
+            "revenue": 29.299200000000006,
+            "ebit_margin": 0.16,
+            "tax_rate": 0.15,
+            "capex": 0.8789760000000001,
+            "da": 0.7617792000000001,
+            "delta_nwc": 1.0886400000000016,
+            "projected_ic_end": 20.795767026032863,
+            "projected_roic_average": 0.1973318016588749,
+            "projected_operating_cash": 2.2932671646240004
+          },
+          {
+            "year": 2032,
+            "stage": "transition",
+            "revenue": 31.057152000000006,
+            "ebit_margin": 0.15,
+            "tax_rate": 0.15,
+            "capex": 0.8696002560000001,
+            "da": 0.8074859520000002,
+            "delta_nwc": 0.7910783999999998,
+            "projected_ic_end": 21.648959730032864,
+            "projected_roic_average": 0.1865855752945382,
+            "projected_operating_cash": 2.4339033246240005
+          },
+          {
+            "year": 2033,
+            "stage": "transition",
+            "revenue": 31.98886656000001,
+            "ebit_margin": 0.145,
+            "tax_rate": 0.15,
+            "capex": 0.8636993971200002,
+            "da": 0.8317105305600002,
+            "delta_nwc": 0.41927155200000144,
+            "projected_ic_end": 22.100220148592864,
+            "projected_roic_average": 0.1802377925464256,
+            "projected_operating_cash": 2.5084404894240007
+          }
+        ],
+        "stub": {
+          "revenue": 2.1999999999999997,
+          "ebit_margin": 0.15,
+          "tax_rate": 0.15,
+          "da": 0.05739130434782608,
+          "capex": 0.2391304347826087,
+          "delta_nwc": 0.21521739130434783,
+          "end": "2026-12-31",
+          "allocation": "remaining",
+          "bridge_roll": "explicit"
+        },
+        "terminal_capital_bridge": {
+          "ending_ic": 22.100220148592864,
+          "next_nopat": 4.060906637625601,
+          "method": "IC按CapEx-DA+ΔNWC递推；末期下一年正常化NOPAT/末期IC校准ROIC。"
+        },
+        "nwc_definition": "未来总增量占款含收入增量8%的必要经营现金，剩余为贸易等经营占款；历史简化NWC不含现金。"
+      },
+      "terminal_ic": 22.100220148592864,
+      "terminal_roic": 0.18374960114974973,
+      "definition": "验收与新订单转化延后：收入17.5/20.5/24亿，EBIT14/15/15.5%，NWC45%；前两年CapEx1.4/1.2保留，2027额外补Q3预收20%的占款。与主情景分开，不叠为悲观股价下限。"
+    },
+    "exclude_known_treasury_price": 16.561130999134335,
+    "pending_award_cash_completed_price": 16.55619783627646,
+    "operating_cash_2_price": 16.28604276727812,
+    "retain_software_vat_ratio_check": {
+      "ratio": 0.010313398842914606,
+      "price": 17.695908455687075,
+      "definition": "按H1软件VAT/收入比增入未来EBIT及成熟利润率，税率仍15%，不将该政策当一次性；主模型全剔其他收益，补充显示审慎口径代价。"
+    },
+    "tax_20pct_price": 15.574893247719043,
+    "liquidity": {
+      "opening_cash_and_financial_assets": 11.8520702174,
+      "cash_only_after_q4_fcff_and_base_reserve": 3.5587497174999996,
+      "base_path": [
+        {
+          "period": "2026 Q4末",
+          "financial_pool_after_growth_reserve": 11.6285702174,
+          "legacy_operating_reserve": 1.2,
+          "headroom_after_legacy_reserve": 10.4285702174
+        },
+        {
+          "period": 2027,
+          "financial_pool_after_growth_reserve": 12.186578350060001,
+          "legacy_operating_reserve": 1.2,
+          "headroom_after_legacy_reserve": 10.986578350060002,
+          "fcff": 0.49000813266000054,
+          "projected_total_operating_reserve": 1.5493311646239998
+        },
+        {
+          "period": 2028,
+          "financial_pool_after_growth_reserve": 13.92257835006,
+          "legacy_operating_reserve": 1.2,
+          "headroom_after_legacy_reserve": 12.722578350060001,
+          "fcff": 1.6679999999999995,
+          "projected_total_operating_reserve": 1.869331164624
+        },
+        {
+          "period": 2029,
+          "financial_pool_after_growth_reserve": 16.56457835006,
+          "legacy_operating_reserve": 1.2,
+          "headroom_after_legacy_reserve": 15.36457835006,
+          "fcff": 2.574,
+          "projected_total_operating_reserve": 2.189331164624
+        }
+      ],
+      "prepay_50pct_after_q4_and_reserve": 3.586079145950001,
+      "note": "合并现金与银行理财/存单池的方向性资金检查；未承诺全部能即时赎回，不含未来新分红、额外扩产、背书追索支付或经营预测外收支；新增必要现金已在FCFF扣，最后只扣原1.2亿储备，不再重复扣全部增长后储备。"
+    }
+  }
+}
