@@ -1,3 +1,9 @@
+---
+title: "宏和科技(603256) | 2026 Q3"
+tracks: ["AI 新技术"]
+valuations: ["明显透支"]
+---
+
 # 宏和科技(603256) | 2026 Q3
 
 首次跟踪。信息截止及估值日：<strong>2026-11-12</strong>；行情冻结 <strong>10:35:49（北京时间）</strong>，盘中 <strong>85.56 元/股</strong>。CNY；金额亿元、股数亿股。估值全股本 <strong>9.04586445</strong>。已核验国证成长 100 官方 <strong>2026-11-11</strong> 样本。[S20](#source-s20)[S21](#source-s21)

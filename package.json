@@ -4,9 +4,14 @@
   "engines": {
     "node": ">=20"
   },
+  "scripts": {
+    "reading:build": "hugo --cacheDir \"$PWD/.cache/hugo\" --cleanDestinationDir --gc && pagefind --site public --glob 'stocks/*/analyses/*/report.html'",
+    "reading:serve": "python3 -m http.server 1313 --bind 127.0.0.1 --directory public"
+  },
   "devDependencies": {
     "katex": "0.18.2",
     "marked-katex-extension": "5.1.13",
-    "md-to-pdf": "5.2.5"
+    "md-to-pdf": "5.2.5",
+    "pagefind": "1.6.0"
   }
 }

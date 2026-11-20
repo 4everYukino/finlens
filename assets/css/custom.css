@@ -1,0 +1,121 @@
+:root {
+  --reading-border: #dbe4eb;
+  --reading-muted: #526478;
+  --reading-panel: #f4f8fb;
+  --reading-accent: #075985;
+}
+
+:root.dark {
+  --reading-border: #3b4b5c;
+  --reading-muted: #bac9d6;
+  --reading-panel: #263746;
+  --reading-accent: #7dd3fc;
+}
+
+.reading-page { padding-block: 2rem 4rem; }
+.reading-page > h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 750;
+  line-height: 1.2;
+  margin-block: 0 .6rem;
+}
+.reading-context { color: var(--reading-accent); font-weight: 650; margin-bottom: .5rem; }
+.reading-subtitle, .reading-report-header p { color: var(--reading-muted); }
+.reading-page a { color: var(--reading-accent); text-underline-offset: .2em; }
+.reading-page a:hover, .reading-page a:focus-visible { text-decoration: underline; }
+
+.reading-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .75rem;
+  margin-block: 1.5rem 2rem;
+}
+.reading-stats > div {
+  border: 1px solid var(--reading-border);
+  border-radius: .65rem;
+  background: var(--reading-panel);
+  padding: .8rem 1rem;
+}
+.reading-stats dt { color: var(--reading-muted); font-size: .9rem; }
+.reading-stats dd { font-size: 1.8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.reading-list-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .75rem;
+  margin-block: 1.75rem .65rem;
+  font-size: 1.125rem;
+  font-weight: 650;
+}
+.reading-list-heading a { font-size: .9rem; }
+.reading-table {
+  overflow-x: auto;
+  border: 1px solid var(--reading-border);
+  border-radius: .65rem;
+}
+.reading-table table { width: 100%; min-width: 35rem; border-collapse: collapse; }
+.reading-table th, .reading-table td {
+  border-bottom: 1px solid var(--reading-border);
+  padding: .55rem .8rem;
+  text-align: start;
+  vertical-align: middle;
+}
+.reading-table thead th { background: var(--reading-panel); font-size: .9rem; }
+.reading-table tbody th { font-weight: 650; white-space: nowrap; }
+.reading-table tbody tr:last-child > * { border-bottom: 0; }
+.reading-table td:last-child { white-space: nowrap; }
+.reading-table small {
+  display: block;
+  color: var(--reading-muted);
+  font: .8rem/1.35 ui-monospace, monospace;
+}
+.reading-status, .reading-tags a {
+  display: inline-block;
+  padding: .05rem .5rem;
+  border-radius: .35rem;
+  background: var(--reading-panel);
+  font-size: .875rem;
+  white-space: nowrap;
+}
+.reading-status[data-status="已分析"] { color: var(--reading-accent); font-weight: 650; }
+
+.reading-archive { margin-block: 1rem; }
+.reading-archive li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .5rem;
+  border-bottom: 1px solid var(--reading-border);
+  padding-block: .65rem;
+}
+.reading-archive span { color: var(--reading-muted); }
+.reading-report-header { border-bottom: 1px solid var(--reading-border); padding-bottom: .85rem; }
+.reading-tags, .reading-filters { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .6rem; }
+.reading-report-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.2rem 1.75rem; margin-top: 1.25rem; }
+.reading-report-content { min-width: 0; max-width: none; overflow-wrap: anywhere; }
+.reading-report-content h1 { font-size: clamp(1.8rem, 4vw, 2.55rem); line-height: 1.25; }
+.reading-report-content table { display: block; max-width: 100%; overflow-x: auto; }
+.reading-math, .reading-math-inline { max-width: 100%; overflow-x: auto; }
+.reading-math-inline { display: inline-block; vertical-align: middle; }
+.reading-report-content [id] { scroll-margin-top: 1.25rem; }
+.reading-toc { min-width: 0; font-size: .9rem; }
+.reading-toc summary { font-weight: 650; cursor: pointer; }
+.reading-toc ul { list-style: none; padding-inline-start: .8rem; }
+.reading-toc nav { padding-block: .35rem; }
+.reading-search pagefind-input { display: block; margin-top: 1rem; }
+.reading-search pagefind-summary { display: block; margin-block: .75rem; }
+
+@media (min-width: 62rem) {
+  .reading-report-grid { grid-template-columns: minmax(0, 1fr) 14rem; }
+  .reading-report-content { grid-row: 1; }
+  .reading-toc {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow: auto;
+    align-self: start;
+  }
+}

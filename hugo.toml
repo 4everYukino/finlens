@@ -1,0 +1,75 @@
+baseURL = 'http://127.0.0.1:1313/'
+title = 'FinLens'
+theme = 'blowfish'
+locale = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
+timeZone = 'Asia/Shanghai'
+disablePathToLower = true
+uglyURLs = { stocks = true }
+
+[languages.en]
+disabled = true
+
+[languages.zh-cn]
+locale = 'zh-cn'
+
+[params]
+colorScheme = 'ocean'
+defaultAppearance = 'light'
+autoSwitchAppearance = true
+enableSearch = false
+
+[params.footer]
+showCopyright = false
+showThemeAttribution = false
+
+[taxonomies]
+track = 'tracks'
+valuation = 'valuations'
+
+[[menus.main]]
+name = '成分股'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = '报告检索'
+pageRef = '/search'
+weight = 20
+
+[[menus.main]]
+name = '季度归档'
+pageRef = '/reviews'
+weight = 30
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['$', '$']]
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+
+[[module.mounts]]
+source = 'content'
+target = 'content'
+
+[[module.mounts]]
+source = 'stocks'
+target = 'content/stocks'
+files = ['**/analyses/*/report.md']
+
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+
+[[module.mounts]]
+source = 'stocks'
+target = 'assets/stocks'
+files = ['**/report/*.pdf', '**/analyses/*/{input,fpeg,dcf,rdcf}.json']

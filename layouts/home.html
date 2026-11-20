@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ $review := site.GetPage (printf "/reviews/%s" hugo.Data.research.active_period) }}
+  {{ $snapshot := false }}
+  {{ range sort hugo.Data.constituents "sample_date" "desc" }}
+    {{ if le (time.AsTime (.effective_date | default .sample_date)).Unix now.Unix }}
+      {{ $snapshot = . }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+  {{ if and $review $snapshot }}
+    {{ partial "reading/board.html" (dict "review" $review "snapshot" $snapshot "heading" "国证成长 100" "current" true) }}
+  {{ else }}
+    {{ errorf "Configure the active review period and at least one effective constituent snapshot" }}
+  {{ end }}
+{{ end }}

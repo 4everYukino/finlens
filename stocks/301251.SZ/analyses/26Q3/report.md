@@ -1,3 +1,9 @@
+---
+title: "威尔高｜AI 电源 PCB 放量，现价接近乐观情景"
+tracks: ["AI 新技术"]
+valuations: ["明显透支"]
+---
+
 # 威尔高｜AI 电源 PCB 放量，现价接近乐观情景
 
 <strong>301251.SZ｜2026 年三季报｜首次跟踪</strong>

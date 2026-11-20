@@ -5,3 +5,7 @@
 /.venv/
 /.cache/
 __pycache__/
+/public/
+/resources/_gen/
+/themes/blowfish/
+/.hugo_build.lock

@@ -1,3 +1,9 @@
+---
+title: "景旺电子：高端 PCB 放量与扩产回报"
+tracks: ["AI 新技术"]
+valuations: ["大致合理"]
+---
+
 # 景旺电子：高端 PCB 放量与扩产回报
 
 <strong>603228.SH｜2026 年三季报｜首次跟踪</strong>
