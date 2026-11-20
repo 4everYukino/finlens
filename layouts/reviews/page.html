@@ -1,0 +1,5 @@
+{{ define "main" }}
+  {{ $snapshot := index hugo.Data.constituents .Params.snapshot }}
+  {{ if not $snapshot }}{{ errorf "Missing constituent snapshot %q for %s" .Params.snapshot .File.Path }}{{ end }}
+  {{ partial "reading/board.html" (dict "review" . "snapshot" $snapshot "heading" .Title) }}
+{{ end }}

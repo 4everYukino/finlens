@@ -1,0 +1,7 @@
+{{- $reports := dict -}}
+{{- range where site.RegularPages "Section" "stocks" -}}
+  {{- $parts := split .File.Path "/" -}}
+  {{- $key := printf "%s/%s" (index $parts 1) (index $parts 3) -}}
+  {{- $reports = merge $reports (dict $key .) -}}
+{{- end -}}
+{{- return $reports -}}

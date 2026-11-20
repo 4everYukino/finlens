@@ -1,0 +1,26 @@
+{{ define "main" }}
+  {{ $parts := split .File.Path "/" }}
+  {{ $code := index $parts 1 }}
+  {{ $period := index $parts 3 }}
+  {{ $valuationDate := "" }}
+  {{ with resources.Get (path.Join .File.Dir "input.json") }}
+    {{ $valuationDate = (transform.Unmarshal .Content).valuation_date }}
+  {{ end }}
+  <article class="reading-page" data-pagefind-body>
+    <meta itemprop="name" data-pagefind-meta="title[content]" content="{{ .Title }} · {{ $code }} · {{ $period }}{{ with $valuationDate }} · 估值 {{ . }}{{ end }}">
+    <header class="reading-report-header">
+      <p data-pagefind-filter="period[title]" title="{{ $period }}"><strong data-pagefind-weight="10">{{ $code }}</strong> · {{ $period }}{{ with $valuationDate }} · 估值基准日 {{ . }}{{ end }}</p>
+      <div class="reading-tags">
+        {{ range .GetTerms "tracks" }}<a href="{{ .RelPermalink }}" data-pagefind-filter="track">{{ .LinkTitle }}</a>{{ end }}
+        {{ range .GetTerms "valuations" }}<a href="{{ .RelPermalink }}" data-pagefind-filter="valuation">{{ .LinkTitle }}</a>{{ end }}
+        {{ with site.GetPage (printf "/reviews/%s" $period) }}<a href="{{ .RelPermalink }}">季度清单</a>{{ end }}
+      </div>
+    </header>
+    <div class="reading-report-grid">
+      <aside class="reading-toc" aria-label="报告目录" data-pagefind-ignore>
+        <details open><summary>报告目录</summary>{{ .TableOfContents }}</details>
+      </aside>
+      <div class="reading-report-content prose dark:prose-invert">{{ .Content }}</div>
+    </div>
+  </article>
+{{ end }}

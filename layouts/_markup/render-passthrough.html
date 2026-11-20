@@ -1,0 +1,8 @@
+{{- $formula := replaceRE `([0-9])%` `${1}\%` .Inner -}}
+{{- $block := eq .Type "block" -}}
+{{- $math := transform.ToMath $formula (dict "strict" "ignore" "displayMode" $block) -}}
+{{- if $block -}}
+  <div class="reading-math">{{ $math }}</div>
+{{- else -}}
+  <span class="reading-math-inline">{{ $math }}</span>
+{{- end -}}

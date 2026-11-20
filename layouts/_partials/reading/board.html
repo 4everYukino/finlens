@@ -1,0 +1,75 @@
+{{ $review := .review }}
+{{ $period := $review.Params.period }}
+{{ $reports := partialCached "reading/report-index.html" . }}
+{{ $reviews := sort (where (site.GetPage "/reviews").RegularPages "Params.period_end" "lt" $review.Params.period_end) "Params.period_end" "desc" }}
+{{ $rows := slice }}
+{{ $members := slice }}
+{{ $states := slice "已分析" "待更新" "待研究" }}
+{{ $counts := collections.NewScratch }}
+{{ range $states }}{{ $counts.Set . 0 }}{{ end }}
+{{ range .snapshot.members }}
+  {{ $stock := . }}
+  {{ $members = $members | append $stock.code }}
+  {{ $state := "待研究" }}
+  {{ $report := index $reports (printf "%s/%s" $stock.code $period) }}
+  {{ $reportPeriod := $period }}
+  {{ if $report }}
+    {{ $state = "已分析" }}
+  {{ else }}
+    {{ range $previous := $reviews }}
+      {{ with index $reports (printf "%s/%s" $stock.code $previous.Params.period) }}
+        {{ $report = . }}
+        {{ $reportPeriod = $previous.Params.period }}
+        {{ $state = "待更新" }}
+        {{ break }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $counts.Add $state 1 }}
+  {{ $rows = $rows | append (dict "stock" $stock "state" $state "report" $report "period" $reportPeriod) }}
+{{ end }}
+<section class="reading-page">
+  <p class="reading-context">{{ $period }} 研究进度</p>
+  <h1>{{ .heading }}</h1>
+  <p class="reading-subtitle"><a href="{{ .snapshot.source }}">成分股样本</a> {{ .snapshot.sample_date }} · {{ len $rows }} 只</p>
+  <dl class="reading-stats">
+    {{ range $states }}
+      <div><dt>{{ . }}</dt><dd>{{ $counts.Get . }}</dd></div>
+    {{ end }}
+  </dl>
+  {{ $search := site.GetPage "/search" }}
+  <div class="reading-list-heading">
+    <h2>成分股</h2>
+    <a href="{{ $search.RelPermalink }}">检索研究报告</a>
+  </div>
+  <div class="reading-table" tabindex="0" aria-label="成分股研究进度">
+    <table>
+      <thead><tr><th scope="col">标的</th><th scope="col">研究线索</th><th scope="col">进度</th><th scope="col">报告</th></tr></thead>
+      <tbody>
+        {{ range $rows }}
+          <tr>
+            <th scope="row">{{ .stock.name }}<small>{{ .stock.code }}</small></th>
+            <td>{{ delimit (.stock.tracks | default slice) "、" | default "—" }}</td>
+            <td><span class="reading-status" data-status="{{ .state }}">{{ .state }}</span></td>
+            <td>{{ if .report }}<a href="{{ .report.RelPermalink }}">{{ .period }} 报告</a>{{ else }}—{{ end }}</td>
+          </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+  {{ if not .current }}
+    {{ $outside := slice }}
+    {{ range $key, $report := $reports }}
+      {{ $parts := split $key "/" }}
+      {{ if and (eq (index $parts 1) $period) (not (in $members (index $parts 0))) }}
+        {{ $outside = $outside | append $report }}
+      {{ end }}
+    {{ end }}
+    {{ with $outside }}
+      <h2 class="reading-list-heading">本期其他报告</h2>
+      <ul class="reading-archive">
+        {{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+</section>

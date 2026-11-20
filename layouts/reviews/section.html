@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <section class="reading-page">
+    <h1>{{ .Title }}</h1>
+    <ul class="reading-archive">
+      {{ range sort .RegularPages "Params.period_end" "desc" }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span>样本 {{ .Params.snapshot }}</span></li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}

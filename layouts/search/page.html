@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <section class="reading-page reading-search">
+    <h1>{{ .Title }}</h1>
+    <p class="reading-subtitle">搜索全部历史报告，可按线索、估值和报告期组合筛选。</p>
+    <link rel="stylesheet" href="{{ "pagefind/pagefind-component-ui.css" | relURL }}">
+    <script src="{{ "pagefind/pagefind-component-ui.js" | relURL }}" defer></script>
+    <pagefind-config faceted preload base-url="{{ site.Home.RelPermalink }}"></pagefind-config>
+    <pagefind-input placeholder="输入公司名、证券代码或关键词"></pagefind-input>
+    <div class="reading-filters">
+      <pagefind-filter-dropdown filter="track" label="研究线索"></pagefind-filter-dropdown>
+      <pagefind-filter-dropdown filter="valuation" label="估值判断" single-select></pagefind-filter-dropdown>
+      <pagefind-filter-dropdown filter="period" label="报告期" single-select></pagefind-filter-dropdown>
+    </div>
+    <nav class="reading-tags" aria-label="分类列表">
+      <a href="{{ (site.GetPage "/tracks").RelPermalink }}">按线索浏览</a>
+      <a href="{{ (site.GetPage "/valuations").RelPermalink }}">按估值浏览</a>
+    </nav>
+    <pagefind-summary></pagefind-summary>
+    <pagefind-results></pagefind-results>
+  </section>
+{{ end }}

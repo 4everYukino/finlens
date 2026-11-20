@@ -41,3 +41,11 @@ python3 -m pip --python .venv install --cache-dir .cache/pip -r requirements.txt
 ```
 
 然后请使用 `.venv/bin/python` 和 `node_modules/.bin/md-to-pdf`，避免每次重新安装。
+
+## 阅读站
+
+[线上阅读站](https://4everyukino.github.io/finlens/)由[部署工作流](.github/workflows/reading-pages.yml)在 `master` 更新后自动构建和发布，也可从 `master` 手动运行。首次发布前，在仓库的 **Settings → Pages** 中将 **Source** 设为 **GitHub Actions**。
+
+- 新增研究时在 `stocks/<代码>/analyses/<报告期>/report.md` 开头填写 `title`、`tracks` 和 `valuations`。研究线索可多选，估值判断沿用该期报告结论并使用列表填写一个值。估值基准日从同目录的 `input.json` 读取。可参考 [麦格米特 26Q3](stocks/002851.SZ/analyses/26Q3/report.md)。
+- 成分股变更时，在 `data/constituents/` 新增以样本日期命名的 YAML 快照。若生效与样本日期不同，填写 `effective_date`。首页按最新已生效快照更新。
+- 开启下一研究期时，在 `content/reviews/` 新增季度页面，填入 `period`、`period_end` 和当期采用的 `snapshot`，再更新 `data/research.yaml` 的 `active_period`。已经归档的季度页面继续使用各自的样本快照。

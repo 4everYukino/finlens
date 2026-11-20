@@ -1,0 +1,16 @@
+{{- $url := urls.Parse .Destination -}}
+{{- $href := .Destination -}}
+{{- if eq $url.Path "../../../../ConstituentStock.md" -}}
+  {{- $period := index (split .PageInner.File.Path "/") 3 -}}
+  {{- with site.GetPage (printf "/reviews/%s" $period) }}{{ $href = .RelPermalink }}{{ end -}}
+{{- else if and (not $url.IsAbs) (not $url.Host) (in (slice ".json" ".pdf") (path.Ext $url.Path)) -}}
+  {{- $source := path.Join .PageInner.File.Dir $url.Path -}}
+  {{- with resources.Get $source -}}
+    {{- $href = .RelPermalink -}}
+    {{- with $url.RawQuery }}{{ $href = printf "%s?%s" $href . }}{{ end -}}
+    {{- with $url.Fragment }}{{ $href = printf "%s#%s" $href . }}{{ end -}}
+  {{- else -}}
+    {{- errorf "Missing report attachment %q at %s" $source $.Position -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $href }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
