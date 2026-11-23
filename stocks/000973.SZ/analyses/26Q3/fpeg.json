@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "valuation_date": "2026-11-20",
+  "market_price": 9.01,
+  "base_year": 2027,
+  "end_year": 2031,
+  "base_eps": 0.4988888365,
+  "end_eps": 0.9299134043,
+  "eps_cagr": 0.1684487827819816,
+  "forward_pe": 18.060135526804878,
+  "fpeg": 1.072144020784026
+}

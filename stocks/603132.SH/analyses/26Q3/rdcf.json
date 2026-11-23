@@ -1,0 +1,46 @@
+{
+  "status": "outside_search_range",
+  "variable": "operating_margin",
+  "scope": {
+    "stage": "growth",
+    "years": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035
+    ]
+  },
+  "base_value": [
+    0.503569204,
+    0.50303002,
+    0.490975095,
+    0.483528083,
+    0.473935758,
+    0.459440263,
+    0.455751664,
+    0.447020989,
+    0.43885227
+  ],
+  "market_price": 14.45,
+  "market_ev": 195.1660917399,
+  "lower": 0.25,
+  "upper": 0.98,
+  "price_tolerance": 0.001,
+  "fixed_parameters": {
+    "scenario": "base",
+    "wacc": 0.0997,
+    "terminal_growth": 0.0,
+    "terminal_roic": 0.1
+  },
+  "reinvestment": null,
+  "tested_price_range": [
+    -3.097483633395884,
+    6.581405162472413
+  ],
+  "reason": "给定搜索范围与采样精度内未得到解，不代表模型在所有范围均无解。"
+}

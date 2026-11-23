@@ -1,0 +1,797 @@
+{
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "valuation_date": "2026-11-24",
+  "balance_date": "2026-09-30",
+  "market_price": 60.4,
+  "bridge": {
+    "cash_equivalents": 1.3523094197,
+    "operating_cash": 0.45,
+    "nonoperating_financial_assets": 4.698881247814,
+    "debt_components": {
+      "一年内到期的租赁负债": 0.0223372478,
+      "长期租赁负债": 0.0332783178
+    },
+    "other_claims": 0.0,
+    "shares": 0.60502786
+  },
+  "bridge_adjustments": [
+    {
+      "amount": -0.01688542715231562,
+      "reason": "按最新三季报后至估值日的55/92天计提基准整季FCFF扣税后租赁利息0.001亿元，期间未见已落地股本或借款变动的公告。"
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "wacc": 0.1055,
+      "terminal_growth": 0.019,
+      "terminal_roic": 0.11,
+      "terminal_margin": 0.24,
+      "terminal_tax_rate": 0.16,
+      "base_annual_revenue": 3.66,
+      "incremental_nwc_ratio": 0.39,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 0.9261055681000001,
+        "ebit_margin": 0.246,
+        "tax_rate": 0.16,
+        "da": 0.111,
+        "capex": 0.35,
+        "delta_nwc": 0.013
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 3.9252849999999997,
+          "ebit_margin": 0.243,
+          "tax_rate": 0.16,
+          "da": 0.42,
+          "capex": 0.8200000000000001,
+          "delta_nwc": 0.10346114999999982
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 4.224943415,
+          "ebit_margin": 0.242,
+          "tax_rate": 0.16,
+          "da": 0.42,
+          "capex": 1.08,
+          "delta_nwc": 0.11686678185000023
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 4.527748747885,
+          "ebit_margin": 0.246,
+          "tax_rate": 0.16,
+          "da": 0.44,
+          "capex": 0.91,
+          "delta_nwc": 0.11809407982514991
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 4.8592908814948155,
+          "ebit_margin": 0.251,
+          "tax_rate": 0.16,
+          "da": 0.47,
+          "capex": 0.65,
+          "delta_nwc": 0.12930143210782802
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 5.185237439641217,
+          "ebit_margin": 0.254,
+          "tax_rate": 0.16,
+          "da": 0.49,
+          "capex": 0.48,
+          "delta_nwc": 0.12711915767709647
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 5.46768445839778,
+          "ebit_margin": 0.254,
+          "tax_rate": 0.16,
+          "da": 0.5,
+          "capex": 0.49,
+          "delta_nwc": 0.11015433731505987
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 5.711164543110969,
+          "ebit_margin": 0.252,
+          "tax_rate": 0.16,
+          "da": 0.51,
+          "capex": 0.5,
+          "delta_nwc": 0.09495723303814348
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 5.914867242271092,
+          "ebit_margin": 0.249,
+          "tax_rate": 0.16,
+          "da": 0.52,
+          "capex": 0.51,
+          "delta_nwc": 0.07944405267244813
+        },
+        {
+          "year": 2035,
+          "stage": "transition",
+          "revenue": 6.099167868675451,
+          "ebit_margin": 0.246,
+          "tax_rate": 0.16,
+          "da": 0.53,
+          "capex": 0.52,
+          "delta_nwc": 0.0718772442977
+        },
+        {
+          "year": 2036,
+          "stage": "transition",
+          "revenue": 6.254947675315962,
+          "ebit_margin": 0.243,
+          "tax_rate": 0.16,
+          "da": 0.54,
+          "capex": 0.53,
+          "delta_nwc": 0.06075412458979918
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.0938,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.18,
+      "terminal_margin": 0.3,
+      "terminal_tax_rate": 0.16,
+      "base_annual_revenue": 3.83,
+      "incremental_nwc_ratio": 0.31,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 1.0961055681,
+        "ebit_margin": 0.268,
+        "tax_rate": 0.16,
+        "da": 0.111,
+        "capex": 0.42,
+        "delta_nwc": -0.035
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 4.4226,
+          "ebit_margin": 0.283,
+          "tax_rate": 0.16,
+          "da": 0.46,
+          "capex": 1.27,
+          "delta_nwc": 0.183706
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 5.118437,
+          "ebit_margin": 0.302,
+          "tax_rate": 0.16,
+          "da": 0.49,
+          "capex": 1.6,
+          "delta_nwc": 0.21570947000000001
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 5.939337409999999,
+          "ebit_margin": 0.319,
+          "tax_rate": 0.16,
+          "da": 0.59,
+          "capex": 1.0,
+          "delta_nwc": 0.25447912709999976
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 6.7702893442375,
+          "ebit_margin": 0.333,
+          "tax_rate": 0.16,
+          "da": 0.64,
+          "capex": 0.55,
+          "delta_nwc": 0.25759509961362514
+        },
+        {
+          "year": 2031,
+          "stage": "growth",
+          "revenue": 7.573989439675688,
+          "ebit_margin": 0.339,
+          "tax_rate": 0.16,
+          "da": 0.66,
+          "capex": 0.58,
+          "delta_nwc": 0.24914702958583831
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 8.31442992364363,
+          "ebit_margin": 0.337,
+          "tax_rate": 0.16,
+          "da": 0.68,
+          "capex": 0.61,
+          "delta_nwc": 0.22953655003006193
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 8.967209123714651,
+          "ebit_margin": 0.328,
+          "tax_rate": 0.16,
+          "da": 0.7,
+          "capex": 0.64,
+          "delta_nwc": 0.20236155202201675
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 9.522316727569807,
+          "ebit_margin": 0.32,
+          "tax_rate": 0.16,
+          "da": 0.72,
+          "capex": 0.67,
+          "delta_nwc": 0.17208335719509826
+        },
+        {
+          "year": 2035,
+          "stage": "transition",
+          "revenue": 9.987731609546547,
+          "ebit_margin": 0.311,
+          "tax_rate": 0.16,
+          "da": 0.74,
+          "capex": 0.7,
+          "delta_nwc": 0.14427861341278927
+        },
+        {
+          "year": 2036,
+          "stage": "transition",
+          "revenue": 10.363842861100364,
+          "ebit_margin": 0.304,
+          "tax_rate": 0.16,
+          "da": 0.75,
+          "capex": 0.72,
+          "delta_nwc": 0.11659448798168347
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.0875,
+      "terminal_growth": 0.029,
+      "terminal_roic": 0.225,
+      "terminal_margin": 0.349,
+      "terminal_tax_rate": 0.16,
+      "base_annual_revenue": 4.0,
+      "incremental_nwc_ratio": 0.24,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 1.2661055681,
+        "ebit_margin": 0.305,
+        "tax_rate": 0.16,
+        "da": 0.118,
+        "capex": 0.5,
+        "delta_nwc": -0.1
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 4.890324999999999,
+          "ebit_margin": 0.313,
+          "tax_rate": 0.16,
+          "da": 0.48,
+          "capex": 1.51,
+          "delta_nwc": 0.21367799999999973
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 5.983864025,
+          "ebit_margin": 0.339,
+          "tax_rate": 0.16,
+          "da": 0.53,
+          "capex": 1.75,
+          "delta_nwc": 0.26244936600000024
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 7.332043924724999,
+          "ebit_margin": 0.362,
+          "tax_rate": 0.16,
+          "da": 0.64,
+          "capex": 1.06,
+          "delta_nwc": 0.32356317593399986
+        },
+        {
+          "year": 2030,
+          "stage": "growth",
+          "revenue": 8.780290441382025,
+          "ebit_margin": 0.377,
+          "tax_rate": 0.16,
+          "da": 0.7,
+          "capex": 0.7,
+          "delta_nwc": 0.3475791639976862
+        },
+        {
+          "year": 2031,
+          "stage": "growth",
+          "revenue": 10.240869216573904,
+          "ebit_margin": 0.384,
+          "tax_rate": 0.16,
+          "da": 0.75,
+          "capex": 0.77,
+          "delta_nwc": 0.35053890604605087
+        },
+        {
+          "year": 2032,
+          "stage": "growth",
+          "revenue": 11.678789429823395,
+          "ebit_margin": 0.381,
+          "tax_rate": 0.16,
+          "da": 0.8,
+          "capex": 0.83,
+          "delta_nwc": 0.3451008511798778
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 12.982179051767524,
+          "ebit_margin": 0.374,
+          "tax_rate": 0.16,
+          "da": 0.85,
+          "capex": 0.89,
+          "delta_nwc": 0.312813509266591
+        },
+        {
+          "year": 2034,
+          "stage": "transition",
+          "revenue": 14.097076866536405,
+          "ebit_margin": 0.366,
+          "tax_rate": 0.16,
+          "da": 0.9,
+          "capex": 0.95,
+          "delta_nwc": 0.26757547554453137
+        },
+        {
+          "year": 2035,
+          "stage": "transition",
+          "revenue": 15.016416995484983,
+          "ebit_margin": 0.359,
+          "tax_rate": 0.16,
+          "da": 0.95,
+          "capex": 1.01,
+          "delta_nwc": 0.22064163094765873
+        },
+        {
+          "year": 2036,
+          "stage": "transition",
+          "revenue": 15.76223209317567,
+          "ebit_margin": 0.352,
+          "tax_rate": 0.16,
+          "da": 1.0,
+          "capex": 1.06,
+          "delta_nwc": 0.17899562344576508
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.0838,
+      0.0938,
+      0.1038
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.9,
+      1,
+      1.1
+    ]
+  },
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2029,
+    "base_eps": 1.814032947177011,
+    "end_eps": 2.6721163755725232
+  },
+  "reverse_dcf": {
+    "variable": "revenue_growth",
+    "stage": "growth",
+    "scenario": "base",
+    "lower": 0.0,
+    "upper": 0.35,
+    "price_tolerance": 0.0001,
+    "reinvestment": {
+      "da": "revenue_ratio",
+      "capex": "revenue_ratio"
+    }
+  },
+  "estimates": {
+    "segment_forecast": {
+      "bear": [
+        {
+          "year": 2027,
+          "domestic_sales": 1.3333999999999997,
+          "foreign_sales": 2.2256,
+          "technical_services": 0.35100000000000003,
+          "freight": 0.015284999999999998,
+          "incremental_project_sales": 0,
+          "core_capex": 0.4,
+          "project_capex": 0.42
+        },
+        {
+          "year": 2028,
+          "domestic_sales": 1.4934079999999998,
+          "foreign_sales": 2.3368800000000003,
+          "technical_services": 0.3790800000000001,
+          "freight": 0.015575414999999997,
+          "incremental_project_sales": 0,
+          "core_capex": 0.43,
+          "project_capex": 0.65
+        },
+        {
+          "year": 2029,
+          "domestic_sales": 1.6427488,
+          "foreign_sales": 2.4654084000000003,
+          "technical_services": 0.4037202000000001,
+          "freight": 0.015871347884999994,
+          "incremental_project_sales": 0,
+          "core_capex": 0.45,
+          "project_capex": 0.46
+        },
+        {
+          "year": 2030,
+          "domestic_sales": 1.774168704,
+          "foreign_sales": 2.601005862,
+          "technical_services": 0.42794341200000013,
+          "freight": 0.016172903494814993,
+          "incremental_project_sales": 0.04,
+          "core_capex": 0.46,
+          "project_capex": 0.19
+        },
+        {
+          "year": 2031,
+          "domestic_sales": 1.89836051328,
+          "foreign_sales": 2.7310561551,
+          "technical_services": 0.44934058260000015,
+          "freight": 0.016480188661216477,
+          "incremental_project_sales": 0.09,
+          "core_capex": 0.48,
+          "project_capex": 0
+        },
+        {
+          "year": 2032,
+          "domestic_sales": 1.9932785389440002,
+          "foreign_sales": 2.840298401304,
+          "technical_services": 0.4673142059040002,
+          "freight": 0.01679331224577959,
+          "incremental_project_sales": 0.15,
+          "core_capex": 0.49,
+          "project_capex": 0
+        },
+        {
+          "year": 2033,
+          "domestic_sales": 2.07300968050176,
+          "foreign_sales": 2.9397088453496396,
+          "technical_services": 0.48133363208112023,
+          "freight": 0.0171123851784494,
+          "incremental_project_sales": 0.2,
+          "core_capex": 0.5,
+          "project_capex": 0
+        },
+        {
+          "year": 2034,
+          "domestic_sales": 2.135199970916813,
+          "foreign_sales": 3.027900110710129,
+          "technical_services": 0.49432964014731046,
+          "freight": 0.017437520496839935,
+          "incremental_project_sales": 0.24,
+          "core_capex": 0.51,
+          "project_capex": 0
+        },
+        {
+          "year": 2035,
+          "domestic_sales": 2.188579970189733,
+          "foreign_sales": 3.1066255135885923,
+          "technical_services": 0.5061935515108459,
+          "freight": 0.01776883338627989,
+          "incremental_project_sales": 0.28,
+          "core_capex": 0.52,
+          "project_capex": 0
+        },
+        {
+          "year": 2036,
+          "domestic_sales": 2.234540149563717,
+          "foreign_sales": 3.1749712748875414,
+          "technical_services": 0.5173298096440845,
+          "freight": 0.018106441220619208,
+          "incremental_project_sales": 0.31,
+          "core_capex": 0.53,
+          "project_capex": 0
+        }
+      ],
+      "base": [
+        {
+          "year": 2027,
+          "domestic_sales": 1.5872,
+          "foreign_sales": 2.4089,
+          "technical_services": 0.40599999999999997,
+          "freight": 0.020499999999999997,
+          "incremental_project_sales": 0,
+          "core_capex": 0.44,
+          "project_capex": 0.83
+        },
+        {
+          "year": 2028,
+          "domestic_sales": 1.9205119999999998,
+          "foreign_sales": 2.7100125,
+          "technical_services": 0.4668999999999999,
+          "freight": 0.021012499999999996,
+          "incremental_project_sales": 0,
+          "core_capex": 0.48,
+          "project_capex": 1.12
+        },
+        {
+          "year": 2029,
+          "domestic_sales": 2.2662041599999996,
+          "foreign_sales": 3.0216639375,
+          "technical_services": 0.5299314999999999,
+          "freight": 0.021537812499999996,
+          "incremental_project_sales": 0.1,
+          "core_capex": 0.52,
+          "project_capex": 0.48
+        },
+        {
+          "year": 2030,
+          "domestic_sales": 2.6174658047999997,
+          "foreign_sales": 3.3298736591250004,
+          "technical_services": 0.5908736224999999,
+          "freight": 0.022076257812499993,
+          "incremental_project_sales": 0.21,
+          "core_capex": 0.55,
+          "project_capex": 0
+        },
+        {
+          "year": 2031,
+          "domestic_sales": 2.957736359423999,
+          "foreign_sales": 3.6195726674688755,
+          "technical_services": 0.6440522485249999,
+          "freight": 0.02262816425781249,
+          "incremental_project_sales": 0.33,
+          "core_capex": 0.58,
+          "project_capex": 0
+        },
+        {
+          "year": 2032,
+          "domestic_sales": 3.268298677163519,
+          "foreign_sales": 3.8838014721941034,
+          "technical_services": 0.6891359059217499,
+          "freight": 0.0231938683642578,
+          "incremental_project_sales": 0.45,
+          "core_capex": 0.61,
+          "project_capex": 0
+        },
+        {
+          "year": 2033,
+          "domestic_sales": 3.5395674673680912,
+          "foreign_sales": 4.116829560525749,
+          "technical_services": 0.7270383807474461,
+          "freight": 0.023773715073364243,
+          "incremental_project_sales": 0.56,
+          "core_capex": 0.64,
+          "project_capex": 0
+        },
+        {
+          "year": 2034,
+          "domestic_sales": 3.769639352747017,
+          "foreign_sales": 4.318554208991511,
+          "technical_services": 0.7597551078810811,
+          "freight": 0.024368057950198346,
+          "incremental_project_sales": 0.65,
+          "core_capex": 0.67,
+          "project_capex": 0
+        },
+        {
+          "year": 2035,
+          "domestic_sales": 3.954351681031621,
+          "foreign_sales": 4.491296377351172,
+          "technical_services": 0.7871062917648001,
+          "freight": 0.024977259398953303,
+          "incremental_project_sales": 0.73,
+          "core_capex": 0.7,
+          "project_capex": 0
+        },
+        {
+          "year": 2036,
+          "domestic_sales": 4.088799638186696,
+          "foreign_sales": 4.63950915780376,
+          "technical_services": 0.8099323742259792,
+          "freight": 0.025601690883927133,
+          "incremental_project_sales": 0.8,
+          "core_capex": 0.72,
+          "project_capex": 0
+        }
+      ],
+      "bull": [
+        {
+          "year": 2027,
+          "domestic_sales": 1.7554,
+          "foreign_sales": 2.6441999999999997,
+          "technical_services": 0.46499999999999997,
+          "freight": 0.025724999999999998,
+          "incremental_project_sales": 0,
+          "core_capex": 0.49,
+          "project_capex": 1.02
+        },
+        {
+          "year": 2028,
+          "domestic_sales": 2.246912,
+          "foreign_sales": 3.1201559999999993,
+          "technical_services": 0.560325,
+          "freight": 0.026471024999999995,
+          "incremental_project_sales": 0.03,
+          "core_capex": 0.55,
+          "project_capex": 1.2
+        },
+        {
+          "year": 2029,
+          "domestic_sales": 2.80864,
+          "foreign_sales": 3.6349817399999993,
+          "technical_services": 0.6611834999999999,
+          "freight": 0.027238684724999993,
+          "incremental_project_sales": 0.2,
+          "core_capex": 0.63,
+          "project_capex": 0.43
+        },
+        {
+          "year": 2030,
+          "domestic_sales": 3.4265408,
+          "foreign_sales": 4.162054092299999,
+          "technical_services": 0.7636669424999999,
+          "freight": 0.028028606582024992,
+          "incremental_project_sales": 0.4,
+          "core_capex": 0.7,
+          "project_capex": 0
+        },
+        {
+          "year": 2031,
+          "domestic_sales": 4.077583552,
+          "foreign_sales": 4.661500583375999,
+          "technical_services": 0.8629436450249998,
+          "freight": 0.028841436172903714,
+          "incremental_project_sales": 0.61,
+          "core_capex": 0.77,
+          "project_capex": 0
+        },
+        {
+          "year": 2032,
+          "domestic_sales": 4.709609002560001,
+          "foreign_sales": 5.141635143463727,
+          "technical_services": 0.9578674459777499,
+          "freight": 0.029677837821917918,
+          "incremental_project_sales": 0.84,
+          "core_capex": 0.83,
+          "project_capex": 0
+        },
+        {
+          "year": 2033,
+          "domestic_sales": 5.288890909874881,
+          "foreign_sales": 5.578674130658143,
+          "technical_services": 1.0440755161157473,
+          "freight": 0.030538495118753534,
+          "incremental_project_sales": 1.04,
+          "core_capex": 0.89,
+          "project_capex": 0
+        },
+        {
+          "year": 2034,
+          "domestic_sales": 5.78604665540312,
+          "foreign_sales": 5.952445297412239,
+          "technical_services": 1.1171608022438497,
+          "freight": 0.03142411147719738,
+          "incremental_project_sales": 1.21,
+          "core_capex": 0.95,
+          "project_capex": 0
+        },
+        {
+          "year": 2035,
+          "domestic_sales": 6.196855967936742,
+          "foreign_sales": 6.261972452877676,
+          "technical_services": 1.17525316396053,
+          "freight": 0.03233541071003611,
+          "incremental_project_sales": 1.35,
+          "core_capex": 1.01,
+          "project_capex": 0
+        },
+        {
+          "year": 2036,
+          "domestic_sales": 6.512895622301515,
+          "foreign_sales": 6.524975295898538,
+          "technical_services": 1.2210880373549906,
+          "freight": 0.033273137620627155,
+          "incremental_project_sales": 1.47,
+          "core_capex": 1.06,
+          "project_capex": 0
+        }
+      ]
+    },
+    "eps": [
+      {
+        "year": 2027,
+        "ebit": 1.2515957999999998,
+        "interest_and_financial_investment_income": 0.072,
+        "net_lease_interest": 0.004,
+        "fx_and_other": -0.013,
+        "tax": 0.16,
+        "parent_net_profit": 1.097540472,
+        "diluted_shares": 0.60502786,
+        "eps": 1.814032947177011
+      },
+      {
+        "year": 2028,
+        "ebit": 1.545767974,
+        "interest_and_financial_investment_income": 0.055,
+        "net_lease_interest": 0.004,
+        "fx_and_other": -0.013,
+        "tax": 0.16,
+        "parent_net_profit": 1.3303650981600001,
+        "diluted_shares": 0.60502786,
+        "eps": 2.198849319368533
+      },
+      {
+        "year": 2029,
+        "ebit": 1.89464863379,
+        "interest_and_financial_investment_income": 0.047,
+        "net_lease_interest": 0.004,
+        "fx_and_other": -0.013,
+        "tax": 0.16,
+        "parent_net_profit": 1.6167048523835998,
+        "diluted_shares": 0.60502786,
+        "eps": 2.6721163755725232
+      }
+    ],
+    "program_capex_q4": {
+      "bear": 0.13,
+      "base": 0.24,
+      "bull": 0.32
+    },
+    "financial_asset_haircuts": {
+      "trading_market_to_book": 0.97,
+      "long_market_to_book": 0.65
+    },
+    "shares": {
+      "issued": 0.606507,
+      "treasury": 0.00147914
+    },
+    "notes": [
+      "增长分为境内材料和现有产品、境外产品、技术服务、运输及天津园区后新增器械收入。已投入运营的器械渠道成本及其他在研项目持续费用纳入合并EBIT，未单独计入尚处临床阶段的自研药品上市销售。",
+      "天津园区上限3.15亿元含利息及流动资金。显式资本开支为硬投入，基准四季度及2027–2029年分别计0.24、0.83、1.12、0.48亿元。对集团收入增量单独计营运资金。天津经开区已确认项目于2026年8月18日开工。设备验收、投产及订单节奏为估算。",
+      "基准WACC使用1.5853%中国十年国债，6.50%风险溢价、Beta 1.10、客户集中度附加0.65个百分点，借款成本近似4.0%，按租赁负债市场权重与16%税率修正。",
+      "历史现金购建按披露，预测EBIT包括全部新增研发经济支出，预测资本开支为硬投入和长期有偿使用资产重置，不重复扣除研发现金。长期租赁按融资租赁等价处理，折摊含使用权，规划资本开支含长期租赁资产正常更新。",
+      "估值使用11月24日未复权收盘价及总股本扣除库存股。现金储备取0.45亿元，交易性金融资产和其他非流动金融资产分别按97%和65%账面。"
+    ]
+  }
+}

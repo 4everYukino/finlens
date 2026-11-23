@@ -1,0 +1,540 @@
+{
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "valuation_date": "2026-11-24",
+  "balance_date": "2026-09-30",
+  "market_price": 18.09,
+  "bridge": {
+    "cash_equivalents": 19.5234517646,
+    "operating_cash": 3.4,
+    "nonoperating_financial_assets": 12.48187839034,
+    "debt_components": {
+      "短期借款（含已确认的融资性贴现）": 16.647965057,
+      "一年内到期非流动负债（含嘉元时代股份回购权）": 11.9632380085,
+      "长期借款": 32.196781172,
+      "长期租赁负债": 0.0057751592
+    },
+    "other_claims": 1.4540513695,
+    "shares": 6.5863532
+  },
+  "bridge_adjustments": [
+    {
+      "amount": 0.23908260869565232,
+      "reason": "基准整季FCFF扣除估计税后融资利息0.36亿元，按55/92天滚动。未识别已交割的重大融资净现金或股本变动。"
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "wacc": 0.104,
+      "terminal_growth": 0.015,
+      "terminal_roic": 0.075,
+      "terminal_margin": 0.031,
+      "terminal_tax_rate": 0.2,
+      "base_annual_revenue": 173.331790283,
+      "incremental_nwc_ratio": 0.25,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 46.9,
+        "ebit_margin": 0.04,
+        "tax_rate": 0.2,
+        "da": 1.16,
+        "capex": 1.65,
+        "delta_nwc": 0.85
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 176.48,
+          "ebit_margin": 0.037,
+          "tax_rate": 0.2,
+          "da": 4.65,
+          "capex": 6.5
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 187.0,
+          "ebit_margin": 0.035,
+          "tax_rate": 0.2,
+          "da": 4.95,
+          "capex": 5.95
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 198.225,
+          "ebit_margin": 0.034,
+          "tax_rate": 0.2,
+          "da": 5.15,
+          "capex": 5.3
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 206.044,
+          "ebit_margin": 0.033,
+          "tax_rate": 0.2,
+          "da": 5.25,
+          "capex": 5.0
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 212.8405,
+          "ebit_margin": 0.0325,
+          "tax_rate": 0.2,
+          "da": 5.34,
+          "capex": 5.2
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 219.098,
+          "ebit_margin": 0.032,
+          "tax_rate": 0.2,
+          "da": 5.43,
+          "capex": 5.45
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 223.916,
+          "ebit_margin": 0.0315,
+          "tax_rate": 0.2,
+          "da": 5.51,
+          "capex": 5.7
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.092,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.11,
+      "terminal_margin": 0.051,
+      "terminal_tax_rate": 0.18,
+      "base_annual_revenue": 178.431790283,
+      "incremental_nwc_ratio": 0.2,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 52.0,
+        "ebit_margin": 0.053,
+        "tax_rate": 0.18,
+        "da": 1.2,
+        "capex": 1.85,
+        "delta_nwc": 0.85
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 209.02,
+          "ebit_margin": 0.057,
+          "tax_rate": 0.18,
+          "da": 4.95,
+          "capex": 9.0
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 238.1,
+          "ebit_margin": 0.061,
+          "tax_rate": 0.18,
+          "da": 5.52,
+          "capex": 9.15
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 258.392,
+          "ebit_margin": 0.061,
+          "tax_rate": 0.18,
+          "da": 6.06,
+          "capex": 7.9
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 267.88,
+          "ebit_margin": 0.0585,
+          "tax_rate": 0.18,
+          "da": 6.37,
+          "capex": 6.25
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 275.464,
+          "ebit_margin": 0.0555,
+          "tax_rate": 0.18,
+          "da": 6.52,
+          "capex": 6.55
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 280.972,
+          "ebit_margin": 0.0535,
+          "tax_rate": 0.18,
+          "da": 6.64,
+          "capex": 6.95
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 285.9885,
+          "ebit_margin": 0.052,
+          "tax_rate": 0.18,
+          "da": 6.74,
+          "capex": 7.5
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.086,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.145,
+      "terminal_margin": 0.068,
+      "terminal_tax_rate": 0.18,
+      "base_annual_revenue": 180.931790283,
+      "incremental_nwc_ratio": 0.17,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "uniform_days",
+        "bridge_roll": "explicit",
+        "revenue": 54.5,
+        "ebit_margin": 0.059,
+        "tax_rate": 0.18,
+        "da": 1.23,
+        "capex": 2.25,
+        "delta_nwc": 1.1
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 228.2,
+          "ebit_margin": 0.065,
+          "tax_rate": 0.18,
+          "da": 5.05,
+          "capex": 10.7
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 266.88,
+          "ebit_margin": 0.071,
+          "tax_rate": 0.18,
+          "da": 5.78,
+          "capex": 11.55
+        },
+        {
+          "year": 2029,
+          "stage": "growth",
+          "revenue": 299.736,
+          "ebit_margin": 0.075,
+          "tax_rate": 0.18,
+          "da": 6.56,
+          "capex": 10.85
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 312.548,
+          "ebit_margin": 0.0745,
+          "tax_rate": 0.18,
+          "da": 7.01,
+          "capex": 7.8
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 324.5645,
+          "ebit_margin": 0.0725,
+          "tax_rate": 0.18,
+          "da": 7.24,
+          "capex": 7.95
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 334.52,
+          "ebit_margin": 0.0705,
+          "tax_rate": 0.18,
+          "da": 7.42,
+          "capex": 8.45
+        },
+        {
+          "year": 2033,
+          "stage": "transition",
+          "revenue": 343.114,
+          "ebit_margin": 0.069,
+          "tax_rate": 0.18,
+          "da": 7.58,
+          "capex": 9.1
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.082,
+      0.092,
+      0.102
+    ],
+    "growth": [
+      0.015,
+      0.025,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.9,
+      1.0,
+      1.1
+    ]
+  },
+  "fpeg": {
+    "base_year": 2027,
+    "end_year": 2030,
+    "base_eps": 1.2017675820142657,
+    "end_eps": 1.6393277080174404
+  },
+  "reverse_dcf": {
+    "variable": "terminal_margin",
+    "scenario": "base",
+    "lower": 0.02,
+    "upper": 0.14,
+    "price_tolerance": 0.0001
+  },
+  "estimates": {
+    "financial_assets_book": {
+      "trading_products": 4.4608975124,
+      "maturing_financial_assets": 1.9684435615,
+      "short_term_debt_investments_h1_proxy": 0.4996365753,
+      "equity_method_investments": 6.0882450072,
+      "other_long_term_financial_assets": 2.7742719555999997
+    },
+    "financial_assets_recognition": {
+      "trading_products": 0.95,
+      "maturing_financial_assets": 0.95,
+      "short_term_debt_investments_h1_proxy": 0.95,
+      "equity_method_investments": 0.65,
+      "other_long_term_financial_assets": 0.7
+    },
+    "shares": {
+      "issued": 659907307,
+      "treasury": 1271987,
+      "first_grant_potential_shares": 9846250
+    },
+    "quarterly_bridge": {
+      "q4_fcff": 0.7599200000000003,
+      "q4_after_tax_interest": 0.36,
+      "elapsed_days": 55,
+      "quarter_days": 92
+    },
+    "foil_volume_and_price": {
+      "bear": {
+        "annual_2026_foil_sales_10000_tonnes": 15.8,
+        "forecast": [
+          {
+            "year": 2027,
+            "foil_sales_10000_tonnes": 16.8,
+            "foil_price_10000_cny_per_tonne": 9.85,
+            "other_revenue": 11,
+            "ebit_per_foil_tonne_proxy": 3886.7619047619046
+          },
+          {
+            "year": 2028,
+            "foil_sales_10000_tonnes": 18.0,
+            "foil_price_10000_cny_per_tonne": 9.75,
+            "other_revenue": 11.5,
+            "ebit_per_foil_tonne_proxy": 3636.1111111111118
+          },
+          {
+            "year": 2029,
+            "foil_sales_10000_tonnes": 19.1,
+            "foil_price_10000_cny_per_tonne": 9.75,
+            "other_revenue": 12,
+            "ebit_per_foil_tonne_proxy": 3528.612565445026
+          },
+          {
+            "year": 2030,
+            "foil_sales_10000_tonnes": 19.8,
+            "foil_price_10000_cny_per_tonne": 9.78,
+            "other_revenue": 12.4,
+            "ebit_per_foil_tonne_proxy": 3434.066666666667
+          },
+          {
+            "year": 2031,
+            "foil_sales_10000_tonnes": 20.35,
+            "foil_price_10000_cny_per_tonne": 9.83,
+            "other_revenue": 12.8,
+            "ebit_per_foil_tonne_proxy": 3399.172604422604
+          },
+          {
+            "year": 2032,
+            "foil_sales_10000_tonnes": 20.85,
+            "foil_price_10000_cny_per_tonne": 9.88,
+            "other_revenue": 13.1,
+            "ebit_per_foil_tonne_proxy": 3362.6551558753
+          },
+          {
+            "year": 2033,
+            "foil_sales_10000_tonnes": 21.2,
+            "foil_price_10000_cny_per_tonne": 9.93,
+            "other_revenue": 13.4,
+            "ebit_per_foil_tonne_proxy": 3327.0537735849052
+          }
+        ]
+      },
+      "base": {
+        "annual_2026_foil_sales_10000_tonnes": 16.3,
+        "forecast": [
+          {
+            "year": 2027,
+            "foil_sales_10000_tonnes": 18.8,
+            "foil_price_10000_cny_per_tonne": 10.4,
+            "other_revenue": 13.5,
+            "ebit_per_foil_tonne_proxy": 6337.308510638299
+          },
+          {
+            "year": 2028,
+            "foil_sales_10000_tonnes": 21.5,
+            "foil_price_10000_cny_per_tonne": 10.4,
+            "other_revenue": 14.5,
+            "ebit_per_foil_tonne_proxy": 6755.395348837209
+          },
+          {
+            "year": 2029,
+            "foil_sales_10000_tonnes": 23.4,
+            "foil_price_10000_cny_per_tonne": 10.38,
+            "other_revenue": 15.5,
+            "ebit_per_foil_tonne_proxy": 6735.859829059829
+          },
+          {
+            "year": 2030,
+            "foil_sales_10000_tonnes": 24.2,
+            "foil_price_10000_cny_per_tonne": 10.4,
+            "other_revenue": 16.2,
+            "ebit_per_foil_tonne_proxy": 6475.611570247935
+          },
+          {
+            "year": 2031,
+            "foil_sales_10000_tonnes": 24.8,
+            "foil_price_10000_cny_per_tonne": 10.43,
+            "other_revenue": 16.8,
+            "ebit_per_foil_tonne_proxy": 6164.617741935484
+          },
+          {
+            "year": 2032,
+            "foil_sales_10000_tonnes": 25.15,
+            "foil_price_10000_cny_per_tonne": 10.48,
+            "other_revenue": 17.4,
+            "ebit_per_foil_tonne_proxy": 5976.939165009941
+          },
+          {
+            "year": 2033,
+            "foil_sales_10000_tonnes": 25.45,
+            "foil_price_10000_cny_per_tonne": 10.53,
+            "other_revenue": 18.0,
+            "ebit_per_foil_tonne_proxy": 5843.379960707269
+          }
+        ]
+      },
+      "bull": {
+        "annual_2026_foil_sales_10000_tonnes": 16.7,
+        "forecast": [
+          {
+            "year": 2027,
+            "foil_sales_10000_tonnes": 20.0,
+            "foil_price_10000_cny_per_tonne": 10.65,
+            "other_revenue": 15.2,
+            "ebit_per_foil_tonne_proxy": 7416.5
+          },
+          {
+            "year": 2028,
+            "foil_sales_10000_tonnes": 23.4,
+            "foil_price_10000_cny_per_tonne": 10.7,
+            "other_revenue": 16.5,
+            "ebit_per_foil_tonne_proxy": 8097.6410256410245
+          },
+          {
+            "year": 2029,
+            "foil_sales_10000_tonnes": 26.3,
+            "foil_price_10000_cny_per_tonne": 10.72,
+            "other_revenue": 17.8,
+            "ebit_per_foil_tonne_proxy": 8547.604562737642
+          },
+          {
+            "year": 2030,
+            "foil_sales_10000_tonnes": 27.3,
+            "foil_price_10000_cny_per_tonne": 10.76,
+            "other_revenue": 18.8,
+            "ebit_per_foil_tonne_proxy": 8529.240293040291
+          },
+          {
+            "year": 2031,
+            "foil_sales_10000_tonnes": 28.15,
+            "foil_price_10000_cny_per_tonne": 10.83,
+            "other_revenue": 19.7,
+            "ebit_per_foil_tonne_proxy": 8359.121225577264
+          },
+          {
+            "year": 2032,
+            "foil_sales_10000_tonnes": 28.8,
+            "foil_price_10000_cny_per_tonne": 10.9,
+            "other_revenue": 20.6,
+            "ebit_per_foil_tonne_proxy": 8188.770833333331
+          },
+          {
+            "year": 2033,
+            "foil_sales_10000_tonnes": 29.3,
+            "foil_price_10000_cny_per_tonne": 10.98,
+            "other_revenue": 21.4,
+            "ebit_per_foil_tonne_proxy": 8080.159044368601
+          }
+        ]
+      }
+    },
+    "eps": [
+      {
+        "year": 2027,
+        "ebit": 11.914140000000002,
+        "net_finance": 1.8,
+        "ebt": 10.11414,
+        "tax_rate": 0.18,
+        "minority_net_profit": 0.26,
+        "parent_net_profit": 8.033594800000001,
+        "diluted_shares": 6.6848157,
+        "eps": 1.2017675820142657
+      },
+      {
+        "year": 2030,
+        "ebit": 15.67098,
+        "net_finance": 1.88,
+        "ebt": 13.790980000000001,
+        "tax_rate": 0.18,
+        "minority_net_profit": 0.35,
+        "parent_net_profit": 10.958603600000002,
+        "diluted_shares": 6.6848157,
+        "eps": 1.6393277080174404
+      }
+    ],
+    "notes": [
+      "铜箔收入按铜箔销量乘包含铜价传导的综合不含税单价，其他收入主要为其他铜产品和经营业务；单价不是加工费。",
+      "显式期支出含已承诺建设、扩张资本开支和更新；悲观保留已承诺投入，乐观新增产能须获批并投入。折旧包含使用权资产；研发正常费用和股份支付经济成本保留在EBIT。",
+      "2026年9月短债、一年内负债均按披露原值，已经包含融资性票据和子公司股权回购义务，不重复计入。",
+      "经营现金按约一周付现；半年报短期债权投资可比余额为代理估计。基准仅按折价金额计入非主业资产，未交割融资变化与潜在首次授予认购款不入价值桥。",
+      "FPEG用首次授予全部归属的股数作保守检验。净财务费用包括正常化融资贴现和预计融资利息，避免净利息与非经营投资收益混用。"
+    ]
+  }
+}
