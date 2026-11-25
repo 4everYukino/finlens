@@ -1,0 +1,26 @@
+{
+  "status": "outside_search_range",
+  "variable": "terminal_margin",
+  "scope": {
+    "stage": "terminal",
+    "first_year": 2043
+  },
+  "base_value": 0.16600370358530261,
+  "market_price": 25.49,
+  "market_ev": 126.18397902668752,
+  "lower": 0.1,
+  "upper": 0.32,
+  "price_tolerance": 0.0005,
+  "fixed_parameters": {
+    "scenario": "base",
+    "wacc": 0.0964,
+    "terminal_growth": 0.024,
+    "terminal_roic": 0.112
+  },
+  "reinvestment": null,
+  "tested_price_range": [
+    7.140846353784776,
+    9.870004312426932
+  ],
+  "reason": "给定搜索范围与采样精度内未得到解，不代表模型在所有范围均无解。"
+}
