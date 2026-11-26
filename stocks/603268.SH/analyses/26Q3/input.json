@@ -2,11 +2,10 @@
   "company": "松发股份",
   "code": "603268.SH",
   "report": "2026Q3",
-  "information_cutoff": "2026-11-05 13:43:43 Asia/Shanghai",
-  "valuation_date": "2026-11-05",
+  "information_cutoff": "2026-10-29",
+  "valuation_date": "2026-09-30",
   "balance_date": "2026-09-30",
-  "market_price": 150.92,
-  "quote_time": "2026-11-05 13:43:43 Asia/Shanghai",
+  "market_price": 158.8,
   "currency": "CNY",
   "units": {
     "money": "亿元",
@@ -199,94 +198,93 @@
   },
   "scenarios": {
     "bear": {
-      "wacc": 0.108,
+      "wacc": 0.109,
       "terminal_growth": 0.02,
       "terminal_roic": 0.1,
-      "terminal_margin": 0.12,
+      "terminal_margin": 0.13,
       "terminal_tax_rate": 0.2,
-      "incremental_nwc_ratio": 0.14,
-      "base_annual_revenue": 517.7398213969,
+      "incremental_nwc_ratio": 0.12,
+      "base_annual_revenue": 527.7398213969,
       "stub": {
         "end": "2026-12-31",
-        "allocation": "uniform_days",
-        "bridge_roll": "uniform_fcff",
-        "revenue": 140,
+        "allocation": "remaining",
+        "bridge_roll": "explicit",
+        "revenue": 150,
         "ebit_margin": 0.22,
         "tax_rate": 0.17,
-        "capex": 120,
-        "da": 3.5,
-        "delta_nwc": 18,
-        "after_tax_interest": 2.8
+        "capex": 70,
+        "da": 4,
+        "delta_nwc": 15
       },
       "forecast": [
         {
           "year": 2027,
           "stage": "growth",
-          "revenue": 600,
-          "ebit_margin": 0.19,
+          "revenue": 620,
+          "ebit_margin": 0.17,
           "tax_rate": 0.18,
-          "capex": 160,
+          "capex": 130,
           "da": 18
         },
         {
           "year": 2028,
           "stage": "growth",
           "revenue": 720,
-          "ebit_margin": 0.19,
+          "ebit_margin": 0.165,
           "tax_rate": 0.18,
-          "capex": 120,
+          "capex": 100,
           "da": 24
         },
         {
           "year": 2029,
           "stage": "growth",
           "revenue": 780,
-          "ebit_margin": 0.18,
+          "ebit_margin": 0.16,
           "tax_rate": 0.2,
-          "capex": 90,
+          "capex": 80,
           "da": 29
         },
         {
           "year": 2030,
           "stage": "growth",
           "revenue": 800,
-          "ebit_margin": 0.16,
+          "ebit_margin": 0.15,
           "tax_rate": 0.2,
-          "capex": 75,
+          "capex": 65,
           "da": 34
         },
         {
           "year": 2031,
           "stage": "transition",
-          "revenue": 760,
-          "ebit_margin": 0.145,
+          "revenue": 780,
+          "ebit_margin": 0.14,
           "tax_rate": 0.2,
-          "capex": 65,
+          "capex": 60,
           "da": 37
         },
         {
           "year": 2032,
           "stage": "transition",
-          "revenue": 720,
-          "ebit_margin": 0.13,
+          "revenue": 750,
+          "ebit_margin": 0.135,
           "tax_rate": 0.2,
-          "capex": 60,
+          "capex": 58,
           "da": 39
         },
         {
           "year": 2033,
           "stage": "transition",
-          "revenue": 700,
-          "ebit_margin": 0.12,
+          "revenue": 720,
+          "ebit_margin": 0.13,
           "tax_rate": 0.2,
-          "capex": 55,
+          "capex": 56,
           "da": 40
         },
         {
           "year": 2034,
           "stage": "transition",
           "revenue": 700,
-          "ebit_margin": 0.12,
+          "ebit_margin": 0.13,
           "tax_rate": 0.2,
           "capex": 55,
           "da": 40
@@ -294,7 +292,7 @@
       ]
     },
     "base": {
-      "wacc": 0.108,
+      "wacc": 0.109,
       "terminal_growth": 0.02,
       "terminal_roic": 0.14,
       "terminal_margin": 0.16,
@@ -303,15 +301,14 @@
       "base_annual_revenue": 537.7398213969,
       "stub": {
         "end": "2026-12-31",
-        "allocation": "uniform_days",
-        "bridge_roll": "uniform_fcff",
+        "allocation": "remaining",
+        "bridge_roll": "explicit",
         "revenue": 160,
         "ebit_margin": 0.255,
         "tax_rate": 0.17,
         "capex": 100,
         "da": 4,
-        "delta_nwc": 12,
-        "after_tax_interest": 2.8
+        "delta_nwc": 12
       },
       "forecast": [
         {
@@ -389,7 +386,7 @@
       ]
     },
     "bull": {
-      "wacc": 0.108,
+      "wacc": 0.109,
       "terminal_growth": 0.02,
       "terminal_roic": 0.17,
       "terminal_margin": 0.21,
@@ -398,15 +395,14 @@
       "base_annual_revenue": 557.7398213969,
       "stub": {
         "end": "2026-12-31",
-        "allocation": "uniform_days",
-        "bridge_roll": "uniform_fcff",
+        "allocation": "remaining",
+        "bridge_roll": "explicit",
         "revenue": 180,
         "ebit_margin": 0.28,
         "tax_rate": 0.17,
         "capex": 125,
         "da": 4.5,
-        "delta_nwc": 8,
-        "after_tax_interest": 2.8
+        "delta_nwc": 8
       },
       "forecast": [
         {
@@ -486,9 +482,9 @@
   },
   "sensitivity": {
     "wacc": [
-      0.098,
-      0.108,
-      0.118
+      0.099,
+      0.109,
+      0.119
     ],
     "growth": [
       0.01,
@@ -645,5 +641,7 @@
       "nopat_9m": 70.124226145907,
       "roic_9m": 0.17229037127717503
     }
-  }
+  },
+  "price_date": "2026-10-29",
+  "price_basis": "财报披露后首个交易日不复权收盘价"
 }
